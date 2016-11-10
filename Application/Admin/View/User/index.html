@@ -1,0 +1,29 @@
+    <div class="box-content no-padding">
+				<table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-1">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>AGE</th>
+							<th>WORKS</th>
+							<th>Source</th>
+							<th>Country of Citizenship</th>
+						</tr>
+					</thead>
+					<tbody>
+					<!-- Start: list_row -->
+					<volist name="list" id="v" key="k">
+						<tr>
+							<td><{$v.id}></td>
+							<td><{$v.name}></td>
+							<td><{$v.age}></td>
+							<td><{$v.works}></td>
+							<td><{$v.works}></td>
+							<td><{$v.works}></td>
+							
+					
+						</tr>
+					</volist>
+				    </tbody>
+				</table>
+			</div>
