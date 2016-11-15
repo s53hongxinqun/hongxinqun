@@ -5,7 +5,12 @@ use Think\Controller;
 class CommentController extends Controller
 {
 	public function index()
+<<<<<<< HEAD
 	{	    
 	    $this->display();
+=======
+	{
+		$this->display();
+>>>>>>> hxq
 	}
 }

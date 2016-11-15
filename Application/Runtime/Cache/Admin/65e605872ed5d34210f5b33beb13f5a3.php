@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php if (!defined('THINK_PATH')) exit();?>    <div class="box-content no-padding">
 				<table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-1">
 					<thead>
@@ -25,3 +26,16 @@
 				    </tbody>
 				</table>
 			</div>
+=======
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	admin user index 
+	
+</body>
+</html>
+>>>>>>> hxq
