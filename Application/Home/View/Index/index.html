@@ -1,11 +1,299 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
+<include file="Public:base"/>
+
 <body>
-     <h1>哈哈</h1>
-	
+	<div class="header-banner" id="head">
+		  <div class="slider">
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider">
+	        <li>
+	          <img src="__PUBLIC__/Home/Images/1.jpg" alt="">
+	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
+	          		</div>
+	          	<h3>智能点餐系统</h3>
+	          </div>
+	        </li>
+	        <li>
+	          <img src="__PUBLIC__/Home/Images/2.jpg" alt="">
+	        	 <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	        	 	<div class="logo">
+	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
+	          		</div>
+	        	 <h3>智能点餐系统</h3>
+	         </li>
+	        <li>
+	          <img src="__PUBLIC__/Home/Images/3.jpg" alt="">
+	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
+	          		</div>
+	          	<h3>智能点餐系统</h3>
+	          	</div>
+	        </li>
+	        <li>
+	          <img src="__PUBLIC__/Home/Images/4.jpg" alt="">
+	          <div class="caption wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
+	          		</div>
+	          	<h3>智能点餐系统</h3>
+	          	</div>
+	        </li>
+	      </ul>
+	  </div>
+  </div>
+  <div class="copyrights">Collect from </div>
+
+
+   <include file="Public/head"/>
+
+
+		<div class="content">
+			<div class="menu-section">
+					<div class="container" style="margin:10;height:400px">
+						<span class="h3" style="color:white;font:25px 微软雅黑;font-weight:bold;margin-left:20px"> 菜品分类 </span>
+						<button id="shuaxin" class="btn btn-danger" style="margin-left:870px">点我刷新餐点</button>
+				        <br>
+				        <br>
+						
+						<div id="chiList" class="menu-grids wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+								<volist name="data" id="v">
+									<div class="col-md-2 menu-grid">
+									<img src="__PUBLIC__/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+								    <div class="menu-info">		
+										<h4><span style="color:#6cc;font-weight:bold"><{$v.foods}></span></h4>
+										<h4 style="color:#cf9;font-weight:bold">￥<{$v.price}>/份</h4>
+
+										<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a="<{$v.id}>" onclick="add(this)">
+										  加入餐车
+										</button>
+
+									 </div>
+									</div>									
+								</volist>
+							
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				<div class="about-section" id="about">
+					<div class="container">
+						<h3>特色菜 </h3>
+							<div class="main wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;margin-left:0px"> 
+							  <div class="col-xs-4">
+							  	
+				               	    <div class="view view-fourth " >
+					                    <img src="__PUBLIC__/<?=$data2[0]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.0.foods}></h2>
+					                        <p><{$data2.0.detail}></p>
+					                    </div>
+		                           </div>
+		               
+		                           <button type="button" class="btn btn-danger btn-lg" style="margin-left:130px" a="<{$data2.0.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+							  </div>
+							  <div class="col-xs-4">
+					                <div class="view view-fourth" style="margin-left:30px">
+					                    <img src="__PUBLIC__/<?=$data2[1]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.1.foods}></h2>
+					                        <p><{$data2.1.detail}></p>
+					                    </div>
+					                </div>
+					                <button type="button" class="btn btn-danger btn-lg" style="margin-left:160px" a="<{$data2.1.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+					          </div>
+					          <div class="col-xs-4">
+					                <div class="view view-fourth" style="margin-left:50px">
+					                    <img src="__PUBLIC__/<?=$data2[2]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.2.foods}></h2>
+					                        <p><{$data2.2.detail}></p>
+					                    </div>
+					                </div>
+					                <button type="button" class="btn btn-danger btn-lg" style="margin-left:180px" a="<{$data2.2.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+				              </div>
+	               		      <div class="clearfix"></div>
+                		</div>
+                		<div class="main wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;margin-left:0px"> 
+							  <div class="col-xs-4">
+							  	
+				               	    <div class="view view-fourth " >
+					                    <img src="__PUBLIC__/<?=$data2[3]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.3.foods}></h2>
+					                        <p><{$data2.3.detail}></p>
+					                    </div>
+		                           </div>
+		                           <button type="button" class="btn btn-danger btn-lg" style="margin-left:130px" a="<{$data2.3.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+							  </div>
+							  <div class="col-xs-4">
+					                <div class="view view-fourth" style="margin-left:30px">
+					                    <img src="__PUBLIC__/<?=$data2[4]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.4.foods}></h2>
+					                        <p><{$data2.4.detail}></p>
+					                    </div>
+					                </div>
+					                <button type="button" class="btn btn-danger btn-lg" style="margin-left:160px" a="<{$data2.4.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+					          </div>
+					          <div class="col-xs-4">
+					                <div class="view view-fourth" style="margin-left:50px">
+					                    <img src="__PUBLIC__/<?=$data2[5]['picname']?>" />
+					                    <div class="mask">
+					                        <h2><{$data2.5.foods}></h2>
+					                        <p><{$data2.5.detail}></p>
+					                    </div>
+					                </div>
+					                <button type="button" class="btn btn-danger btn-lg" style="margin-left:180px" a="<{$data2.5.id}>" onclick="add(this)">
+										  加入餐车
+								   </button>
+				              </div>
+	               		      <div class="clearfix"></div>
+                		</div>
+					</div>
+				</div>
+				
+					<div class="events-section">
+						<div class="container">
+							<h3>特色服务</h3>
+							<div class="event-grids  wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+								<div class="col-md-6 event-left">
+									<div class="even-info">
+										<div class="icon">
+											<img id="checkout" a="<?php session_start();
+											     echo $_SESSION['desk']; ?>" src="__PUBLIC__/Home/Images/icon1.png" class="img-responsive" alt="" />
+										</div>
+										<div class="event-info">
+												<h4>请求结账 </h4>
+													<p>厨房将开始精心为你烹饪食物，让您开开心心用餐！ </p>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+									<div class="col-md-6 event-right">
+									<div class="even-info1">
+									<div class="icon1">
+										<img src="__PUBLIC__/Home/Images/icon2.png" id="help" a="<?php 
+											     echo $_SESSION['desk']; ?>" class="img-responsive" alt="" />
+										</div>
+										<div class="event-info1">
+											<h4>呼叫服务</h4>
+												<p>我们用心的为您解决一切问题！ </p>
+											</div>
+											<div class="clearfix"> </div>
+											</div>
+									</div>
+									<div class="clearfix"></div>
+							</div>
+							<div class="butt">
+							<a href="event.html" class="button2">查看餐品状态</a>
+							</div>
+						</div>
+				</div>
+
+
+			</div>
+			<include file="Public/foot"/>
+			<include file="Public/cart"/>
+
 </body>
-</html>
+</html>	
+<script>
+     //ajax刷新随机餐点
+	 $('#shuaxin').click(function(){
+	 	 $.ajax({
+	 	 	 type:'post',
+	 	 	 url:"<{:U('Home/Assort/ajaxGetVoList')}>",
+	 	 	 dataType:'json',
+	 	 	 // contentType:"application/x-www-form-urlencoded; charset=utf-8",
+	 	 	 success:function(data){
+				var htm = '';
+	 	 	 	$.each(data,function(key,value){  
+		 	 	 	htm +='<div class="col-md-2 menu-grid">'
+		 	 	 	htm +='<img src="__PUBLIC__/'+value.picname+'" class="img-responsive" alt="" style="height:250px;width:161px"/>'
+		 	 	 	htm +='<div class="menu-info">'
+		 	 	 	htm +='<h4><span style="color:#6cc;font-weight:bold">'+value.foods+'</span></h4>'
+		 	 	 	htm +='<h4 style="color:#cf9;font-weight:bold">￥'+value.price+'/份</h4>'
+		 	 	 	htm +='<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a='+value.id+' onclick="add(this)">加入餐车</button></div></div>'
+				})
+
+				$('#chiList').html(htm);
+                  // console.log(data);
+	 	 	 }
+	 	 	 
+	 	 })
+	 })
+   
+     //ajax添加餐点
+     function add(obj){
+     	 var foodId = $(obj).attr('a');
+     	 $.ajax({
+        	type:'post',
+        	url:"<{:U('Home/Ordercar/getFoods')}>",
+        	data:{id:foodId},
+        	dataType:'json',
+        	success:function(data){
+                 if(data.ok==1){
+                 	alert('添加成功');
+                 }else{
+                 	alert('餐点已加入餐车，请稍等');
+                 }
+                 // console.log(data);
+        	}
+        })
+     }
+     //结账请求
+     $('#checkout').on('click',function(){
+        var desk = $('#checkout').attr('a');
+
+        $.ajax({
+           type:'post',
+           url:"<{:U('Admin/Help/doCheckout')}>",
+           data:{'desk':desk},
+           success:function(data){
+              if(data==1){
+                alert('已呼叫服务员进行结账，请稍等。。。。');
+                
+              }else{
+                alert('您有餐点未上桌，请稍等。。。。');
+              }
+           },
+           dataType:'json',
+        })
+    })
+
+    //呼叫服务
+    $('#help').on('click',function(){
+        var desk = $('#help').attr('a');
+
+        $.ajax({
+           type:'post',
+           url:"<{:U('Admin/Help/doHelp')}>",
+           data:{'desk':desk},
+           success:function(data){
+              if(data){
+                alert('已呼叫服务员，请稍等。。。。');
+              }
+            },
+           dataType:'json',
+        })
+    })
+
+
+
+</script>

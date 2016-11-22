@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
-     <h1>欢迎进入后台主页</h1>
-     <ul>
-     	<li><a href="<?php echo U('User/index');?>">用户信息管理</a></li>
-     </ul>
-	
-=======
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -52,10 +38,33 @@
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
+		<script src="/hongxinqun/Public/assets/js/ace-extra.min.js"></script>
+		<!--这个CSS会改整体样式-->
+		<!-- <link rel="stylesheet" href="/hongxinqun/Public/admin/css/pintuer.css"> -->
+    	<link rel="stylesheet" href="/hongxinqun/Public/admin/css/admin.css">
+    	
+
 		<!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
+		<!--[if !IE]> -->
+
+		<script src="/hongxinqun/Public/js/jquery.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='/hongxinqun/Public/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
 	</head>
 
 	<body>
@@ -65,6 +74,12 @@
 			</script>
 
 			<div class="navbar-container" id="navbar-container">
+				<div class="header bg-main" style="margin:0;background:#000000;">
+				  <div class="logo margin-big-left fadein-top">
+				    <h1><img src="/hongxinqun/Public/admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+				  </div>
+				  <div class="head-l"><a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="<?php echo U('Login/logout');?>"><span class="icon-power-off"></span> 退出登录</a> </div>
+				</div>
 				<div class="navbar-header pull-left">
 					<a href="#" class="navbar-brand">
 						<small>
@@ -75,253 +90,7 @@
 				</div><!-- /.navbar-header -->
 
 				<div class="navbar-header pull-right" role="navigation">
-					<ul class="nav ace-nav">
-						<li class="grey">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-								<i class="icon-tasks"></i>
-								<span class="badge badge-grey">4</span>
-							</a>
-
-							<ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
-								<li class="dropdown-header">
-									<i class="icon-ok"></i>
-									还有4个任务完成
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">软件更新</span>
-											<span class="pull-right">65%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:65%" class="progress-bar "></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">硬件更新</span>
-											<span class="pull-right">35%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:35%" class="progress-bar progress-bar-danger"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">单元测试</span>
-											<span class="pull-right">15%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:15%" class="progress-bar progress-bar-warning"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">错误修复</span>
-											<span class="pull-right">90%</span>
-										</div>
-
-										<div class="progress progress-mini progress-striped active">
-											<div style="width:90%" class="progress-bar progress-bar-success"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										查看任务详情
-										<i class="icon-arrow-right"></i>
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="purple">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-								<i class="icon-bell-alt icon-animated-bell"></i>
-								<span class="badge badge-important">8</span>
-							</a>
-
-							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
-								<li class="dropdown-header">
-									<i class="icon-warning-sign"></i>
-									8条通知
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-xs no-hover btn-pink icon-comment"></i>
-												新闻评论
-											</span>
-											<span class="pull-right badge badge-info">+12</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="btn btn-xs btn-primary icon-user"></i>
-										切换为编辑登录..
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-xs no-hover btn-success icon-shopping-cart"></i>
-												新订单
-											</span>
-											<span class="pull-right badge badge-success">+8</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-xs no-hover btn-info icon-twitter"></i>
-												粉丝
-											</span>
-											<span class="pull-right badge badge-info">+11</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										查看所有通知
-										<i class="icon-arrow-right"></i>
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="green">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-								<i class="icon-envelope icon-animated-vertical"></i>
-								<span class="badge badge-success">5</span>
-							</a>
-
-							<ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
-								<li class="dropdown-header">
-									<i class="icon-envelope-alt"></i>
-									5条消息
-								</li>
-
-								<li>
-									<a href="#">
-										<img src="assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
-										<span class="msg-body">
-											<span class="msg-title">
-												<span class="blue">Alex:</span>
-												不知道写啥 ...
-											</span>
-
-											<span class="msg-time">
-												<i class="icon-time"></i>
-												<span>1分钟以前</span>
-											</span>
-										</span>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<img src="assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
-										<span class="msg-body">
-											<span class="msg-title">
-												<span class="blue">Susan:</span>
-												不知道翻译...
-											</span>
-
-											<span class="msg-time">
-												<i class="icon-time"></i>
-												<span>20分钟以前</span>
-											</span>
-										</span>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<img src="assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
-										<span class="msg-body">
-											<span class="msg-title">
-												<span class="blue">Bob:</span>
-												到底是不是英文 ...
-											</span>
-
-											<span class="msg-time">
-												<i class="icon-time"></i>
-												<span>下午3:15</span>
-											</span>
-										</span>
-									</a>
-								</li>
-
-								<li>
-									<a href="inbox.html">
-										查看所有消息
-										<i class="icon-arrow-right"></i>
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="light-blue">
-							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
-								<span class="user-info">
-									<small>欢迎光临,</small>
-									Jason
-								</span>
-
-								<i class="icon-caret-down"></i>
-							</a>
-
-							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-								<li>
-									<a href="#">
-										<i class="icon-cog"></i>
-										设置
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon-user"></i>
-										个人资料
-									</a>
-								</li>
-
-								<li class="divider"></li>
-
-								<li>
-									<a href="#">
-										<i class="icon-off"></i>
-										退出
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul><!-- /.ace-nav -->
+					
 				</div><!-- /.navbar-header -->
 			</div><!-- /.container -->
 		</div>
@@ -436,7 +205,7 @@
 								</li>
 							</ul>
 						</li>
-
+<!-- 餐桌管理 -->
 						<li>
 							<a href="#" class="dropdown-toggle"  style="background:#CCFFCC">
 								<i class="icon-edit"></i>
@@ -447,54 +216,73 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="form-elements.html">
+									<a href="<?php echo U('Admin/Desk/index');?>">
 										<i class="icon-double-angle-right"></i>
-										表单组件
+										餐桌列表
 									</a>
 								</li>
 
 								<li>
-									<a href="form-wizard.html">
+									<a href="<?php echo U('Admin/Desk/add');?>">
 										<i class="icon-double-angle-right"></i>
-										向导提示 &amp; 验证
+										餐桌添加
 									</a>
 								</li>
 
-								<li>
-									<a href="wysiwyg.html">
-										<i class="icon-double-angle-right"></i>
-										编辑器
-									</a>
-								</li>
-
-								<li>
-									<a href="dropzone.html">
-										<i class="icon-double-angle-right"></i>
-										文件上传
-									</a>
-								</li>
 							</ul>
 						</li>
+						<!-- 餐桌管理结束 -->
 
+						<!-- 分类管理	 -->
 						<li>
-							<a href="<?php echo U('Admin/Assort/index');?>">
+							<a href="#" class="dropdown-toggle"  >
 								<i class="icon-list-alt"></i>
 								<span class="menu-text"> 分类管理 </span>
+								<b class="arrow icon-angle-down"></b>
 							</a>
-						</li>
+							<ul class="submenu">
+								<li>
+									<a href="<?php echo U('Admin/Type/index');?>">
+										<i class="icon-double-angle-right"></i>
+										分类类表
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo U('Admin/Type/add');?>">
+										<i class="icon-double-angle-right"></i>
+										分类添加
+									</a>
+								</li>
 
+							</ul>
+
+						</li>
+						<!-- 分类管理结束 -->
+
+			<!-- 会员管理 -->
 						<li>
-							<a href="calendar.html"  style="background:#CCFFCC">
+							<a href="#" class="dropdown-toggle"  style="background:#CCFFCC">
 								<i class="icon-calendar"></i>
-
-								<span class="menu-text">
-									会员管理
-									<span class="badge badge-transparent tooltip-error" title="2&nbsp;Important&nbsp;Events">
-										<i class="icon-warning-sign red bigger-130"></i>
-									</span>
-								</span>
+								<span class="menu-text"> 会员管理</span>
+								<b class="arrow icon-angle-down"></b>
 							</a>
+							<ul class="submenu">
+								<li>
+									<a href="<?php echo U('Admin/Vip/index');?>">
+										<i class="icon-double-angle-right"></i>
+										会员列表
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo U('Admin/Vip/add');?>">
+										<i class="icon-double-angle-right"></i>
+										会员添加
+									</a>
+								</li>
+
+							</ul>
 						</li>
+						<!-- 会员管理结束 -->
 
 						<li>
 							<a href="gallery.html" >
@@ -533,26 +321,6 @@
 									</a>
 								</li>
 
-								<li>
-									<a href="invoice.html">
-										<i class="icon-double-angle-right"></i>
-										购物车
-									</a>
-								</li>
-
-								<li>
-									<a href="timeline.html">
-										<i class="icon-double-angle-right"></i>
-										时间轴
-									</a>
-								</li>
-
-								<li>
-									<a href="login.html">
-										<i class="icon-double-angle-right"></i>
-										登录 &amp; 注册
-									</a>
-								</li>
 							</ul>
 						</li>
 
@@ -561,8 +329,7 @@
 								<i class="icon-file-alt"></i>
 
 								<span class="menu-text">
-									其他页面
-									<span class="badge badge-primary ">5</span>
+									厨师管理
 								</span>
 
 								<b class="arrow icon-angle-down"></b>
@@ -570,9 +337,9 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="faq.html">
+									<a href="<?php echo U('Admin/Cooking/index');?>">
 										<i class="icon-double-angle-right"></i>
-										帮助
+									   已点餐点列表
 									</a>
 								</li>
 
@@ -580,27 +347,6 @@
 									<a href="error-404.html">
 										<i class="icon-double-angle-right"></i>
 										404错误页面
-									</a>
-								</li>
-
-								<li>
-									<a href="error-500.html">
-										<i class="icon-double-angle-right"></i>
-										500错误页面
-									</a>
-								</li>
-
-								<li>
-									<a href="grid.html">
-										<i class="icon-double-angle-right"></i>
-										网格
-									</a>
-								</li>
-
-								<li>
-									<a href="blank.html">
-										<i class="icon-double-angle-right"></i>
-										空白页面
 									</a>
 								</li>
 							</ul>
@@ -666,7 +412,7 @@
 														<th class="hidden-480">订单号</th>
 														<th>订单总额</th>
 														<th>餐桌状态</th>
-
+														<th>服务请求</th>
 														<th>
 															<i class="icon-time bigger-110 hidden-480"></i>
 															下单时间
@@ -687,26 +433,50 @@
 																<?php echo ($v["people"]); ?>人桌
 														    </td>
 														    <td>
-																<?php if($v["status"] == 1): ?>暂无
+																<?php if($v["status"] == 0): echo ($v["order_info"]["orderid"]); ?>
 																	<?php else: ?>
-																    <?php echo ($v["order_info"]["orderid"]); endif; ?>
+																	暂无<?php endif; ?>
 														    </td>
 														    <td>
-														    	<?php if($v["status"] == 1): ?>暂无
+														    	<?php if($v["status"] == 0): ?>￥<?php echo ($v["order_info"]["total"]); ?>
 														    		<?php else: ?>
-																    ￥<?php echo ($v["order_info"]["total"]); endif; ?>
+														    		暂无<?php endif; ?>
 														    </td>
 														    <td>
 														    	<?php if($v["status"] == 0): ?><span class="label label-sm label-warning">用餐中</span>
+														    	  <?php elseif($v["status"] == 1): ?>
+														    	    <span class="label label-sm label-success">空闲中</span>
 														    	  <?php else: ?>
-														    	    <span class="label label-sm label-success">空闲中</span><?php endif; ?>
+														    	    <span class="label label-sm label-inverse">暂停使用</span><?php endif; ?>
 					
 														    </td>
 														    <td>
-																<?php echo ($v["oa"]); ?>
+														    	<?php if($v["help"] == 0): ?><span class="label label-sm label-inverse arrowed-in">暂无请求</span>
+														    	<?php elseif($v["help"] == 1): ?>
+														    		<span class="label label-sm label-danger arrowed-in">请求结账</span>
+														    	<?php else: ?>
+														    	    <span class="label label-sm label-primary arrowed-in">请求服务</span><?php endif; ?>
+
 														    </td>
 														    <td>
-																<?php echo ($v["ds"]); ?>
+														    	<?php if($v["status"] == 0): ?><?=date('Y-m-d H:i:s',$v['order_info']['addtime']);?>
+																<?php else: ?>
+																暂无<?php endif; ?>
+														    </td>
+														    <td>
+																<div class="dropdown" style="width:60px">
+																  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="label label-xlg label-primary arrowed arrowed-right">
+																     设置
+																    <span class="icon-cog"></span>
+																  </button>
+																  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+																    <li><a href="<?php echo U('Admin/Index/cstatus',array('status'=>1,'id'=>$v['id']));?>" >空闲</a></li>
+						
+																    <li><a href="<?php echo U('Admin/Index/cstatus',array('status'=>4,'id'=>$v['id']));?>" >用餐</a></li>
+																    <li><a href="<?php echo U('Admin/Index/cstatus',array('status'=>2,'id'=>$v['id']));?>" >暂停使用</a></li>
+																    <li><a href="<?php echo U('Admin/Index/cstatus',array('status'=>3,'id'=>$v['id'],'orderid'=>$v['order_info']['orderid']));?>">结账下桌</a></li>
+																  </ul>
+																</div>
 														    </td>
 
 														</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -777,23 +547,7 @@
 
 		<!-- basic scripts -->
 
-		<!--[if !IE]> -->
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<![endif]-->
-
-		<!--[if !IE]> -->
-
-		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/hongxinqun/Public/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
-		</script>
-
-		<!-- <![endif]-->
+		
 
 		<!--[if IE]>
 <script type="text/javascript">
@@ -1061,6 +815,5 @@
 			})
 		</script>
 	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
->>>>>>> hxq
 </body>
 </html>

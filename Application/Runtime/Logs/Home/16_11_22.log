@@ -1,0 +1,477 @@
+[ 2016-11-22T00:11:14+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0034s ]
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(98,49,40,62,105,44) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(56,84,90,64,89,75) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `type` WHERE `pid` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001672s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001754s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 293 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-11-22T00:11:17+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008211s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0027s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-11-22T00:11:22+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getFoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\OrdercarController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `foods` WHERE `id` = 62  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `orders_car` WHERE `desk` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders_car` WHERE `desk` = 3 AND `foodsid` = 62  [ RunTime:0.0002s ]
+SQL: INSERT INTO `orders_car` (`desk`,`foodsid`,`name`,`price`,`num`,`status`) VALUES ('3','62','绿茶芋卷','60','1','1') [ RunTime:0.1105s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0084s ]
+SQL: SELECT `orderid` FROM `orders` WHERE `desk` = 3 AND `status` = 0  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0063s ]
+SQL: INSERT INTO `orders_detail` (`orderid`,`foodsid`,`name`,`price`,`num`,`status`,`addtime`) VALUES ('2222','62','绿茶芋卷','60','1','0','1479744682') [ RunTime:0.1125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-11-22T00:11:24+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-11-22T00:12:48+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/doDrop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `orders` WHERE `status` = 0 AND `desk` = 3  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '2016112126687' AND `foodsid` = 62  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Home\Controller\OrdercarController.class.php 第 217 行.
+SQL: DELETE FROM `orders_detail` WHERE `foodsid` = 62 AND `orderid` = '2016112126687' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0031s ]
+SQL: DELETE FROM `orders_car` WHERE `foodsid` = 62 AND `desk` = 3 [ RunTime:0.0974s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0075s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2016-11-22T00:12:48+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-11-22T00:14:00+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0038s ]
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(99,90,106,83,69,39) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(63,102,85,91,66,80) )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `type` WHERE `pid` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 293 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-11-22T00:14:03+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getFoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\OrdercarController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `foods` WHERE `id` = 90  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `orders_car` WHERE `desk` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders_car` WHERE `desk` = 3 AND `foodsid` = 90  [ RunTime:0.0001s ]
+SQL: INSERT INTO `orders_car` (`desk`,`foodsid`,`name`,`price`,`num`,`status`) VALUES ('3','90','口水鸡腿','102','1','1') [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0069s ]
+SQL: SELECT `orderid` FROM `orders` WHERE `desk` = 3 AND `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0069s ]
+SQL: INSERT INTO `orders_detail` (`orderid`,`foodsid`,`name`,`price`,`num`,`status`,`addtime`) VALUES ('2016112126687','90','口水鸡腿','102','1','0','1479744843') [ RunTime:0.0395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2016-11-22T00:14:04+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002228s ]
+
+[ 2016-11-22T00:14:06+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getFoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\OrdercarController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `foods` WHERE `id` = 83  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT `status` FROM `orders_car` WHERE `desk` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders_car` WHERE `desk` = 3 AND `foodsid` = 83  [ RunTime:0.0001s ]
+SQL: INSERT INTO `orders_car` (`desk`,`foodsid`,`name`,`price`,`num`,`status`) VALUES ('3','83','腐乳虎皮鹌鹑蛋','142','1','1') [ RunTime:0.0526s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0041s ]
+SQL: SELECT `orderid` FROM `orders` WHERE `desk` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0032s ]
+SQL: INSERT INTO `orders_detail` (`orderid`,`foodsid`,`name`,`price`,`num`,`status`,`addtime`) VALUES ('2016112126687','83','腐乳虎皮鹌鹑蛋','142','1','0','1479744846') [ RunTime:0.0421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2016-11-22T00:14:08+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-11-22T00:14:51+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(100,63,45,66,40,62) )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id` FROM `foods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id F:\wamp\www\hongxinqun\Application\Home\Controller\IndexController.class.php 第 67 行.
+SQL: SELECT * FROM `foods` WHERE ( id in(75,70,106,52,109,49) )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 293 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-11-22T00:14:52+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0038s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2016-11-22T00:14:54+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/doDrop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `orders` WHERE `status` = 0 AND `desk` = 3  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '2016112126687' AND `foodsid` = 90  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-11-22T00:15:00+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/doDrop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `orders` WHERE `status` = 0 AND `desk` = 3  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '2016112126687' AND `foodsid` = 83  [ RunTime:0.0003s ]
+SQL: DELETE FROM `orders_detail` WHERE `foodsid` = 83 AND `orderid` = '2016112126687' [ RunTime:0.0855s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: DELETE FROM `orders_car` WHERE `foodsid` = 83 AND `desk` = 3 [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0039s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-11-22T00:15:00+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0036s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-11-22T00:19:54+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-11-22T00:19:59+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-11-22T00:20:01+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-11-22T00:25:41+08:00 ] 127.0.0.1 /hongxinqun/index.php/Home/Ordercar/getCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0041s ]
+SQL: SELECT c.*,f.picname FROM `orders_car` `c` left join foods as f on f.id = c.foodsid  WHERE `desk` = 3  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+

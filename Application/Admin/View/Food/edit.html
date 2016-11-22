@@ -47,17 +47,35 @@
                          </tr>
                          <tr>
                          	<th>类型：</th>
-                         	<td><input type="text" name="typeid" value="<{$data.0.typeid}>"></td>
+                         	<td><select name="typeid">
+		                 	      <volist name="type" id="v">
+		                 		   	<option value="<{$v.id}>" <?php if($v['id']==$data[0]['typeid'])echo selected;?>><{$v.name}></option>
+		                 		  </volist>
+		                 	    </select>
+                         	</td>
                          </tr>
                          <tr>
                          	<th>单价：</th>
                          	<td><input type="text" name="price" value="<{$data.0.price}>"></td>
                          </tr>
+                         <script type="text/javascript">
+						  jQuery(function($){
+							$('#picname').on('change',function(){
+
+								var src_p = window.URL.createObjectURL(this.files[0]);
+								// console.log(src_p);
+								$('#change_img').attr('src', src_p);
+							    
+							})
+						 })
+					    </script>
                          <tr>
                          	<th>图片上传：</th>
-                         	<td><input type="file" name="file" class="file" style="float:left;position:absolute">
-                         	<img src="__PUBLIC__/<?=$data[0]['picname'];?>" width=100 height=80 alt="餐点图片" style="float:right">
+                         	<td><input id="picname" type="file" name="file" class="file" style="float:left;position:absolute" >
+                         	<img id="change_img" src="__PUBLIC__/<?=$data[0]['picname'];?>" width=100 height=80 alt="餐点图片" style="float:right">
                          	</td>
+                         	<input type="hidden" name="picname" value="<{$data.0.picname}>">
+                         	<input type="hidden" name="id" value="<{$data.0.id}>">
                          </tr>
                          <tr>
                          	<th>状态：</th>

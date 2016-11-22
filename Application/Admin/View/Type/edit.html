@@ -1,0 +1,118 @@
+<extend name="Admin@Index/index" />
+      <block name="main">
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">分类管理</a>
+					</li>
+
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						分类类表
+						<small>
+							<i class="icon-double-angle-right"></i>
+							编辑
+						</small>
+					</h1>
+				</div><!-- /.page-header -->
+                
+				<div class="row">
+					<div class="col-xs-12">
+						<!-- PAGE CONTENT BEGINS -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="table-responsive">
+									<form action="<{:U('Type/save')}>" method="post" class='col-md-4'>		
+									<volist name="list" id="vo">
+										<div class="form-group">
+										<label for="#" class="">编辑分类名称：</label>
+										  <div class="input-group">
+										  	 <input type="text" name="name" value="<{$vo.name}>" class="form-control" aria-label="Amount (to the nearest dollar)">
+										  	 <input type="hidden" name="id" value="<{$vo.id}>">
+											  
+											  <span class="input-group-btn">
+											  	<button class="btn btn-default btn-sm">编辑</button>
+											  </span>
+											  
+										  </div>
+										</div>
+										 <input type="hidden" name="pid" value="<present name="Think.get.pid"><{$Think.get.pid}><else />0</present>">
+									</volist>
+
+									</form>
+								</div><!-- /.table-responsive -->
+							</div><!-- /span -->
+						</div><!-- /row -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.page-content -->
+		</div><!-- /.main-content -->
+	</block>
+
+<!-- inline scripts related to this page -->
+
+<script type="text/javascript">
+	jQuery(function($) {
+		var oTable1 = $('#sample-table-2').dataTable( {
+		"aoColumns": [
+	      { "bSortable": false },
+	      null, null,null, null, null,
+		  { "bSortable": false }
+		] } );
+		
+		
+		$('table th input:checkbox').on('click' , function(){
+			var that = this;
+			$(this).closest('table').find('tr > td:first-child input:checkbox')
+			.each(function(){
+				this.checked = that.checked;
+				$(this).closest('tr').toggleClass('selected');
+			});
+				
+		});
+	
+	
+		$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+		function tooltip_placement(context, source) {
+			var $source = $(source);
+			var $parent = $source.closest('table')
+			var off1 = $parent.offset();
+			var w1 = $parent.width();
+	
+			var off2 = $source.offset();
+			var w2 = $source.width();
+	
+			if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+			return 'left';
+		}
+	})
+</script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
+

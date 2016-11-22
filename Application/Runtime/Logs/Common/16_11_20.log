@@ -1,0 +1,24 @@
+[ 2016-11-20T20:25:42+08:00 ] 127.0.0.1 /hongxinqun/Public/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-20T20:25:44+08:00 ] 127.0.0.1 /hongxinqun/Public/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-20T20:26:04+08:00 ] 127.0.0.1 /hongxinqun/Public/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-20T20:26:04+08:00 ] 127.0.0.1 /hongxinqun/Public/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Public
+
