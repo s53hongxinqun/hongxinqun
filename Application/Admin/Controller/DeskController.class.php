@@ -42,8 +42,8 @@ class DeskController extends Controller
 	    // var_dump($data);
 	    // exit;
 
-
-	    if(!empty($model->where($where)->find())){
+        $desk = $model->where($where)->find();
+	    if(!empty($desk)){
 	    	$this->error('餐桌不能重复咯');
 	    	exit;
 	    }

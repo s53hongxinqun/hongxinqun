@@ -48,12 +48,12 @@
 								<span style="margin-left:60px;"><i  class="icon-gift bigger-300"></i></span>
 								<b>餐桌号</b>
 							</div><!-- /.col -->
-							<div class="col-xs-2" style="height:50px;margin-left:40px;">
+							<div class="col-xs-3" style="height:50px;margin-left:30px;">
 								<span style="margin-left:60px;"><i  class="icon-desktop bigger-300"></i></span>
 								<b>订单状态</b>
 							</div><!-- /.col -->
-							<div class="col-xs-3" style="height:50px;margin-left:40px">
-								<span style="margin-left:60px;"><i  class="icon-leaf bigger-300"></i></span>
+							<div class="col-xs-3" style="height:50px;">
+								<span style="margin-left:20px;"><i  class="icon-leaf bigger-300"></i></span>
 								<b>下单时间</b>
 							</div><!-- /.col -->
 							<div class="col-xs-2" style="height:50px;margin-left:40px;font-family:微软雅黑">
@@ -71,7 +71,7 @@
 								</b>
 							</div><!-- /.col -->
 							<div class="col-xs-3" style="height:50px;font-family:微软雅黑">
-								<b style="margin-left:50px;color:#f90;font-size:20px"><?=date('Y-m-d H:i:s',$orderData[0]['addtime'])?></b>
+								<b style="margin-left:30px;color:#f90;font-size:20px"><?=date('Y-m-d H:i:s',$orderData[0]['addtime'])?></b>
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 
@@ -112,57 +112,25 @@
 														</td>
 														<td style="line-height:100px"><?=date('Y-m-d H:i:s',$v['addtime'])?></td>
 														<td style="line-height:100px">
-																																
-																<a href="<{:U('Admin/Order/detail',array('orderid'=>$v['orderid']))}>" class="btn btn-xs btn-success">
-																  详情
-																</a>
-																<button class="btn btn-xs btn-info">
-																	编辑
-																</button>
+																																		
+															<a href="<{:U('Admin/Order/doDesk',array('id'=>$v['id']))}>" class="btn btn-xs btn-info">
+																上桌
+															</a>
 
-																<button class="btn btn-xs btn-danger">
-																	删除
-																</button>
-
-					
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-cog icon-only bigger-110"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
+															<a href="<{:U('Admin/Order/doDel',array('id'=>$v['id'],'desk'=>$orderData[0]['desk'],'foodsid'=>$v['foodsid'],'status'=>$orderData[0]['status'],'price'=>$v['price'],'num'=>$v['num'],'total'=>$orderData[0]['total'],'orderid'=>$orderData[0]['orderid']))}>" class="btn btn-xs btn-danger">
+																删除
+															</a>
+												
 														</td>
 													</tr>
 												  </volist>
 												</tbody>
+												<thead>
+													<tr style="height:60px">
+													
+														<th colspan="8"><span style="float:right;margin-right:20px"><span style="font-size:20px">总额：</span><b style="font-size:30px;color:#D15B47">￥<{$orderData.0.total}></b></span></th>
+													</tr>
+												</thead>
 											</table>
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->

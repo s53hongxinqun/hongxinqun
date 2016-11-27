@@ -11,7 +11,9 @@ class HelpController extends Controller
 		//查询餐桌目前的订单号
 		$order = M('orders')->where(array('desk'=>$desk,'status'=>0))->select();
 		$orderid = $order[0]['orderid'];
-		$getStatus = M('orders_detail')->where("orderid =  $orderid and status in(0,1)")->select(); 
+		$getStatus = M('orders_detail')->where("orderid =  $orderid and status in(0,1,3)")->select(); 
+		// echo json_encode($getStatus);
+		// exit;
 
         //判断是否查询到未上桌的餐点
         if($getStatus == []){

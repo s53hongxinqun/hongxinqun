@@ -5,6 +5,66 @@
 						<script type="text/javascript">
 							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
 						</script>
+						<script type="text/javascript">
+						function phonelook(){
+													
+							var phone= $('#phonecode').val();
+							$.ajax({
+							        type:'post',
+							        dataType:'json',
+							        url:"<{:U('Admin/Vip/phonelook')}>",
+							        data:{'phone':phone},
+							        success:function(data){
+							        	// console.log(data)
+							        	var box = '';
+							        	box += '此号码归属地：'+data.retData.province
+							        	box += '.'+data.retData.carrier;
+
+							        	$('#phonelook').html(box);
+							        }
+							})
+ 							
+						}
+						var time=59;
+						var timer=null;
+						var mess =null;
+						function run(){
+						    // console.log(1);
+						     mess = time+'s后可重发';
+						     time--;
+
+						    if(time<0){
+						        clearInterval(timer);
+						        $('#getmsg').css('display','inline-block');
+						        $('#showmsg').css('display','none');
+						        time=59;
+						        mess='60s后可重发';
+						    }
+						    $('#showmsg').html(mess);
+
+						}
+						     function getmsg(){
+							var phone= $('#phonecode').val();
+							 $('#getmsg').css('display','none');
+						    $('#showmsg').css('display','inline-block'); 
+						    timer = setInterval(run,1000);
+
+					     	    $.ajax({
+							        type:'post',
+							        dataType:'json',
+							        url:"<{:U('Admin/Vip/mess')}>",
+							        data:{'phone':phone},
+							        success:function(data){
+
+							        console.log(data.code);
+							       
+
+							        }
+							    })
+					     }
+
+						</script>
+
 
 						<ul class="breadcrumb">
 							<li>
@@ -43,11 +103,12 @@
 				      <table class="table table-striped table-hover table-condensed">
                          <tr>
                          	<th>真实姓名：</th>
-                         	<td><input type="text" name="name" class="form-control"></td>
+                         	<td><input type="text" name="name" class="form-control" placeholder="请填写真实的姓名"></td>
                          </tr>
                          <tr>
                          	<th>手机号：</th>
-                         	<td><input type="text" name="phone" class="form-control"></td>
+                         	<td><input type="text" name="phone" class="form-control" id="phonecode" placeholder="请填写真实的手机" onblur="phonelook(this)"><span id="phonelook" style="color:green"></span></td>
+
                          </tr>
                          <tr>
                          	<th>密码：</th>
@@ -55,7 +116,7 @@
                          </tr>
                          <tr>
                          	<th>确认密码：</th>
-                         	<td><input type="password" name="repass" class="form-control"></td>
+                         	<td><input type="password" name="repass" class="form-control" placeholder="请再次确认密码"></td>
                          </tr>
                          <tr>
                          	<th>状态：</th>
@@ -66,6 +127,11 @@
                                <span class="lbl"> 禁用</span>
 
                          	</td>
+                         </tr>
+                         <tr>
+                         	<th>短信验证码：</th>
+                         	<td><input type="text" name="code" style="width:100px;margin-right:20px;"><a class="btn" id="getmsg" onclick="getmsg()" style="width:120px;">发送验证码</a><a id="showmsg" class="btn" style="display:none;width:120px;">60s后可重发</a></td>
+
                          </tr>
 						<input type="hidden" name='addtime' value="<?php echo time()?>">
                          <tr>
@@ -88,6 +154,8 @@
 
 		<script type="text/javascript">
 			jQuery(function($) {
+
+
 				var oTable1 = $('#sample-table-2').dataTable( {
 				"aoColumns": [
 			      { "bSortable": false },
@@ -121,6 +189,7 @@
 					return 'left';
 				}
 			})
+
 		</script>
 	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>

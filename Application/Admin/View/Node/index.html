@@ -1,0 +1,93 @@
+<extend name="Admin@Index/index" />
+<block name="main">
+<div class="main-content">
+<div class="breadcrumbs" id="breadcrumbs">
+	<script type="text/javascript">
+		try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+	</script>
+
+	<ul class="breadcrumb">
+		<li>
+			<i class="icon-home home-icon"></i>
+			<a href="#">首页</a>
+		</li>
+
+		<li>
+			<a href="#">餐点管理</a>
+		</li>
+
+	</ul><!-- .breadcrumb -->
+
+	<div class="nav-search" id="nav-search">
+		<form class="form-search">
+			<span class="input-icon">
+				<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+				<i class="icon-search nav-search-icon"></i>
+			</span>
+		</form>
+	</div><!-- #nav-search -->
+</div>
+
+<div class="page-content">
+	<div class="page-header">
+		<h1>
+			节点管理
+			<small>
+				<i class="icon-double-angle-right"></i>
+				节点列表
+			</small>
+		</h1>
+	</div><!-- /.page-header -->
+    <a href="<{:U('Admin/Node/add')}>" class="btn-sm btn-success">添加节点</a>
+    <br>
+    <br>
+	<div class="row">
+		<div class="col-xs-12">
+			<!-- PAGE CONTENT BEGINS -->
+
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="table-responsive">
+					<center>
+						<table class="table table-striped table-bordered table-hover center">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>节点名称</th>
+									<th>模块名</th>
+									<th>操作</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<volist name="list" id="vo">
+									<tr>
+										<td><{$vo.id}></td>
+										<td><{$vo.name}></td>
+										<td><{$vo.mname}></td>
+										<td><{$vo.aname}></td>
+										<td><if condition="$vo.status eq 1">启用<else />禁用</if></td>
+										<td>
+											<a class="btn-sm btn-danger" href="<{:U('Node/del',array('id'=>$vo['id']))}>">删除</a>
+											<a class="btn-sm btn-primary" href="<{:U('Node/edit',array('id'=>$vo['id']))}>">修改</a>
+										</td>
+									</tr>
+
+								</volist>
+								<tr>
+									<th colspan="6">
+									<{$page}>
+									</th>
+									</tr>
+								</tbody>
+						</table>
+						</center>
+					</div><!-- /.table-responsive -->
+				</div><!-- /span -->
+			</div><!-- /row -->
+		</div><!-- /.col -->
+	</div><!-- /.row -->
+</div><!-- /.page-content -->
+</div><!-- /.main-content -->
+</block>

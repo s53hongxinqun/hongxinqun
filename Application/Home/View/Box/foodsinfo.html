@@ -1,0 +1,58 @@
+<volist name="foodsinfo" id="v" >
+<div>
+	<img src="__PUBLIC__/<?=$v['picname']?>" class="img-responsive" alt="" style="height:300px;width:200px;float:left;"/>
+	<div style="height:300px;width:320px;float:left;margin-left:30px;">
+		<div style="height:250px;width:320px;">				
+			<ul>
+				<li><b style="font-size:30px;">菜品名称：</b><span style="font-size:20px;"><{$v.foods}></span></li>
+				<li><b style="font-size:20px;">价格：</b><span style="font-size:20px;">￥<{$v.price}>/份</span></li>
+				<li><b style="font-size:20px;">描述：</b></li>
+				<li style="font-size:15px;"><{$v.detail}></li>
+			</ul>
+		</div>
+		<div style="height:45px;width:300px;">
+		 	<button type="button" class="btn btn-danger btn-lg"  a="<{$v.id}>" style="float:right;" onclick="add(this)">加入餐车 </button>
+		</div>
+	</div>
+</div>
+</volist>
+
+<div style="margin-top:30px;">
+	<ul class="nav nav-tabs" style="margin-bottom:10px" role="tablist">
+		 <li role="presentation" class="active"><a href="#foodscom" role="tab" data-toggle="tab" style="font-size:18px;">评价详情</a></li>
+		 <li role="presentation"><a href="#vipwrite" role="tab" data-toggle="tab" style="font-size:18px;" >发表评论</a></li>
+	</ul>
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="foodscom">
+			<div class="row">
+	          <div class="col-xs-12">
+	          	<table class="table table-striped table-hover center" >
+
+					<tbody>
+						<volist name="comment" id="c" empty="暂无评价。。。">
+							<tr>
+								<td><{$c.uname}></td>
+								<td><{$c.comment}></td>
+								<td><{$c.addtime|date="Y-m-d H:i:s",###}></td>
+							</tr>
+						</volist>
+					</tbody>
+         		</table>
+	          </div><!-- /span -->
+	        </div><!-- /row -->
+
+		</div>
+				
+		<div role="tabpanel" class="tab-pane" id="vipwrite">
+			<form action="<{:U('Home/Comment/index')}>" method="post">
+				<volist name="foodsinfo" id="v" >
+				<input type="hidden" name="foodsid" value="<{$v.id}>">
+				</volist>
+				<textarea name="comment"  cols="80" rows="8" style="resize:none;border:0;font-size:15px;" placeholder="请对我们的餐品提出您的宝贵意见"></textarea>
+				<div class="modal-footer">
+		        	<button type="submit" class="btn btn-primary">提交评价</button>
+		      	</div>
+	      	</form>
+		</div>
+	</div>
+</div>

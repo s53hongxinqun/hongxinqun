@@ -148,6 +148,57 @@ function check(obj,msg,status)
 //         $('#spn_vcode_ok').removeClass('icon_wrong icon_yes').addClass('icon_yes').css('display','inline-block').next('span').html(msg).addClass('warn');
 //     }
 // }
+//定义手机获取验证码部分
+var time=3;
+var timer=null;
+var mess =null;
+var savemess=null;
+function run(){
+    // console.log(1);
+     mess = time+'s后可重新发送验证码';
+     time--;
+
+    if(time<0){
+        mess='';
+        clearInterval(timer);
+        $('#getmess').css('display','inline-block');
+        $('#showmess').css('display','none');
+        time=3;
+    }
+    $('#showmess').html(mess);
+
+}
+// 验证手机验证码
+$('#getmess').click(function(){
+    // console.log($('.phone_code').val());
+    $(this).css('display','none');
+    $('#showmess').css('display','inline-block'); 
+    timer = setInterval(run,1000);
+    $.ajax({
+        type:'post',
+        dataType:'json',
+        url:'http://localhost/hongxinqun/index.php/home/reg/mess',
+        data:{'code':1},
+        success:function(data){
+            console.log(data.code);
+            savemess=data.code;
+        }
+    })
+})
+function checkMess(obj){
+    // alert(savemess);
+    if(obj.val()!=savemess){
+        obj.addClass('wrong');
+        $('#spn_vmess_ok').removeClass('icon_yes icon_wrong').addClass('icon_wrong').css('display','inline-block').next('span').html('手机验证码错误').removeClass('warn');
+        lock5=false;
+        return;
+    }else{
+        obj.removeClass('wrong');
+        $('#spn_vmess_ok').removeClass('icon_wrong icon_yes').addClass('icon_yes').css('display','inline-block').next('span').html('').addClass('warn');
+        lock5=true;
+        return;
+    }
+}
 
 //获取焦点事件
 $('#register_form').focusin(function(ev){
@@ -163,6 +214,14 @@ $('#register_form').focusin(function(ev){
     }
     if(ev.target.name == 'repass'){
         $(ev.target).removeClass('wrong').next('span').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('请再次输入密码');
+    }
+    if(ev.target.name == 'txt_vcode'){
+        $(ev.target).removeClass('wrong');
+        $('#spn_vcode_ok').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('请填写图片中的字符,不区分大小写');
+    }
+    if(ev.target.name == 'txt_vmess'){
+        $(ev.target).removeClass('wrong');
+        $('#spn_vmess_ok').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('请填写手机验证码');
     }
 
 })
@@ -193,12 +252,20 @@ $('#register_form').focusout(function(ev){
             $(ev.target).removeClass('wrong').next('span').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('');
         }
     }
-     if(ev.target.name == 'txt_vcode'){
+    //  if(ev.target.name == 'txt_vcode'){
+    //     if(ev.target.value!=''){
+    //     checkCode($(ev.target));
+    //     }else{
+    //         $(ev.target).removeClass('wrong');
+    //         $('#spn_vcode_ok').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('');
+    //     }
+    // }
+    if(ev.target.name == 'txt_vmess'){
         if(ev.target.value!=''){
-        checkCode($(ev.target));
+            checkMess($(ev.target));
         }else{
             $(ev.target).removeClass('wrong');
-            $('#spn_vcode_ok').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('');
+            $('#spn_vmess_ok').css('display','none').next('span').removeClass('cue warn').addClass('cue warn').html('');
         }
     }
 })

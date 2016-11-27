@@ -1,0 +1,36 @@
+<extend name="Admin@Index/index" />
+  <block name="main">
+	<div class="main-content">
+		<div class="breadcrumbs" id="breadcrumbs">
+			<script type="text/javascript">
+				try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+			</script>
+
+			<ul class="breadcrumb">
+				<li>
+					<i class="icon-home home-icon"></i>
+					<a href="#">用户管理</a>
+				</li>
+
+				<li>
+					<a href="#"> 给<{$role.name}>分配权限</a>
+				</li>
+
+			</ul><!-- .breadcrumb -->
+
+<div class="col-md-12">
+<br>
+<form action="<{:U('Role/savenode')}>" method='post'>
+<p style="width:800px">
+	<volist name="nodes" id="vo"> 
+		<input type="checkbox" name="node[]"  value="<{$vo.id}>" <if condition="in_array($vo['id'],$ro_nodes) eq true">checked</if>><{$vo.name}>&nbsp;&nbsp;
+		<if condition="$i%4 eq 0 "><br></if>
+	</volist>
+</p>
+<input type="hidden" name="rid" value="<{$role.id}>">
+<input type="submit" value="保 存" class="btn btn-primary">
+
+</form>
+</div>
+</div>
+</block>

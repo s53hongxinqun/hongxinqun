@@ -1,0 +1,148 @@
+     <extend name="Admin@Index/index" />
+              <block name="main">
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">首页</a>
+							</li>
+
+							<li>
+								<a href="#">轮播图管理</a>
+							</li>
+	
+						</ul><!-- .breadcrumb -->
+
+					</div>
+
+					<div class="page-content">
+						<div class="page-header">
+							<h1>
+								轮播图列表
+								<small>
+									<i class="icon-double-angle-right"></i>
+									查看
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+						<a href="<{:U('Admin/Limg/add')}>" class="btn btn-danger">添加图片</a>
+                        <br>
+                        <br>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="table-responsive">
+											<table id="sample-table-1" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+													
+														<th>ID</th>
+														<th>图片</th>
+
+
+														<th>
+															<i class="icon-time bigger-110 hidden-480"></i>
+															添加时间
+														</th>
+														<th>状态</th>
+														<th class="hidden-480">顺序</th>
+
+	
+														<th>操作</th>
+													</tr>
+												</thead>
+												<tbody>
+												  <volist name="imgs" id="v">
+													<tr>
+														<td style="line-height:100px"><{$v.id}></td>
+														<td><img src="__PUBLIC__/<?=$v['pic'];?>" width=160 height=100 alt="餐点图片"></td>
+														<td style="line-height:100px"><?php echo date('Y-m-d H:i:s',$v['addtime']); ?></td>
+								
+														<td style="line-height:100px"><if condition="$v.status eq 1">
+															<span class="label label-sm label-warning">已启用</span>
+															<else/>
+                                                            <span class="label label-sm label-inverse arrowed-in">已关闭</span>
+                                                            </if>
+														</td>
+														<td style="line-height:100px"><{$v.turn}></td>
+														<td style="line-height:100px">																
+																<a href="<{:U('Admin/Limg/edit',array('id'=>$v['id']))}>" class="btn btn-xs btn-info">
+																	编辑
+																</a>
+
+																<a href="<{:U('Admin/Limg/del',array('id'=>$v['id']))}>" class="btn btn-xs btn-danger">
+																	删除
+																</a>
+														</td>
+													</tr>
+												  </volist>
+												    <tr>
+												    	<th colspan="7">
+														    <{$page}>
+														</th>
+												    </tr>
+
+												</tbody>
+											</table>
+										</div><!-- /.table-responsive -->
+									</div><!-- /span -->
+								</div><!-- /row -->
+
+							
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+			</block>
+
+		<!-- inline scripts related to this page -->
+
+		<script type="text/javascript">
+			jQuery(function($) {
+				var oTable1 = $('#sample-table-2').dataTable( {
+				"aoColumns": [
+			      { "bSortable": false },
+			      null, null,null, null, null,
+				  { "bSortable": false }
+				] } );
+				
+				
+				$('table th input:checkbox').on('click' , function(){
+					var that = this;
+					$(this).closest('table').find('tr > td:first-child input:checkbox')
+					.each(function(){
+						this.checked = that.checked;
+						$(this).closest('tr').toggleClass('selected');
+					});
+						
+				});
+			
+			
+				$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+				function tooltip_placement(context, source) {
+					var $source = $(source);
+					var $parent = $source.closest('table')
+					var off1 = $parent.offset();
+					var w1 = $parent.width();
+			
+					var off2 = $source.offset();
+					var w2 = $source.width();
+			
+					if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+					return 'left';
+				}
+			})
+		</script>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

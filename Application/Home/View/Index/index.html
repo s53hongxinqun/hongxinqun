@@ -5,41 +5,17 @@
 		  <div class="slider">
 	    <div class="callbacks_container">
 	      <ul class="rslides" id="slider">
-	        <li>
-	          <img src="__PUBLIC__/Home/Images/1.jpg" alt="">
-	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          </div>
-	        </li>
-	        <li>
-	          <img src="__PUBLIC__/Home/Images/2.jpg" alt="">
-	        	 <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	        	 	<div class="logo">
-	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
-	          		</div>
-	        	 <h3>智能点餐系统</h3>
-	         </li>
-	        <li>
-	          <img src="__PUBLIC__/Home/Images/3.jpg" alt="">
-	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          	</div>
-	        </li>
-	        <li>
-	          <img src="__PUBLIC__/Home/Images/4.jpg" alt="">
-	          <div class="caption wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          	</div>
-	        </li>
+	        <volist name="getImgs" id="v">
+	          	<li>
+		          <img src="__PUBLIC__/<{$v.pic}>" alt="">
+		          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+		          	<div class="logo">
+		          		<a href="<{:U('Home/Index/index')}>">Mr.table</a>
+		          		</div>
+		          	<h3>智能点餐系统</h3>
+		          </div>
+		        </li>
+	        </volist>
 	      </ul>
 	  </div>
   </div>
@@ -60,7 +36,9 @@
 						<div id="chiList" class="menu-grids wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 								<volist name="data" id="v">
 									<div class="col-md-2 menu-grid">
-									<img src="__PUBLIC__/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+										<div style="cursor:pointer;" a="<{$v.id}>" data-toggle="modal" data-target="#foodsinfo" class="foodsinfo" onclick="foods(this)">
+											<img src="__PUBLIC__/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+										</div>
 								    <div class="menu-info">		
 										<h4><span style="color:#6cc;font-weight:bold"><{$v.foods}></span></h4>
 										<h4 style="color:#cf9;font-weight:bold">￥<{$v.price}>/份</h4>
@@ -175,7 +153,7 @@
 								<div class="col-md-6 event-left">
 									<div class="even-info">
 										<div class="icon">
-											<img id="checkout" a="<?php session_start();
+											<img id="checkout2" a="<?php session_start();
 											     echo $_SESSION['desk']; ?>" src="__PUBLIC__/Home/Images/icon1.png" class="img-responsive" alt="" />
 										</div>
 										<div class="event-info">
@@ -201,7 +179,9 @@
 									<div class="clearfix"></div>
 							</div>
 							<div class="butt">
-							<a href="event.html" class="button2">查看餐品状态</a>
+							<button type="button" class="btn btn-primary btn-lg button2" data-toggle="modal" data-target="#myModal22" id="fstatus" a="<?php echo $_SESSION['desk']; ?>">
+							 查看菜品状态
+							</button>
 							</div>
 						</div>
 				</div>
@@ -209,7 +189,109 @@
 
 			</div>
 			<include file="Public/foot"/>
+			<include file="Public/bottom"/>
 			<include file="Public/cart"/>
+<!-- hxq Modal 图灵机器人-->
+			<div class="modal fade" id="tuLing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <h2 class="modal-title" id="myModalLabel">图灵机器人</h2>
+			      </div>
+			      <div class="modal-body">
+			          <div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<p class="alert alert-info" id="walk_info"></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<form action="" method="post" class="form" id="walk_data">
+										<div class="form-group">
+											<textarea name="info" id="info" cols="30" rows="10" class="form-control">
+
+											</textarea>
+										</div>
+										<div class="form-group">
+											<button class="btn btn-default btn-lg col-md-12">发送</button>
+										</div>
+									</form>
+								</div>
+								<script>
+									$('#walk_info').hide();
+									$("#info").focus();
+									$('#walk_data').submit(function(){
+										var info = $('#info').val().replace(/\s/g,'');
+										$.ajax({
+											url:"<{:U('Home/Index/ajaxTuling')}>",
+											data:{'info':info},
+											type:'post',
+											success:function(data){
+
+												$('#walk_info').html(data.text).hide().fadeIn(1000);
+												$('#info').focus();
+											},
+											dataType:'json',
+										});
+										return false;
+									})
+								</script>
+
+							</div>
+							<div class="row" style="height:20px"></div>
+							<div class="row">
+								<div class="col-md-12">
+
+								</div>
+							</div>
+
+						</div>
+			      </div>
+			      <!-- <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Save changes</button>
+			      </div> -->
+			    </div>
+			  </div>
+			</div>
+			
+<!-- Modal -->
+<div class="modal fade" id="foodsinfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel" style="font-size:20px;">菜品详情</h4>
+      </div>
+
+      <div class="foodsinfos modal-body" style="height:100%;width:100">
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal over -->
+<!-- 餐品状态模态框 -->
+<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div >
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel" style="font-size:20px;">餐品状态详情 </h4>
+      </div>
+			<div style="margin-top:20px;" class="show">
+
+			</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 餐品状态模态框over -->
+
 
 </body>
 </html>	
@@ -225,15 +307,32 @@
 				var htm = '';
 	 	 	 	$.each(data,function(key,value){  
 		 	 	 	htm +='<div class="col-md-2 menu-grid">'
-		 	 	 	htm +='<img src="__PUBLIC__/'+value.picname+'" class="img-responsive" alt="" style="height:250px;width:161px"/>'
+		 	 	 	htm +='<div style="cursor:pointer;" a="'+value.id+'" data-toggle="modal" data-target="#foodsinfo" class="foodsinfo" onclick="foods(this)">'	
+		 	 	 	htm +='<img src="__PUBLIC__/'+value.picname+'" class="img-responsive" alt="" style="height:250px;width:161px"/></div>'
 		 	 	 	htm +='<div class="menu-info">'
 		 	 	 	htm +='<h4><span style="color:#6cc;font-weight:bold">'+value.foods+'</span></h4>'
 		 	 	 	htm +='<h4 style="color:#cf9;font-weight:bold">￥'+value.price+'/份</h4>'
 		 	 	 	htm +='<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a='+value.id+' onclick="add(this)">加入餐车</button></div></div>'
 				})
 
+				// <div class="col-md-2 menu-grid">
+				// <div style="cursor:pointer;" data-toggle="modal" data-target="#<{$v.id}>">
+				// 	<img src="__PUBLIC__/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+				// </div>
+			 //    <div class="menu-info">		
+				// 	<h4><span style="color:#6cc;font-weight:bold"><{$v.foods}></span></h4>
+				// 	<h4 style="color:#cf9;font-weight:bold">￥<{$v.price}>/份</h4>
+
+				// 	<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a="<{$v.id}>" onclick="add(this)">
+				// 	  加入餐车
+				// 	</button>
+
+				//  </div>
+				// </div>
+
 				$('#chiList').html(htm);
                   // console.log(data);
+
 	 	 	 }
 	 	 	 
 	 	 })
@@ -258,8 +357,8 @@
         })
      }
      //结账请求
-     $('#checkout').on('click',function(){
-        var desk = $('#checkout').attr('a');
+     $('#checkout2').on('click',function(){
+        var desk = $('#checkout2').attr('a');
 
         $.ajax({
            type:'post',
@@ -272,6 +371,7 @@
               }else{
                 alert('您有餐点未上桌，请稍等。。。。');
               }
+              // console.log(data);
            },
            dataType:'json',
         })
@@ -294,6 +394,82 @@
         })
     })
 
+    //定时刷新
+    function doShuaxin(){
+    	$.ajax({
+    		url:"<{:U('Home/index/ajaxDoout')}>",
+    		success:function(data){
+    			if(data ==1){
+    			   window.location.reload();
+    			}else{
+
+    			}
+    		}
+    	})
+    }
+
+    setInterval(doShuaxin,5000);
+
+// 模态框
+   // $('#fstatus').on('click',function(){
+   // 		var desk = $('#fstatus').attr('a');
+   // 		$.ajax({
+   // 			type:'post',
+   //      	url:"<{:U('Home/Box/index')}>",
+   //      	data:{'desk':desk},
+   //      	dataType:'json',
+	 	//  	 success:function(data){
+			// 	var box = '';
+	 	//  	 	$.each(data,function(key,value){  
+	  //                  box += '<tr>'
+	  //                  box += '<th style="width:100px">'+value.desk+'号桌</th>'
+	  //                  box += '<th style="width:100px">'+value.name+'</th>'
+	  //                  box += '<th style="width:350px">'
+	  //                  box += '<if condition="'+value.dstatus+' eq 1"><span >已下单</span>'
+	  //                  box += '<elseif condition="'+value.dstatus+' eq 2" /><span >已下锅</span>'
+	  //                  box += '<elseif condition="'+value.dstatus+' eq 0" /><span>烹饪完成</span>'
+	  //                  box += '<else /><span >已上桌</span></if></th>'
+
+	  //                  box += '</tr>';
+	  //                  // box += '"'+key+'=>'+value.dstatus+'"';
+	                
+			// 	})
 
 
+			// 	$('#boxdesk').html(box);
+
+	 	//  	 }
+              
+   // 		})
+   // })
+
+
+
+// 商品详情模态框
+
+   function foods(obj){
+   		var id = $(obj).attr('a');
+   		
+	$.ajax({
+		url:"<{:U('Home/Box/foodsinfo')}>",
+		data:{'id':id},
+		dataType:'html',
+		success:function(htm){
+			$('.foodsinfos').html(htm);
+		},
+	})
+}
+   // 商品详情模态框结束
+
+$('#fstatus').on('click',function(){
+   		var desk = $('#fstatus').attr('a');
+	$.ajax({
+		url:"<{:U('Home/Box/index')}>",
+		data:{'desk':desk},
+		dataType:'html',
+		success:function(htm){
+			$('.show').html(htm);
+		},
+	})
+})
 </script>

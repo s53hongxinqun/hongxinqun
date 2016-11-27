@@ -6,6 +6,7 @@
 		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
 		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- 		<meta http-equiv="refresh" content="30"> -->
 		<!-- basic styles -->
 		<link href="/hongxinqun/Public/assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="/hongxinqun/Public/assets/css/font-awesome.min.css" />
@@ -78,7 +79,7 @@
 				  <div class="logo margin-big-left fadein-top">
 				    <h1><img src="/hongxinqun/Public/admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
 				  </div>
-				  <div class="head-l"><a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="<?php echo U('Login/logout');?>"><span class="icon-power-off"></span> 退出登录</a> </div>
+				  <div class="head-l"><a class="button button-little bg-green" href="<?php echo U('Home/Index/index');?>" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="<?php echo U('Login/logout');?>"><span class="icon-power-off"></span> 退出登录</a> </div>
 				</div>
 				<div class="navbar-header pull-left">
 					<a href="#" class="navbar-brand">
@@ -141,6 +142,12 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
+						<li>
+							<a href="<?php echo U('Admin/Comment/index');?>">
+								<i class="icon-dashboard"></i>
+								<span class="menu-text"> 控制器 </span>
+							</a>
+						</li>
 						<li class="active">
 							<a href="<?php echo U('Admin/Index/index');?>" style="background:#CCFFCC">
 								<i class="icon-dashboard"></i>
@@ -177,31 +184,70 @@
 										餐点添加
 									</a>
 								</li>
+								<li>
+									<a href="<?php echo U('Admin/Food/yanzheng');?>">
+										<i class="icon-double-angle-right"></i>
+										短信验证
+									</a>
+								</li>
 
 							</ul>
 						</li>
 
 						<li>
-							<a href="#" class="dropdown-toggle">
+							<a href="#" class="dropdown-toggle" >
 								<i class="icon-list"></i>
 								<span class="menu-text"> 用户管理 </span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
 
-							<ul class="submenu">
+							<ul class="submenu" <?php if((CONTROLLER_NAME) == "User"): ?>style="display:block"<?php endif; ?>>
 								<li>
-									<a href="tables.html">
+									<a href="<?php echo U('Admin/User/index');?>">
 										<i class="icon-double-angle-right"></i>
-										权限操作
+										用户列表
 									</a>
 								</li>
+								<!-- 第一次操作结束 -->
+							</ul>
+						</if>
+						</li>
+							
 
-								<li>
-									<a href="jqgrid.html">
+						<li>
+							<a href="#" class="dropdown-toggle"  style="background:#CCFFCC">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 角色管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu" >
+								<li >
+									<a href="<?php echo U('Role/index');?>">
 										<i class="icon-double-angle-right"></i>
-										jqGrid plugin
+										角色列表
 									</a>
+								</li>
+							</ul>
+						</li>
+						<!-- 第二次修改结束 -->
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 节点管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu" >
+								<li>
+									<a href="<?php echo U('Node/index');?>">
+										<i class="icon-double-angle-right"></i>
+										节点列表
+									</a>
+								</if>
 								</li>
 							</ul>
 						</li>
@@ -284,15 +330,9 @@
 						</li>
 						<!-- 会员管理结束 -->
 
-						<li>
-							<a href="gallery.html" >
-								<i class="icon-picture"></i>
-								<span class="menu-text"> 评价管理 </span>
-							</a>
-						</li>
 
 						<li>
-							<a href="#" class="dropdown-toggle"  style="background:#CCFFCC">
+							<a href="#" class="dropdown-toggle" >
 								<i class="icon-tag"></i>
 								<span class="menu-text"> 统计管理 </span>
 
@@ -301,31 +341,25 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="profile.html">
+									<a href="<?php echo U('Admin/Count/user');?>">
 										<i class="icon-double-angle-right"></i>
-										用户信息
+										用户统计
 									</a>
 								</li>
 
 								<li>
-									<a href="inbox.html">
+									<a href="<?php echo U('Admin/Count/role');?>">
 										<i class="icon-double-angle-right"></i>
-										收件箱
+										角色统计
 									</a>
 								</li>
 
-								<li>
-									<a href="pricing.html">
-										<i class="icon-double-angle-right"></i>
-										售价单
-									</a>
-								</li>
 
 							</ul>
 						</li>
 
 						<li>
-							<a href="#" class="dropdown-toggle">
+							<a href="#" class="dropdown-toggle" style="background:#CCFFCC">
 								<i class="icon-file-alt"></i>
 
 								<span class="menu-text">
@@ -342,15 +376,64 @@
 									   已点餐点列表
 									</a>
 								</li>
-
+							</ul>
+						</li>
+	<!-- 传菜员管理 -->
+						<li>
+							<a href="<?php echo U('Admin/Dish/index');?>" class="dropdown-toggle" >
+								<i class="icon-calendar"></i>
+								<span class="menu-text"> 上菜员管理</span>
+								<b class="arrow icon-angle-down"></b>
+							</a>
+	
+						</li>
+						<!-- 上菜员管理结束 -->
+						<li>
+							<a href="<?php echo U('Admin/Limg/index');?>" style="background:#CCFFCC">
+								<i class="icon-text-width"></i>
+								<span class="menu-text"> 轮播图管理 </span>
+							</a>
+						</li>
+													<!-- 友情链接管理 -->
+						<li>
+							<a href="#" class="dropdown-toggle"  >
+								<i class="icon-calendar"></i>
+								<span class="menu-text"> 友情管理</span>
+								<b class="arrow icon-angle-down"></b>
+							</a>
+							<ul class="submenu">
 								<li>
-									<a href="error-404.html">
+									<a href="<?php echo U('Admin/Url/index');?>">
 										<i class="icon-double-angle-right"></i>
-										404错误页面
+										友情列表
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo U('Admin/Url/add');?>">
+										<i class="icon-double-angle-right"></i>
+										添加链接
 									</a>
 								</li>
 							</ul>
 						</li>
+						<!-- 友情链接管理结束 -->
+						  <!-- 反馈管理 -->
+						<li>
+							<a href="<?php echo U('Admin/Tickling/index');?>" style="background:#CCFFCC">
+								<i class="icon-text-width"></i>
+								<span class="menu-text"> 反馈管理 </span>
+							</a>
+						</li>
+					<!-- 反馈管理结束 -->
+					<!-- 评价管理 -->
+						<li>
+							<a href="<?php echo U('Admin/Comment/index');?>" class="dropdown-toggle"  >
+								<i class="icon-calendar"></i>
+								<span class="menu-text"> 评价管理</span>
+								<b class="arrow icon-angle-down"></b>
+							</a>
+						</li>
+						<!-- 评价管理结束 -->
 					</ul><!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -411,12 +494,12 @@
 								<span style="margin-left:60px;"><i  class="icon-gift bigger-300"></i></span>
 								<b>餐桌号</b>
 							</div><!-- /.col -->
-							<div class="col-xs-2" style="height:50px;margin-left:40px;">
+							<div class="col-xs-3" style="height:50px;margin-left:30px;">
 								<span style="margin-left:60px;"><i  class="icon-desktop bigger-300"></i></span>
 								<b>订单状态</b>
 							</div><!-- /.col -->
-							<div class="col-xs-3" style="height:50px;margin-left:40px">
-								<span style="margin-left:60px;"><i  class="icon-leaf bigger-300"></i></span>
+							<div class="col-xs-3" style="height:50px;">
+								<span style="margin-left:20px;"><i  class="icon-leaf bigger-300"></i></span>
 								<b>下单时间</b>
 							</div><!-- /.col -->
 							<div class="col-xs-2" style="height:50px;margin-left:40px;font-family:微软雅黑">
@@ -431,7 +514,7 @@
 								</b>
 							</div><!-- /.col -->
 							<div class="col-xs-3" style="height:50px;font-family:微软雅黑">
-								<b style="margin-left:50px;color:#f90;font-size:20px"><?=date('Y-m-d H:i:s',$orderData[0]['addtime'])?></b>
+								<b style="margin-left:30px;color:#f90;font-size:20px"><?=date('Y-m-d H:i:s',$orderData[0]['addtime'])?></b>
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 
@@ -469,56 +552,24 @@
 														</td>
 														<td style="line-height:100px"><?=date('Y-m-d H:i:s',$v['addtime'])?></td>
 														<td style="line-height:100px">
-																																
-																<a href="<?php echo U('Admin/Order/detail',array('orderid'=>$v['orderid']));?>" class="btn btn-xs btn-success">
-																  详情
-																</a>
-																<button class="btn btn-xs btn-info">
-																	编辑
-																</button>
+																																		
+															<a href="<?php echo U('Admin/Order/doDesk',array('id'=>$v['id']));?>" class="btn btn-xs btn-info">
+																上桌
+															</a>
 
-																<button class="btn btn-xs btn-danger">
-																	删除
-																</button>
-
-					
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-cog icon-only bigger-110"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
+															<a href="<?php echo U('Admin/Order/doDel',array('id'=>$v['id'],'desk'=>$orderData[0]['desk'],'foodsid'=>$v['foodsid'],'status'=>$orderData[0]['status'],'price'=>$v['price'],'num'=>$v['num'],'total'=>$orderData[0]['total'],'orderid'=>$orderData[0]['orderid']));?>" class="btn btn-xs btn-danger">
+																删除
+															</a>
+												
 														</td>
 													</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 												</tbody>
+												<thead>
+													<tr style="height:60px">
+													
+														<th colspan="8"><span style="float:right;margin-right:20px"><span style="font-size:20px">总额：</span><b style="font-size:30px;color:#D15B47">￥<?php echo ($orderData["0"]["total"]); ?></b></span></th>
+													</tr>
+												</thead>
 											</table>
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->

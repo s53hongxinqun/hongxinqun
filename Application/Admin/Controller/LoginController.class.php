@@ -9,89 +9,77 @@ class LoginController extends Controller {
     }
 
     // 执行登录
-    public function dologin(){
-        // 接受用户名和密码
-    	$arr['username'] = I('post.name');
-    	$arr['userpass'] = md5(I('post.password'));
+    public function dologin()
+    {
+        //接收用户名和密码
+        $username = I('post.name');
+        $password = I('post.password');
 
-        // 验证
-    	$auser = D('Auser');
-    	$data = $auser->where($arr)->select();  	
-    	if(!$data){
-    		$this->error('用户或密码不正确');
-    	}
-        
-        // 将用户信息添加到session中
-		$_SESSION['admin_user'] = $data;
-		// 根据用户ID查询语句获取相应权限
-    	$arr1 = $auser->where(array('id'=>array('eq',$data['0']['id'])))->relation(true)->select();
-        // echo "<pre>";
-        // print_r($arr1);
-        // echo "</pre>";
-        // exit;
-    	$rolename = $arr1[0]['role'];
-    	foreach ($rolename as $key => $value) {
-    		$arr2[] = $value['id'];
-    	}
-        if(empty($arr2)){
-            $this->error('抱歉你尚未分配角色');
+        //验证
+        $user = M('Auser');
+        $data = $user->where(array('username'=>$username))->find();
+        if (!$data) {
+            $this->error('用户名不存在！');
             exit;
         }
-    	$arole = D('Arole');
-    	$arr3 = $arole->where(array('id'=>array('in',$arr2),'status'=>array('eq','1')))->relation(true)->select();
+        //验证密码
+        if ($data['userpass'] != md5($password)) {
+            $this->error('密码不正确');
+            exit;
+        }
+        //把用户信息添加到session
+        $_SESSION['admin_user'] = $data;
 
-    	// echo "<pre>";
-    	// print_r($arr3);
-    	// echo "</pre>";
-     //    exit;
-    	foreach ($arr3 as $key => $value) {
-    		$node[] = $value['node'];
-    	}
-    	
-    	foreach ($node as $key => $value) {
-    		 foreach ($value as $k => $v) {
-    		 	$list[]=$v;
-    		 }
-    	}
-    	
-        // 控制名转换为大写
-    	foreach ($list as $k => $v) {
-			$list[$k]['mname'] = ucfirst($v['mname']);    		
-    	}
-    	
 
-    	$nodelist=array();
-    	$nodelist['Index']=array('index');
-        // 遍历重新拼装
-    	foreach ($list as $b) {
-        //状态值为1的就加入自定义的数组里
-        if($b['status']==1){
-        		$nodelist[$b['mname']][] = $b['aname'];
-                // 把修改、添加，执行修改、执行添加拼装到一起
-        		if($b['aname'] == 'edit'){
-        			$nodelist[$b['mname']][]="save";
-        		}
-        		if($b['aname'] == 'add'){
-        			$nodelist[$b['mname']][]="doadd";
-        		}
+        //根据用户id获取对应的节点信息
+        //$sql = "select n.mname,n.aname from lamp_user u join lamp_user_role ur on u.id=ur.uid join lamp_role_node rn on ur.rid=rn.rid join lamp_node n on rn.nid=n.id where u.id={$users['id']}";
+        //$list = M()->query($sql);
+
+        $list = M('anode')->field('mname,aname')->where('id in'.M('arole_node')->field('nid')->where("rid in ".M('auser_role')->field('rid')->where(array('uid'=>array('eq',$data['id'])))->buildSql())->buildSql())->select();
+
+        //控制器名转换为大写
+        foreach ($list as $key => $val) {
+            $list[$key]['mname'] = ucfirst($val['mname']);
+        }
+
+        //查看查询出来的信息
+        // V($list); exit;
+
+        $nodelist = array();
+        $nodelist['Index'] = array('index');
+        //遍历重新拼装
+        foreach($list as $v){
+            $nodelist[$v['mname']][] = $v['aname'];
+            //把修改和执行修改 添加和执行添加 拼装到一起
+            if($v['aname']=="edit"){
+                $nodelist[$v['mname']][]="save";
             }
-    	}
-        // 把权限信息放置到session中
-    	$_SESSION['admin_user']['nodelist'] = $nodelist;
-        // 跳转到首页
-    	$this->redirect('Index/index');
+            if($v['aname']=="add"){
+                $nodelist[$v['mname']][]="doadd";
+            }
+        }
+    
+        //将权限信息放置到session中
+        $_SESSION['admin_user']['nodelist'] = $nodelist;
+
+        //重组的信息
+        // V($_SESSION);exit;
+        
+        //跳转到首页
+        $this->redirect('Index/index');
     }
 
-    // 退出登录
-    public function logout(){
-        // 清除session
-    	unset($_SESSION['admin_user']);
-        unset($_SESSION['node']);
-        // 跳转
-    	$this->redirect('Index/index');
+    //退出登陆
+    public function logout()
+    {
+        //清空session
+        unset($_SESSION['admin_user']);
+        //跳转
+        $this->redirect('Login/index');
     }
+
     public function _empty()
-	{
-		$this->display('Layout/404');
-	}
+    {
+        $this->display('Layout/404');
+    }
 }

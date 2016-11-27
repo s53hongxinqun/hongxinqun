@@ -1,0 +1,116 @@
+     <extend name="Admin@Index/index" />
+              <block name="main">
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">首页</a>
+							</li>
+
+							<li>
+								<a href="#">链接管理</a>
+							</li>
+	
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+
+					<div class="page-content">
+						<div class="page-header">
+							<h1>
+								链接添加
+								<small>
+									<i class="icon-double-angle-right"></i>
+									添加
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+                        <div class="col-xs-6">
+				    <form action="<{:U('Admin/Url/insert')}>" class="h4" method="post" enctype="multipart/form-data">
+				      <table class="table table-striped table-hover table-condensed">
+                         <tr>
+                         	<th>链接名：</th>
+                         	<td><input type="text" name="name" class="form-control" placeholder="网站名字"></td>
+                         </tr>
+                         <tr>
+                         	<th>链接地址：</th>
+                         	<td><input type="text" name="url" class="form-control" value="http://"></td>
+                         </tr>
+                         <tr>
+                         	<th>状态：</th>
+                         	<td>
+                         	  
+                         	   <input class="ace" name="status" type="radio" value="0" checked >
+                               <span class="lbl">显示</span>
+                               <input class="ace" name="people" type="radio" value="1" >
+                               <span class="lbl">隐藏</span>
+
+                         	</td>
+                         </tr>
+                         <tr>
+                         	 <th colspan="2"><input type="submit" value="添加" class="btn btn-success">
+                         	     <input type="reset" value="重置" class="btn btn-danger">
+                         	 </th>
+                         </tr>
+				      </table>
+				    </form>
+                        
+					</div>
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+			</block>
+
+		<!-- inline scripts related to this page -->
+
+		<script type="text/javascript">
+			jQuery(function($) {
+				var oTable1 = $('#sample-table-2').dataTable( {
+				"aoColumns": [
+			      { "bSortable": false },
+			      null, null,null, null, null,
+				  { "bSortable": false }
+				] } );
+				
+				
+				$('table th input:checkbox').on('click' , function(){
+					var that = this;
+					$(this).closest('table').find('tr > td:first-child input:checkbox')
+					.each(function(){
+						this.checked = that.checked;
+						$(this).closest('tr').toggleClass('selected');
+					});
+						
+				});
+			
+			
+				$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+				function tooltip_placement(context, source) {
+					var $source = $(source);
+					var $parent = $source.closest('table')
+					var off1 = $parent.offset();
+					var w1 = $parent.width();
+			
+					var off2 = $source.offset();
+					var w2 = $source.width();
+			
+					if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+					return 'left';
+				}
+			})
+		</script>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

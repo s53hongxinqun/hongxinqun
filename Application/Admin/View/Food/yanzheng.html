@@ -1,0 +1,207 @@
+ 
+ <extend name="Admin@Index/index" />
+
+      <block name="main">
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<script type="text/javascript">
+				  jQuery(function($){
+					$('#picname').on('change',function(){
+
+						var src_p = window.URL.createObjectURL(this.files[0]);
+						// console.log(src_p);
+						$('#change_img').attr('src', src_p);
+					    
+					})
+
+
+					var time=3;
+					var timer=null;
+					var mess =null;
+					var savemess=null;
+					function run(){
+					    // console.log(1);
+					     mess = time+'s后可重新发送验证码';
+					     time--;
+
+					    if(time<0){
+					        mess='';
+					        clearInterval(timer);
+					        $('#xixi').css('display','inline-block');
+					        $('#hehe').css('display','none');
+					        time=3;
+					    }
+					    $('#hehe').html(mess);
+
+					}
+					$('#xixi').click(function(){
+				    // console.log($('.phone_code').val());
+				    $(this).css('display','none');
+				    $('#hehe').css('display','inline-block'); 
+				    timer = setInterval(run,1000);
+				    $.ajax({
+				        type:'post',
+				        dataType:'json',
+				        url:"<{:U('Admin/Food/mess')}>",
+				        data:{'code':1},
+				        success:function(data){
+				            // console.log(data.code);
+				            savemess = data.code;
+				        }
+				    })
+				})
+
+					$('#txt_vmess').blur(function(){
+						 var postmess = $('#txt_vmess').val();
+						 // console.log(postmess);
+						 if(postmess == savemess){
+						 	$('#heihei').html('验证码正确');
+						 }else{
+						 	$('#heihei').html('验证码错误');
+						 }
+					})
+					console.log(savemess);
+
+	 })
+			    </script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+
+					<li>
+						<a href="#">我的短信验证</a>
+					</li>
+
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						短信验证
+						<small>
+							<i class="icon-double-angle-right"></i>
+							验证
+						</small>
+					</h1>
+				</div><!-- /.page-header -->
+                <div class="col-xs-6">
+		    <form id="register_form" method="post" action="<{:U('Admin/Food/doYanzheng')}>">
+            <div id="bd">
+				<!--默认-->
+				<div class="shadow_box">
+						
+						<div class="body">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<td class="t">手机号码</td>
+									<td class="z_index2">
+										<input name="phone" id="txt_username" autocomplete="off" MaxLength="40" 
+											tabindex="1" placeholder="请输入您的手机号码"
+											type="text" class="text" /><span id="spn_username_ok" class="icon_yes" style="display: none;"></span>
+
+										<span id="J_tipUsername" class="cue warn"></span>
+									</td>
+								</tr>
+															
+								<!--该出填写手机获取验证码开始-->
+                                <tr>
+                                    <td class="t j-vcode">短信验证码</td>
+                                    <td class="j-vcode">
+                                        <input class="text pin" type="text" id="txt_vmess" name="txt_vmess" autocomplete="off" placeholder="请输入短信验证码" MaxLength="4" tabindex="5"/>
+                                       <a id="xixi" style="cursor:pointer" class="code_picww">点击获取验证码</a>
+                                       <span id="hehe" style="vertical-align:middle;margin-top:10px;"></span>
+                                       <b id="heihei"></b>
+                                        <span id="spn_vmess_ok" class="icon_yes pin_i" style="display: none;"></span>
+                                        <span id="J_tipVmess" class="cue"></span>
+                                        <!--<span class="icon_wrong pin_i"></span>-->
+                                    </td>
+                                </tr>														
+								<tr>
+									<td class="t">&nbsp;</td>
+
+								<td><input id="J_submitRegister" type="submit" value="立即验证" class="btn_login" tabindex="10"></td>
+								</tr>
+							</table>
+						</div>
+				</div>
+			</div>
+        </form>
+                
+			</div>
+			</div><!-- /.page-content -->
+		</div><!-- /.main-content -->
+	</block>
+	
+
+
+<!-- <script type="text/javascript" src="__PUBLIC__/home/js/check_browse.js"></script> -->
+<!-- <--// <script  type="text/javascript">login_session.browsePageOperate();</script>-->
+<!-- <script type="text/javascript" src="__PUBLIC__/home/js/js_tracker.js"></script> -->
+
+<!-- <script type="text/javascript" src="__PUBLIC__/Home/Js/jquery-1.8.0.min.js"></script> -->
+<script type="text/javascript" src="__PUBLIC__/Home/Js/register.js"></script>
+	
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
+
+
+<!-- inline scripts related to this page -->
+<script type="text/javascript">
+	jQuery(function($) {
+		var oTable1 = $('#sample-table-2').dataTable( {
+		"aoColumns": [
+	      { "bSortable": false },
+	      null, null,null, null, null,
+		  { "bSortable": false }
+		] } );
+		
+		
+		$('table th input:checkbox').on('click' , function(){
+			var that = this;
+			$(this).closest('table').find('tr > td:first-child input:checkbox')
+			.each(function(){
+				this.checked = that.checked;
+				$(this).closest('tr').toggleClass('selected');
+			});
+				
+		});
+	
+	
+		$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+		function tooltip_placement(context, source) {
+			var $source = $(source);
+			var $parent = $source.closest('table')
+			var off1 = $parent.offset();
+			var w1 = $parent.width();
+	
+			var off2 = $source.offset();
+			var w2 = $source.width();
+	
+			if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+			return 'left1';
+		}
+		//AJAX图片
+       
+	});
+	 
+</script>

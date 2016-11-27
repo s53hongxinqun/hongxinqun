@@ -1,0 +1,81 @@
+<extend name="Admin@Index/index" />
+<block name="main">
+<div class="main-content">
+<div class="breadcrumbs" id="breadcrumbs">
+	<script type="text/javascript">
+		try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+	</script>
+
+	<ul class="breadcrumb">
+		<li>
+			<i class="icon-home home-icon"></i>
+			<a href="#">首页</a>
+		</li>
+
+		<li>
+			<a href="#">反馈管理</a>
+		</li>
+
+	</ul><!-- .breadcrumb -->
+
+</div>
+
+<div class="page-content">
+	<div class="page-header">
+		<h1>
+			反馈管理
+			<small>
+				<i class="icon-double-angle-right"></i>
+				查看
+			</small>
+		</h1>
+	</div><!-- /.page-header -->
+    <br>
+    <br>
+	<div class="row">
+		<div class="col-xs-12">
+			<!-- PAGE CONTENT BEGINS -->
+
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered table-hover center">
+							<thead>
+								<tr>
+								
+									<th>ID</th>
+									<th>用户名</th>
+									<th>反馈内容</th>
+									<th>反馈时间</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<volist name="list" id="v">
+									<tr>
+										<td><{$v.id}></td>
+										<td><{$v.vip}></td>
+										<td><{$v.info}></td>
+										<td><{$v.time|date="Y-m-d H:i:s",###}></td>
+										<td>
+										<if condition="$v.status eq 0" >未处理
+										<else />已处理
+										</if>
+										</td>
+										<td>
+										<if condition="$v.status eq 0" ><a class="but" href="<{:U('Admin/Tickling/change',array('id'=>$v['id'],'status'=>1))}>">点击处理</a>
+										<else />已完成
+										</if></td>
+									</tr>
+								</volist>
+								</tbody>
+						</table>
+					</div><!-- /.table-responsive -->
+				</div><!-- /span -->
+			</div><!-- /row -->
+		</div><!-- /.col -->
+	</div><!-- /.row -->
+</div><!-- /.page-content -->
+</div><!-- /.main-content -->
+</block>

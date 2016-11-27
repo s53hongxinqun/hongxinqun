@@ -16,25 +16,25 @@ jQuery(function($){
 	newMsgTmpl = '<ul><li><a href="#"><span class="tips">新回复<em class="num"><b><%=items.commentNewReply%></b></em></span>商品评价/晒单</a></li><li><a href="#"><span class="tips">新回复<em class="num"><b><%=items.consultNewReply%></b></em></span>商品咨询</a></li><li><a href="#"><span class="tips">新回复<em class="num"><b><%=items.messageNewReply%></b></em></span>我的留言</a></li><li><a href="#"><span class="tips">新通知<em class="num"><b><%=items.arrivalNewNotice%></b></em></span>到货通知</a></li><li><a href="#"><span class="tips">新通知<em class="num"><b><%=items.reduceNewNotice%></b></em></span>降价提醒</a></li></ul>',
 	quickPop = quickShell.find('#quick_links_pop'),
 	quickDataFns = {
-		//餐车信息
+		// 餐车信息
 		message_list: {
 			title: '我的餐车',
 			content: '',
 			init:$.noop
 		},
 		
-		//我的资产
+		// 我的资产
 		// history_list: {
-		// 	title: '我的资产',
-		// 	content: '<div class="ibar_plugin_content"><div class="ia-head-list"><a href="#" target="_blank" class="pl"><div class="num">0</div><div class="text">优惠券</div></a><a href="#" target="_blank" class="pl"><div class="num">0</div><div class="text">红包</div></a><a href="#" target="_blank" class="pl money"><div class="num">￥0</div><div class="text">余额</div></a></div><div class="ga-expiredsoon"><div class="es-head">即将过期优惠券</div><div class="ia-none">您还没有可用的现金券哦！</div></div><div class="ga-expiredsoon"><div class="es-head">即将过期红包</div><div class="ia-none">您还没有可用的红包哦！</div></div></div>			',
+		// 	title: '',
+		// 	content: '',
 		// 	init: $.noop
 		// },
-		//给客服留言
-		leave_message: {
-			title: '我关注的产品',
-			content: $("#ibar_gzcp").html(),
-			init:$.noop
-		},
+		// 给客服留言
+		// leave_message: {
+		// 	title: '我关注的产品',
+		// 	content: $("#ibar_gzcp").html(),
+		// 	init:$.noop
+		// },
 		// mpbtn_histroy:{
 		// 	title: '我的足迹',
 		// 	content:'<div class="ibar_plugin_content"><div class="ibar-history-head">共3件产品<a href="#">清空</a></div><div class="ibar-moudle-product"><div class="imp_item"><a href="#" class="pic"><img src="images/xiez.jpg" width="100" height="100" /></a><p class="tit"><a href="#">夏季透气真皮豆豆鞋反绒男士休闲鞋韩</a></p><p class="price"><em>￥</em>649.00</p><a href="#" class="imp-addCart">加入购物车</a></div><div class="imp_item"><a href="#" class="pic"><img src="images/xiez.jpg" width="100" height="100" /></a><p class="tit"><a href="#">夏季透气真皮豆豆鞋反绒男士休闲鞋韩</a></p><p class="price"><em>￥</em>649.00</p><a href="#" class="imp-addCart">加入购物车</a></div><div class="imp_item"><a href="#" class="pic"><img src="images/xiez.jpg" width="100" height="100" /></a><p class="tit"><a href="#">夏季透气真皮豆豆鞋反绒男士休闲鞋韩</a></p><p class="price"><em>￥</em>649.00</p><a href="#" class="imp-addCart">加入购物车</a></div></div></div>',

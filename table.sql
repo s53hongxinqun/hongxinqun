@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50612
 File Encoding         : 65001
 
-Date: 2016-11-22 00:32:45
+Date: 2016-11-27 19:39:35
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,7 +27,7 @@ CREATE TABLE `anode` (
   `status` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `name` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of anode
@@ -49,6 +49,35 @@ INSERT INTO `anode` VALUES ('14', '更改用户分配角色', 'user', 'saverole'
 INSERT INTO `anode` VALUES ('15', '浏览角色的操作权限', 'role', 'nodelist', '1');
 INSERT INTO `anode` VALUES ('16', '修改角色中操作权限', 'role', 'savenode', '1');
 INSERT INTO `anode` VALUES ('19', '浏览用户分配角色', 'user', 'rolelist', '1');
+INSERT INTO `anode` VALUES ('20', '浏览订单', 'order', 'index', '1');
+INSERT INTO `anode` VALUES ('21', '浏览订单', 'order', 'index', '1');
+INSERT INTO `anode` VALUES ('22', '订单删除', 'order', 'del', '1');
+INSERT INTO `anode` VALUES ('23', '浏览餐桌', 'desk', 'index', '1');
+INSERT INTO `anode` VALUES ('24', '餐桌添加', 'desk', 'insert', '1');
+INSERT INTO `anode` VALUES ('25', '餐桌修改', 'desk', 'edit', '1');
+INSERT INTO `anode` VALUES ('26', '餐桌删除', 'desk', 'del', '1');
+INSERT INTO `anode` VALUES ('27', '浏览分类', 'type', 'index', '1');
+INSERT INTO `anode` VALUES ('28', '分类添加', 'type', 'insert', '1');
+INSERT INTO `anode` VALUES ('29', '分类修改', 'type', 'edit', '1');
+INSERT INTO `anode` VALUES ('30', '分类删除', 'type', 'del', '1');
+INSERT INTO `anode` VALUES ('31', '会员浏览', 'vip', 'index', '1');
+INSERT INTO `anode` VALUES ('32', '会员添加', 'vip', 'insert', '1');
+INSERT INTO `anode` VALUES ('33', '会员编辑', 'vip', 'edit', '1');
+INSERT INTO `anode` VALUES ('34', '会员删除', 'vip', 'del', '1');
+INSERT INTO `anode` VALUES ('35', '厨师浏览', 'cooking', 'index', '1');
+INSERT INTO `anode` VALUES ('36', '厨师编辑', 'cooking', 'edit', '1');
+INSERT INTO `anode` VALUES ('37', '餐点浏览', 'food', 'index', '1');
+INSERT INTO `anode` VALUES ('38', '餐点添加', 'food', 'insert', '1');
+INSERT INTO `anode` VALUES ('39', '餐点修改', 'food', 'edit', '1');
+INSERT INTO `anode` VALUES ('40', '餐点删除', 'food', 'del', '1');
+INSERT INTO `anode` VALUES ('41', '浏览厨师', 'cooking', 'index', '1');
+INSERT INTO `anode` VALUES ('42', '厨师管理编辑', 'cooking', 'edit', '1');
+INSERT INTO `anode` VALUES ('43', '轮播图浏览', 'limg', 'index', '1');
+INSERT INTO `anode` VALUES ('44', '轮播图编辑', 'limg', 'edit', '1');
+INSERT INTO `anode` VALUES ('45', '轮播图删除', 'limg', 'del', '1');
+INSERT INTO `anode` VALUES ('46', '轮播图添加', 'limg', 'insert', '1');
+INSERT INTO `anode` VALUES ('47', '浏览上菜员管理', 'dish', 'index', '1');
+INSERT INTO `anode` VALUES ('48', '上菜员点击上菜', 'dish', 'change', '1');
 
 -- ----------------------------
 -- Table structure for `arole`
@@ -61,14 +90,15 @@ CREATE TABLE `arole` (
   `remark` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of arole
 -- ----------------------------
-INSERT INTO `arole` VALUES ('2', '项目经理', '1', '负责所有项目');
-INSERT INTO `arole` VALUES ('3', '部门主任', '1', '负责当期部门管理');
-INSERT INTO `arole` VALUES ('7', '临时工', '1', '公司员工');
+INSERT INTO `arole` VALUES ('2', '超级管理员', '1', '负责所有');
+INSERT INTO `arole` VALUES ('3', '厨师', '1', '负责当期菜品');
+INSERT INTO `arole` VALUES ('7', '服务员', '1', '餐厅员工');
+INSERT INTO `arole` VALUES ('9', '上菜员', '1', '给顾客上菜');
 
 -- ----------------------------
 -- Table structure for `arole_node`
@@ -84,8 +114,44 @@ CREATE TABLE `arole_node` (
 -- ----------------------------
 -- Records of arole_node
 -- ----------------------------
+INSERT INTO `arole_node` VALUES ('3', '36');
+INSERT INTO `arole_node` VALUES ('3', '35');
+INSERT INTO `arole_node` VALUES ('2', '48');
+INSERT INTO `arole_node` VALUES ('2', '47');
+INSERT INTO `arole_node` VALUES ('2', '46');
+INSERT INTO `arole_node` VALUES ('2', '45');
+INSERT INTO `arole_node` VALUES ('2', '44');
+INSERT INTO `arole_node` VALUES ('2', '43');
+INSERT INTO `arole_node` VALUES ('2', '42');
+INSERT INTO `arole_node` VALUES ('2', '41');
+INSERT INTO `arole_node` VALUES ('2', '40');
+INSERT INTO `arole_node` VALUES ('2', '39');
+INSERT INTO `arole_node` VALUES ('2', '37');
+INSERT INTO `arole_node` VALUES ('2', '36');
+INSERT INTO `arole_node` VALUES ('2', '35');
+INSERT INTO `arole_node` VALUES ('3', '23');
+INSERT INTO `arole_node` VALUES ('2', '34');
+INSERT INTO `arole_node` VALUES ('2', '33');
+INSERT INTO `arole_node` VALUES ('3', '5');
+INSERT INTO `arole_node` VALUES ('3', '1');
+INSERT INTO `arole_node` VALUES ('7', '13');
+INSERT INTO `arole_node` VALUES ('7', '5');
+INSERT INTO `arole_node` VALUES ('7', '1');
+INSERT INTO `arole_node` VALUES ('2', '32');
+INSERT INTO `arole_node` VALUES ('2', '31');
+INSERT INTO `arole_node` VALUES ('2', '30');
+INSERT INTO `arole_node` VALUES ('2', '29');
+INSERT INTO `arole_node` VALUES ('2', '28');
+INSERT INTO `arole_node` VALUES ('2', '27');
+INSERT INTO `arole_node` VALUES ('2', '26');
+INSERT INTO `arole_node` VALUES ('2', '25');
+INSERT INTO `arole_node` VALUES ('2', '24');
+INSERT INTO `arole_node` VALUES ('2', '23');
+INSERT INTO `arole_node` VALUES ('2', '22');
+INSERT INTO `arole_node` VALUES ('2', '21');
+INSERT INTO `arole_node` VALUES ('2', '20');
+INSERT INTO `arole_node` VALUES ('2', '19');
 INSERT INTO `arole_node` VALUES ('2', '16');
-INSERT INTO `arole_node` VALUES ('3', '7');
 INSERT INTO `arole_node` VALUES ('2', '15');
 INSERT INTO `arole_node` VALUES ('2', '14');
 INSERT INTO `arole_node` VALUES ('2', '13');
@@ -99,14 +165,46 @@ INSERT INTO `arole_node` VALUES ('2', '6');
 INSERT INTO `arole_node` VALUES ('2', '5');
 INSERT INTO `arole_node` VALUES ('2', '4');
 INSERT INTO `arole_node` VALUES ('2', '3');
-INSERT INTO `arole_node` VALUES ('3', '2');
 INSERT INTO `arole_node` VALUES ('2', '2');
 INSERT INTO `arole_node` VALUES ('2', '1');
-INSERT INTO `arole_node` VALUES ('3', '13');
-INSERT INTO `arole_node` VALUES ('3', '15');
-INSERT INTO `arole_node` VALUES ('7', '13');
-INSERT INTO `arole_node` VALUES ('7', '1');
+INSERT INTO `arole_node` VALUES ('3', '37');
+INSERT INTO `arole_node` VALUES ('3', '38');
+INSERT INTO `arole_node` VALUES ('3', '39');
+INSERT INTO `arole_node` VALUES ('3', '40');
+INSERT INTO `arole_node` VALUES ('3', '47');
 INSERT INTO `arole_node` VALUES ('7', '15');
+INSERT INTO `arole_node` VALUES ('7', '19');
+INSERT INTO `arole_node` VALUES ('7', '20');
+INSERT INTO `arole_node` VALUES ('7', '21');
+INSERT INTO `arole_node` VALUES ('7', '22');
+INSERT INTO `arole_node` VALUES ('7', '23');
+INSERT INTO `arole_node` VALUES ('7', '24');
+INSERT INTO `arole_node` VALUES ('7', '25');
+INSERT INTO `arole_node` VALUES ('7', '26');
+INSERT INTO `arole_node` VALUES ('7', '27');
+INSERT INTO `arole_node` VALUES ('7', '28');
+INSERT INTO `arole_node` VALUES ('7', '29');
+INSERT INTO `arole_node` VALUES ('7', '30');
+INSERT INTO `arole_node` VALUES ('7', '31');
+INSERT INTO `arole_node` VALUES ('7', '32');
+INSERT INTO `arole_node` VALUES ('7', '33');
+INSERT INTO `arole_node` VALUES ('7', '34');
+INSERT INTO `arole_node` VALUES ('7', '35');
+INSERT INTO `arole_node` VALUES ('7', '36');
+INSERT INTO `arole_node` VALUES ('7', '37');
+INSERT INTO `arole_node` VALUES ('7', '38');
+INSERT INTO `arole_node` VALUES ('7', '39');
+INSERT INTO `arole_node` VALUES ('7', '40');
+INSERT INTO `arole_node` VALUES ('7', '41');
+INSERT INTO `arole_node` VALUES ('7', '42');
+INSERT INTO `arole_node` VALUES ('7', '43');
+INSERT INTO `arole_node` VALUES ('7', '44');
+INSERT INTO `arole_node` VALUES ('7', '45');
+INSERT INTO `arole_node` VALUES ('7', '46');
+INSERT INTO `arole_node` VALUES ('7', '47');
+INSERT INTO `arole_node` VALUES ('7', '48');
+INSERT INTO `arole_node` VALUES ('9', '47');
+INSERT INTO `arole_node` VALUES ('9', '48');
 
 -- ----------------------------
 -- Table structure for `auser`
@@ -114,19 +212,20 @@ INSERT INTO `arole_node` VALUES ('7', '15');
 DROP TABLE IF EXISTS `auser`;
 CREATE TABLE `auser` (
   `id` int(5) unsigned NOT NULL AUTO_INCREMENT,
-  `username` varchar(64) NOT NULL,
+  `username` varchar(64) DEFAULT NULL,
   `name` varchar(50) NOT NULL,
   `userpass` char(32) NOT NULL,
-  `time` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=MyISAM AUTO_INCREMENT=77 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=79 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of auser
 -- ----------------------------
-INSERT INTO `auser` VALUES ('1', 'admin', '管理员', '21232f297a57a5a743894a0e4a801fc3', '');
-INSERT INTO `auser` VALUES ('76', '酷酷的安哲', '安哲啊', 'e10adc3949ba59abbe56e057f20f883e', '2016-11-10 18-05-21');
+INSERT INTO `auser` VALUES ('1', 'admin', '管理员', '21232f297a57a5a743894a0e4a801fc3');
+INSERT INTO `auser` VALUES ('76', '酷酷的安哲', '安哲啊', 'e10adc3949ba59abbe56e057f20f883e');
+INSERT INTO `auser` VALUES ('77', '洪鑫群', '洪鑫群', 'e10adc3949ba59abbe56e057f20f883e');
+INSERT INTO `auser` VALUES ('78', '万黎君', '万黎君', 'e10adc3949ba59abbe56e057f20f883e');
 
 -- ----------------------------
 -- Table structure for `auser_role`
@@ -145,8 +244,9 @@ CREATE TABLE `auser_role` (
 INSERT INTO `auser_role` VALUES ('3', '1');
 INSERT INTO `auser_role` VALUES ('2', '1');
 INSERT INTO `auser_role` VALUES ('3', '74');
-INSERT INTO `auser_role` VALUES ('2', '76');
+INSERT INTO `auser_role` VALUES ('7', '77');
 INSERT INTO `auser_role` VALUES ('3', '76');
+INSERT INTO `auser_role` VALUES ('9', '78');
 
 -- ----------------------------
 -- Table structure for `comment`
@@ -155,18 +255,20 @@ DROP TABLE IF EXISTS `comment`;
 CREATE TABLE `comment` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `foodsid` int(11) DEFAULT NULL,
-  `uid` varchar(255) DEFAULT NULL,
+  `uname` varchar(255) DEFAULT NULL,
   `comment` varchar(255) DEFAULT NULL,
-  `status` tinyint(10) DEFAULT NULL,
-  `score` tinyint(10) DEFAULT NULL,
+  `status` tinyint(10) DEFAULT '0',
+  `addtime` bigint(33) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of comment
 -- ----------------------------
-INSERT INTO `comment` VALUES ('1', '3', '2', '好啊', '0', '5');
-INSERT INTO `comment` VALUES ('2', '2', '4', '可以', '9', '4');
+INSERT INTO `comment` VALUES ('3', '74', '14', '狠辣', '0', '13555656');
+INSERT INTO `comment` VALUES ('4', '40', '游客', '111', '0', '1480095388');
+INSERT INTO `comment` VALUES ('5', '59', '游客', '餐厅装修品质不错\r\n', '0', '1480095547');
+INSERT INTO `comment` VALUES ('6', '65', '游客', '菜品还可以', '0', '1480136708');
 
 -- ----------------------------
 -- Table structure for `desk`
@@ -177,16 +279,28 @@ CREATE TABLE `desk` (
   `people` tinyint(10) DEFAULT NULL,
   `status` tinyint(10) DEFAULT NULL,
   `help` tinyint(10) DEFAULT '0' COMMENT '0 : 无请求 1：请求结账 2：请求服务',
+  `vip` varchar(16) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of desk
 -- ----------------------------
-INSERT INTO `desk` VALUES ('2', '2', '1', '0');
-INSERT INTO `desk` VALUES ('3', '4', '0', '1');
-INSERT INTO `desk` VALUES ('4', '8', '2', '0');
-INSERT INTO `desk` VALUES ('9', '8', '0', '2');
+INSERT INTO `desk` VALUES ('1', '1', '0', '0', '');
+INSERT INTO `desk` VALUES ('2', '2', '1', '0', '');
+INSERT INTO `desk` VALUES ('3', '1', '0', '0', null);
+INSERT INTO `desk` VALUES ('4', '2', '1', '0', '');
+INSERT INTO `desk` VALUES ('5', '2', '1', '0', '');
+INSERT INTO `desk` VALUES ('6', '0', '0', '0', null);
+INSERT INTO `desk` VALUES ('7', '0', '1', '0', '');
+INSERT INTO `desk` VALUES ('8', '2', '1', '0', '');
+INSERT INTO `desk` VALUES ('9', '0', '1', '0', '');
+INSERT INTO `desk` VALUES ('10', '1', '1', '0', '');
+INSERT INTO `desk` VALUES ('11', '0', '1', '0', '');
+INSERT INTO `desk` VALUES ('12', '0', '1', '0', '');
+INSERT INTO `desk` VALUES ('13', '1', '1', '0', '');
+INSERT INTO `desk` VALUES ('14', '1', '1', '0', '');
+INSERT INTO `desk` VALUES ('15', '2', '2', '0', null);
 
 -- ----------------------------
 -- Table structure for `foods`
@@ -203,7 +317,7 @@ CREATE TABLE `foods` (
   `is_empty` tinyint(11) DEFAULT NULL,
   `addtime` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=110 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of foods
@@ -229,7 +343,7 @@ INSERT INTO `foods` VALUES ('55', '5', '雪山玫瑰', '喜来客雪山玫瑰采
 INSERT INTO `foods` VALUES ('56', '5', '碳烤将军牛肋排', '无论色香味都非常不错，肥油都烤掉了，肉质酥而不烂，入口满嘴香气四溢。', '985.00', 'Uploads/2016-11-16/582c0ec0a6101.jpg', '1', '2', '1479282368');
 INSERT INTO `foods` VALUES ('57', '5', '章鱼丸子', '章鱼小丸子的成份主要是章鱼，章鱼烧粉，柴鱼片，海苔等．', '236.00', 'Uploads/2016-11-16/582c0f3fdf427.jpg', '1', '2', '1479282495');
 INSERT INTO `foods` VALUES ('58', '5', '冰杨梅', '冷冻冰杨梅，口感香甜。原汁原味，让您回味无穷。', '60.00', 'Uploads/2016-11-16/582c1065a22d0.jpg', '2', '2', '1479282789');
-INSERT INTO `foods` VALUES ('59', '6', '蟹黄鱼丸', '蟹黄鱼丸也被誉为长寿食品，\r\n以粉嫩爽口、口感细腻著称。\r\n我们今天用它跟萝卜、鱼头一起滚汤，鲜上加鲜，\r\n让人不由感叹：品此美味，不辞辛劳作羹汤。', '97.00', '', '2', '2', '1479282973');
+INSERT INTO `foods` VALUES ('59', '6', '蟹黄鱼丸', '蟹黄鱼丸也被誉为长寿食品，\r\n以粉嫩爽口、口感细腻著称。\r\n我们今天用它跟萝卜、鱼头一起滚汤，鲜上加鲜，\r\n让人不由感叹：品此美味，不辞辛劳作羹汤。', '97.00', 'Uploads/2016-11-22/5833cb1074dce.jpg', '2', '2', '1479282973');
 INSERT INTO `foods` VALUES ('60', '6', '香卤猪耳', '猪耳很有营养，并且口感非常好，尤其是当凉菜吃的“卤猪耳”\r\n吃到嘴里是又柔韧又脆，味道鲜香不腻，且富含胶质。', '140.00', 'Uploads/2016-11-16/582c11623a867.jpg', '2', '2', '1479283042');
 INSERT INTO `foods` VALUES ('61', '6', '芙蓉虾', '油锅炸至金黄色后浮起，倒出装盘即可', '240.00', 'Uploads/2016-11-16/582c11eecd051.jpg', '2', '2', '1479283182');
 INSERT INTO `foods` VALUES ('62', '6', '绿茶芋卷', '油 炸：中、低温油120-130℃炸制2分钟即可装盘', '60.00', 'Uploads/2016-11-16/582c12ab5e209.jpg', '2', '2', '1479283371');
@@ -280,7 +394,28 @@ INSERT INTO `foods` VALUES ('106', '10', '腊肉煲仔饭', '热腾腾香喷喷�
 INSERT INTO `foods` VALUES ('107', '8', '烫面玉米发糕', '开水先把玉米面烫好了，醒一个时辰，再做玉米饼子，很好吃', '133.00', 'Uploads/2016-11-16/582c4a051dc97.jpg', '2', '2', '1479297541');
 INSERT INTO `foods` VALUES ('108', '8', '咖喱土豆泥小刺猬', '土豆味甘、性平、微凉，入脾、胃、大肠经；有和胃调中，健脾利湿，解毒消炎，宽肠通便，降糖降脂，活血消肿，益气强身，美容，抗衰老之功效', '184.00', 'Uploads/2016-11-16/582c4a72d89f6.jpg', '2', '2', '1479297650');
 INSERT INTO `foods` VALUES ('109', '8', '时蔬酿鸡翅', '鸡中翅 胡萝卜100g土豆100g 辅料橄榄油适量盐适量生抽适量白糖适量蚝油适量', '103.00', 'Uploads/2016-11-16/582c4acb208d5.jpg', '2', '2', '1479297739');
-INSERT INTO `foods` VALUES ('111', '6', '222', 'asdasd', '1221.00', 'Uploads/2016-11-21/583303ee5d29d.jpg', '2', '2', '1479738350');
+
+-- ----------------------------
+-- Table structure for `imgs`
+-- ----------------------------
+DROP TABLE IF EXISTS `imgs`;
+CREATE TABLE `imgs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pic` varchar(255) DEFAULT NULL,
+  `status` tinyint(4) DEFAULT '2' COMMENT '1：开启 2：关闭',
+  `turn` tinyint(4) DEFAULT '0' COMMENT '0 :不使用 1234567..顺序',
+  `addtime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of imgs
+-- ----------------------------
+INSERT INTO `imgs` VALUES ('6', 'Uploads/Limg/2016-11-23/583558f884dd5.jpg', '1', '1', '1479891192');
+INSERT INTO `imgs` VALUES ('7', 'Uploads/Limg/2016-11-23/583558ff1be36.jpg', '1', '6', '1479891199');
+INSERT INTO `imgs` VALUES ('8', 'Uploads/Limg/2016-11-23/58355905a6905.jpg', '1', '3', '1479891205');
+INSERT INTO `imgs` VALUES ('9', 'Uploads/Limg/2016-11-23/5835590bb287b.jpg', '1', '4', '1479891211');
+INSERT INTO `imgs` VALUES ('10', 'Uploads/Limg/2016-11-23/5835895d11198.jpg', '2', '5', '1479901564');
 
 -- ----------------------------
 -- Table structure for `orders`
@@ -290,19 +425,42 @@ CREATE TABLE `orders` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `orderid` varchar(50) DEFAULT NULL,
   `desk` int(11) DEFAULT NULL,
-  `total` int(11) DEFAULT NULL,
-  `status` tinyint(10) DEFAULT NULL,
+  `total` decimal(11,2) DEFAULT NULL,
+  `status` tinyint(10) DEFAULT '0',
   `addtime` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=69 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of orders
 -- ----------------------------
-INSERT INTO `orders` VALUES ('2', '1111', '4', '2112', '1', null);
-INSERT INTO `orders` VALUES ('4', '2222', '3', '320', '1', null);
-INSERT INTO `orders` VALUES ('40', '2016112169708', '9', '912', '0', '1479705162');
-INSERT INTO `orders` VALUES ('41', '2016112126687', '3', '1056', '0', '1479720067');
+INSERT INTO `orders` VALUES ('40', '2016112169708', '9', '912.00', '1', '1479705162');
+INSERT INTO `orders` VALUES ('41', '2016112126687', '3', '1056.00', '1', '1479720067');
+INSERT INTO `orders` VALUES ('43', '2016112273847', '3', '647.00', '1', '1479797669');
+INSERT INTO `orders` VALUES ('44', '201611222154', '5', '672.00', '1', '1479799145');
+INSERT INTO `orders` VALUES ('45', '201611224599', '6', '392.00', '0', '1479813943');
+INSERT INTO `orders` VALUES ('46', '2016112255335', '13', '1363.00', '1', '1479818847');
+INSERT INTO `orders` VALUES ('47', '2016112394394', '12', '386.00', '1', '1479867970');
+INSERT INTO `orders` VALUES ('48', '2016112322897', '9', '202.00', '1', '1479884779');
+INSERT INTO `orders` VALUES ('49', '2016112325317', '3', '181.00', '0', '1479914437');
+INSERT INTO `orders` VALUES ('50', '2016112428827', '11', '401.00', '1', '1479970597');
+INSERT INTO `orders` VALUES ('51', '2016112426449', '10', '146.00', '1', '1479972544');
+INSERT INTO `orders` VALUES ('52', '2016112419867', '1', '153.00', '1', '1479973041');
+INSERT INTO `orders` VALUES ('53', '2016112462924', '2', '381.00', '1', '1479973155');
+INSERT INTO `orders` VALUES ('54', '2016112460352', '10', '264.00', '1', '1479975526');
+INSERT INTO `orders` VALUES ('55', '2016112421747', '1', '96.80', '1', '1479975974');
+INSERT INTO `orders` VALUES ('56', '2016112422152', '2', '284.00', '1', '1479976600');
+INSERT INTO `orders` VALUES ('57', '2016112422598', '9', '48.00', '1', '1479976949');
+INSERT INTO `orders` VALUES ('58', '201611243094', '1', '160.00', '1', '1479977099');
+INSERT INTO `orders` VALUES ('59', '2016112455670', '1', '60.00', '1', '1479977232');
+INSERT INTO `orders` VALUES ('60', '2016112436767', '13', '77.60', '1', '1479979892');
+INSERT INTO `orders` VALUES ('61', '2016112412191', '2', '96.00', '1', '1479980139');
+INSERT INTO `orders` VALUES ('62', '2016112491077', '5', '76.80', '1', '1479980500');
+INSERT INTO `orders` VALUES ('63', '2016112487943', '11', '361.60', '1', '1479986992');
+INSERT INTO `orders` VALUES ('64', '2016112484961', '5', '610.00', '1', '1479987806');
+INSERT INTO `orders` VALUES ('65', '2016112553204', '1', '153.00', '1', '1480037714');
+INSERT INTO `orders` VALUES ('66', '2016112610476', '4', '67.00', '1', '1480090878');
+INSERT INTO `orders` VALUES ('68', '201611277217', '12', '503.20', '1', '1480246128');
 
 -- ----------------------------
 -- Table structure for `orders_car`
@@ -317,16 +475,16 @@ CREATE TABLE `orders_car` (
   `num` int(11) DEFAULT NULL,
   `status` int(11) DEFAULT NULL COMMENT '0 : 未下单 1：已下单',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=114 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=195 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of orders_car
 -- ----------------------------
-INSERT INTO `orders_car` VALUES ('104', '9', '80', '宫保鱿鱼', '162.00', '2', '1');
-INSERT INTO `orders_car` VALUES ('105', '9', '70', '番茄肉酱意大利面', '122.00', '1', '1');
-INSERT INTO `orders_car` VALUES ('106', '9', '75', '白切鸡', '233.00', '2', '1');
-INSERT INTO `orders_car` VALUES ('107', '3', '77', '白灼虾', '186.00', '3', '1');
-INSERT INTO `orders_car` VALUES ('112', '3', '90', '口水鸡腿', '102.00', '1', '1');
+INSERT INTO `orders_car` VALUES ('126', '6', '61', '芙蓉虾', '240.00', '1', '1');
+INSERT INTO `orders_car` VALUES ('128', '6', '105', '酱料汁煎杏鲍菇', '231.00', '1', '1');
+INSERT INTO `orders_car` VALUES ('149', '3', '78', '麻辣肉片', '58.00', '1', '1');
+INSERT INTO `orders_car` VALUES ('150', '3', '50', '脆皮鸡腿', '123.00', '1', '1');
+INSERT INTO `orders_car` VALUES ('189', '1', '68', '三杯鸡', '153.00', '1', '1');
 
 -- ----------------------------
 -- Table structure for `orders_detail`
@@ -342,7 +500,7 @@ CREATE TABLE `orders_detail` (
   `status` tinyint(10) DEFAULT '1',
   `addtime` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=152 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=222 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of orders_detail
@@ -350,8 +508,80 @@ CREATE TABLE `orders_detail` (
 INSERT INTO `orders_detail` VALUES ('143', '2016112169708', '80', '宫保鱿鱼', '162.00', '2', '2', '1479705162');
 INSERT INTO `orders_detail` VALUES ('144', '2016112169708', '70', '番茄肉酱意大利面', '122.00', '1', '2', '1479705162');
 INSERT INTO `orders_detail` VALUES ('145', '2016112169708', '75', '白切鸡', '233.00', '2', '2', '1479705162');
-INSERT INTO `orders_detail` VALUES ('146', '2016112126687', '77', '白灼虾', '186.00', '3', '0', '1479720068');
-INSERT INTO `orders_detail` VALUES ('150', '2016112126687', '90', '口水鸡腿', '102.00', '1', '1', '1479744843');
+INSERT INTO `orders_detail` VALUES ('146', '2016112126687', '77', '白灼虾', '186.00', '3', '2', '1479720068');
+INSERT INTO `orders_detail` VALUES ('150', '2016112126687', '90', '口水鸡腿', '102.00', '1', '2', '1479744843');
+INSERT INTO `orders_detail` VALUES ('154', '2016112273847', '69', '什么吓', '123.00', '3', '2', '1479797669');
+INSERT INTO `orders_detail` VALUES ('155', '2016112273847', '99', '芹菜番茄披萨', '149.00', '1', '2', '1479797669');
+INSERT INTO `orders_detail` VALUES ('156', '2016112273847', '87', '火龙果黑椒牛肉粒', '129.00', '1', '2', '1479797669');
+INSERT INTO `orders_detail` VALUES ('157', '201611222154', '106', '腊肉煲仔饭', '106.00', '1', '2', '1479799145');
+INSERT INTO `orders_detail` VALUES ('158', '201611222154', '47', '红烧烤鸡', '121.00', '1', '2', '1479799145');
+INSERT INTO `orders_detail` VALUES ('159', '201611222154', '80', '宫保鱿鱼', '162.00', '2', '2', '1479799145');
+INSERT INTO `orders_detail` VALUES ('162', '201611224599', '61', '芙蓉虾', '240.00', '1', '0', '1479813944');
+INSERT INTO `orders_detail` VALUES ('164', '201611224599', '105', '酱料汁煎杏鲍菇', '231.00', '1', '0', '1479813944');
+INSERT INTO `orders_detail` VALUES ('172', '2016112255335', '56', '碳烤将军牛肋排', '985.00', '1', '2', '1479818847');
+INSERT INTO `orders_detail` VALUES ('175', '2016112255335', '38', '红烧肉', '50.00', '2', '2', '1479818867');
+INSERT INTO `orders_detail` VALUES ('176', '2016112255335', '78', '麻辣肉片', '58.00', '2', '2', '1479818992');
+INSERT INTO `orders_detail` VALUES ('177', '2016112255335', '80', '宫保鱿鱼', '162.00', '1', '2', '1479820418');
+INSERT INTO `orders_detail` VALUES ('178', '2016112394394', '66', '西葫芦夹心饼', '96.00', '1', '2', '1479867970');
+INSERT INTO `orders_detail` VALUES ('179', '2016112394394', '76', '豉油鸡', '168.00', '1', '2', '1479867970');
+INSERT INTO `orders_detail` VALUES ('180', '2016112394394', '63', '麻婆豆腐', '122.00', '1', '2', '1479867970');
+INSERT INTO `orders_detail` VALUES ('181', '2016112322897', '84', '干煸肥肠', '142.00', '1', '3', '1479884779');
+INSERT INTO `orders_detail` VALUES ('184', '2016112325317', '78', '麻辣肉片', '58.00', '1', '0', '1479914437');
+INSERT INTO `orders_detail` VALUES ('185', '2016112325317', '50', '脆皮鸡腿', '123.00', '1', '0', '1479914437');
+INSERT INTO `orders_detail` VALUES ('186', '2016112322897', '63', '麻婆豆腐', '122.00', '1', '3', '1479950219');
+INSERT INTO `orders_detail` VALUES ('187', '2016112322897', '65', '胭脂冬瓜', '60.00', '1', '3', '1479950462');
+INSERT INTO `orders_detail` VALUES ('188', '2016112428827', '83', '腐乳虎皮鹌鹑蛋', '142.00', '1', '0', '1479970597');
+INSERT INTO `orders_detail` VALUES ('189', '2016112428827', '89', '油面筋塞肉', '120.00', '3', '0', '1479970597');
+INSERT INTO `orders_detail` VALUES ('190', '2016112426449', '69', '什么吓', '123.00', '1', '2', '1479972544');
+INSERT INTO `orders_detail` VALUES ('191', '2016112426449', '62', '绿茶芋卷', '60.00', '1', '2', '1479972544');
+INSERT INTO `orders_detail` VALUES ('194', '2016112419867', '74', '跳水鱼', '132.00', '1', '2', '1479973041');
+INSERT INTO `orders_detail` VALUES ('195', '2016112419867', '58', '冰杨梅', '60.00', '1', '2', '1479973041');
+INSERT INTO `orders_detail` VALUES ('196', '2016112462924', '85', '茄汁虾', '97.00', '1', '2', '1479973155');
+INSERT INTO `orders_detail` VALUES ('198', '2016112462924', '94', '法式贻贝', '284.00', '1', '2', '1479973169');
+INSERT INTO `orders_detail` VALUES ('199', '2016112460352', '62', '绿茶芋卷', '60.00', '1', '2', '1479975526');
+INSERT INTO `orders_detail` VALUES ('200', '2016112460352', '81', '川味烧鸡翅', '122.00', '1', '2', '1479975526');
+INSERT INTO `orders_detail` VALUES ('201', '2016112460352', '48', '蒜香叉烧排骨', '148.00', '1', '2', '1479975526');
+INSERT INTO `orders_detail` VALUES ('202', '2016112421747', '86', '啤酒蒸带鱼', '121.00', '1', '2', '1479975974');
+INSERT INTO `orders_detail` VALUES ('203', '2016112422152', '86', '啤酒蒸带鱼', '121.00', '1', '2', '1479976600');
+INSERT INTO `orders_detail` VALUES ('204', '2016112422152', '72', '墨西哥风味炖牛肉', '234.00', '1', '2', '1479976600');
+INSERT INTO `orders_detail` VALUES ('205', '2016112422598', '65', '胭脂冬瓜', '60.00', '1', '2', '1479976949');
+INSERT INTO `orders_detail` VALUES ('206', '201611243094', '92', '五味鸭', '200.00', '1', '2', '1479977099');
+INSERT INTO `orders_detail` VALUES ('207', '2016112455670', '62', '绿茶芋卷', '60.00', '1', '2', '1479977232');
+INSERT INTO `orders_detail` VALUES ('208', '2016112436767', '59', '蟹黄鱼丸', '97.00', '1', '2', '1479979892');
+INSERT INTO `orders_detail` VALUES ('209', '2016112412191', '91', '酱焖茄盒', '60.00', '2', '2', '1479980139');
+INSERT INTO `orders_detail` VALUES ('210', '2016112491077', '66', '西葫芦夹心饼', '96.00', '1', '2', '1479980500');
+INSERT INTO `orders_detail` VALUES ('211', '2016112487943', '82', '腐竹炖牛腩', '232.00', '1', '2', '1479986992');
+INSERT INTO `orders_detail` VALUES ('212', '2016112487943', '101', '韩式辣酱炒鱿鱼须', '220.00', '1', '2', '1479986992');
+INSERT INTO `orders_detail` VALUES ('213', '2016112484961', '89', '油面筋塞肉', '120.00', '2', '0', '1479987806');
+INSERT INTO `orders_detail` VALUES ('214', '2016112484961', '65', '胭脂冬瓜', '60.00', '1', '2', '1479987806');
+INSERT INTO `orders_detail` VALUES ('215', '2016112484961', '54', '外婆家醉鱿鱼', '310.00', '1', '0', '1479996350');
+INSERT INTO `orders_detail` VALUES ('216', '2016112553204', '68', '三杯鸡', '153.00', '1', '0', '1480037714');
+INSERT INTO `orders_detail` VALUES ('217', '2016112610476', '67', '皮蛋香粥', '67.00', '1', '0', '1480090878');
+INSERT INTO `orders_detail` VALUES ('218', '2016112668411', '51', '水煮鱼', '98.00', '1', '0', '1480165266');
+INSERT INTO `orders_detail` VALUES ('219', '201611277217', '87', '火龙果黑椒牛肉粒', '129.00', '1', '2', '1480246128');
+INSERT INTO `orders_detail` VALUES ('221', '201611277217', '103', '粉丝蟹煲', '250.00', '2', '2', '1480246128');
+
+-- ----------------------------
+-- Table structure for `tickling`
+-- ----------------------------
+DROP TABLE IF EXISTS `tickling`;
+CREATE TABLE `tickling` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `vip` varchar(255) DEFAULT NULL,
+  `info` varchar(255) DEFAULT NULL,
+  `time` int(11) DEFAULT NULL,
+  `status` tinyint(10) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of tickling
+-- ----------------------------
+INSERT INTO `tickling` VALUES ('1', '游客', '环境有点差', '0', '1');
+INSERT INTO `tickling` VALUES ('2', '游客', '服务态度不行', '0', '1');
+INSERT INTO `tickling` VALUES ('3', '游客', '环境一般般', '0', '1');
+INSERT INTO `tickling` VALUES ('4', '游客', '1111111', '0', '1');
+INSERT INTO `tickling` VALUES ('5', '游客', '222222', '1480079202', '1');
 
 -- ----------------------------
 -- Table structure for `type`
@@ -363,7 +593,7 @@ CREATE TABLE `type` (
   `pid` int(11) DEFAULT '0',
   `path` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of type
@@ -375,6 +605,36 @@ INSERT INTO `type` VALUES ('7', '新疆菜', '0', '0,');
 INSERT INTO `type` VALUES ('8', '日本料理', '0', '0,');
 INSERT INTO `type` VALUES ('9', '闽菜', '0', '0,');
 INSERT INTO `type` VALUES ('10', '客家菜', '0', '0,');
+
+-- ----------------------------
+-- Table structure for `url`
+-- ----------------------------
+DROP TABLE IF EXISTS `url`;
+CREATE TABLE `url` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `status` tinyint(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=126 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of url
+-- ----------------------------
+INSERT INTO `url` VALUES ('113', '花瓣', 'http://huaban.com/', '0');
+INSERT INTO `url` VALUES ('112', '百度', 'http://www.baidu.com', '0');
+INSERT INTO `url` VALUES ('114', 'bootstrap中文网', 'http://www.bootcss.com/', '0');
+INSERT INTO `url` VALUES ('115', '兄弟连', 'http://bbs.lampbrother.net/', '0');
+INSERT INTO `url` VALUES ('116', '京东', 'https://www.jd.com', '0');
+INSERT INTO `url` VALUES ('117', '淘宝', 'https://www.taobao.com/', '0');
+INSERT INTO `url` VALUES ('118', '搜狐网', 'http://www.sohu.com/', '0');
+INSERT INTO `url` VALUES ('119', '网易', 'http://www.163.com/', '0');
+INSERT INTO `url` VALUES ('120', '爱奇艺', 'http://vip.iqiyi.com/', '0');
+INSERT INTO `url` VALUES ('121', '阿里云', 'https://mail.aliyun.com', '0');
+INSERT INTO `url` VALUES ('122', '携程旅行', 'http://www.ctrip.com/', '0');
+INSERT INTO `url` VALUES ('123', '酷狗音乐', 'http://www.kugou.com/', '0');
+INSERT INTO `url` VALUES ('124', 'QQ邮箱', 'https://mail.qq.com', '0');
+INSERT INTO `url` VALUES ('125', 'NBA', 'http://hao.360.cn/', '0');
 
 -- ----------------------------
 -- Table structure for `user`
@@ -406,21 +666,16 @@ CREATE TABLE `vip` (
   `phone` varchar(16) DEFAULT NULL,
   `addtime` int(11) DEFAULT NULL,
   `points` int(11) DEFAULT '0',
-  `status` tinyint(11) DEFAULT NULL,
+  `status` tinyint(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of vip
 -- ----------------------------
-INSERT INTO `vip` VALUES ('1', '小万万', '123456', '133263252433', null, '0', null);
-INSERT INTO `vip` VALUES ('2', '小冰冰', '123456', '113232333', null, '0', null);
-INSERT INTO `vip` VALUES ('3', '小康康', '123456', '124343432', null, '0', null);
-INSERT INTO `vip` VALUES ('4', null, 'anzhe.123', '15256897714', null, '0', null);
-INSERT INTO `vip` VALUES ('5', null, 'anzhe.123', '15276867864', null, '0', null);
-INSERT INTO `vip` VALUES ('6', null, '123456', '13147897580', null, '0', null);
-INSERT INTO `vip` VALUES ('7', null, '123456.', '13195775665', null, '0', null);
-INSERT INTO `vip` VALUES ('8', null, '123456', '15275776435', null, '0', null);
-INSERT INTO `vip` VALUES ('17', null, 'e10adc3949ba59abbe56e057f20f883e', '13184764543', null, '0', null);
-INSERT INTO `vip` VALUES ('18', null, 'e10adc3949ba59abbe56e057f20f883e', '13156897741', null, '0', null);
-INSERT INTO `vip` VALUES ('19', '哈哈啊哈1', null, '13121211223', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('1', '小万万', '123456', '13326325243', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('12', '小康康', '123456', '12434343231', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('14', '小冰冰', '123456', '11323233323', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('17', null, 'e10adc3949ba59abbe56e057f20f883e', '13184764543', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('18', null, 'e10adc3949ba59abbe56e057f20f883e', '13156897741', '1479719968', '0', '0');
+INSERT INTO `vip` VALUES ('20', null, 'e10adc3949ba59abbe56e057f20f883e', '15980002225', null, '0', '0');

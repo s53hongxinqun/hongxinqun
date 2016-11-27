@@ -1,15 +1,37 @@
-			<div class="footer-section">
-				<div class="container">
-					<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">">
-								<div class="social-icons">
-										<a href="#"><i class="icon4"></i></a>
-										<a href="#"><i class="icon5"></i></a>
-										<a href="#"><i class="icon6"></i></a>
-									</div>
-								</div>
-							<div class="footer-bottom">			
-						</div>
+<div class="footer-section" style="height:400px;overflow:hidden;">
+	<div class="container">
+		<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<h1 style="color:#FB4B4B;font-size:30px;font-family:楷体;font-weight:bold">食品资讯</h1>
+			<hr>
+			<div style="font-size:20px;height:350px">
+			    
+				<table id="newslist">
+				    <volist name="newList.newslist" id="v">
+			            <tr>
 
+			                <td style="width:800px;">
+			                	<img src="" alt="">
+			                	<a href="<?php echo $v['url']; ?>" target="_blank" style="color:#9cc;float:left;margin-left:100px">
+			                    <?php echo $v['title']; ?>
+			                    </a>
+			                </td>
+			                <td style="color:black">		                	
+			                <i><?php echo $v['ctime'] ?></i>
+			                </td>
+			            </tr>
+			        </volist>
+					
+				</table>
+		    </div>				
+		</div>
+	</div>
+</div>
 
-					</div>
-				</div>
+<script>
+		  $(function(){
+	            setInterval(function (){
+	                $('#newslist tr').last().fadeTo(0,0).hide().prependTo('#newslist').slideDown(1000).fadeTo(1000,1);
+	            },3000)
+           })
+
+</script>

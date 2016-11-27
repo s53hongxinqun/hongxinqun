@@ -1,0 +1,3193 @@
+[ 2016-11-27T00:12:02+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:12:06+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:13:24+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:13:28+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:13:57+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:16:39+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:16:42+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:16:43+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vip` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `vip` WHERE `phone` = '11111' LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:16:51+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:17:06+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:19:01+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:19:08+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-27T00:19:27+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:19:39+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:24:15+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:24:22+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-27T00:25:45+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:26:45+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:26:55+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:27:28+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:27:36+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:28:24+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:28:26+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:28:36+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:28:36+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:29:56+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:30:06+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:30:27+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:30:29+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:30:53+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:30:59+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:31:02+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:32:01+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:32:08+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:33:10+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:33:33+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:33:37+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-27T00:34:44+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:37:35+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:37:47+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-27T00:38:14+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:38:18+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:38:38+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:38:42+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:38:55+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:40:24+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.149009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.149009s ]
+
+[ 2016-11-27T00:40:33+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:40:50+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:41:03+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:41:17+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:41:38+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-27T00:41:42+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:42:17+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:42:21+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:42:34+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-27T00:42:39+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/phonelook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-27T00:42:47+08:00 ] ::1 /hongxinqun/index.php/Admin/Vip/mess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include_once(./CCPRestSmsSDK.php): failed to open stream: No such file or directory C:\wamp\www\hongxinqun\Application\Common\Common\function.php 第 28 行.
+NOTIC: [2] include_once(): Failed opening './CCPRestSmsSDK.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\hongxinqun\Application\Common\Common\function.php 第 28 行.
+
+[ 2016-11-27T19:21:59+08:00 ] 127.0.0.1 /hongxinqun/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: admin_user F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 10 行.
+
+[ 2016-11-27T19:22:00+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-11-27T19:22:06+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `auser` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auser` WHERE `username` = 'admn' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-27T19:22:14+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `auser` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `auser` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `anode` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `arole_node` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `auser_role` [ RunTime:0.0058s ]
+SQL: SELECT `mname`,`aname` FROM `anode` WHERE ( id in( SELECT `nid` FROM `arole_node` WHERE ( rid in ( SELECT `rid` FROM `auser_role` WHERE `uid` = '1'  ) )  ) )  [ RunTime:0.0012s ]
+
+[ 2016-11-27T19:22:15+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2016-11-27T19:22:24+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0032s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 9 ) [ RunTime:0.0817s ]
+
+[ 2016-11-27T19:22:24+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-11-27T19:22:30+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0030s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 8 ) [ RunTime:0.0915s ]
+
+[ 2016-11-27T19:22:30+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-11-27T19:22:33+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0031s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 7 ) [ RunTime:0.0543s ]
+
+[ 2016-11-27T19:22:33+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-11-27T19:22:36+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0032s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 4 ) [ RunTime:0.0902s ]
+
+[ 2016-11-27T19:22:36+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001575s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-11-27T19:22:39+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0030s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 5 ) [ RunTime:0.0891s ]
+
+[ 2016-11-27T19:22:39+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-11-27T19:22:42+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0040s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 13 ) [ RunTime:0.0832s ]
+
+[ 2016-11-27T19:22:42+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-11-27T19:22:45+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0035s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 11 ) [ RunTime:0.1212s ]
+
+[ 2016-11-27T19:22:45+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0437s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-11-27T19:22:48+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.1452s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 12 ) [ RunTime:0.1280s ]
+
+[ 2016-11-27T19:22:48+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-11-27T19:22:52+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-11-27T19:23:50+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Limg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `imgs` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `imgs`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: page F:\wamp\www\hongxinqun\Application\Runtime\Cache\Admin\8355a70c98ed6f0248c23aa3718d4758.php 第 532 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-11-27T19:23:53+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Url/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `url` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `url` LIMIT 1   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\UrlController.class.php 第 16 行.
+SQL: SELECT * FROM `url` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-11-27T19:23:56+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Tickling/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tickling` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tickling` ORDER BY status ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-11-27T19:24:01+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-11-27T19:24:41+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-11-27T19:24:43+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-11-27T19:24:45+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/yanzheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-11-27T19:25:37+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-11-27T19:25:40+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-11-27T19:25:51+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/3/id/10/orderid/2016112460352.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0034s ]
+SQL: UPDATE `desk` SET `status`='1',`help`='0' WHERE ( id = 10 ) [ RunTime:0.1028s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0039s ]
+SQL: UPDATE `orders` SET `status`='1' WHERE ( orderid = 2016112460352 ) [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0036s ]
+SQL: DELETE FROM `orders_car` WHERE ( desk = 10 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-11-27T19:25:52+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-11-27T19:27:49+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-11-27T19:27:53+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 7,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-11-27T19:27:55+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 14,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-11-27T19:27:58+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-11-27T19:28:01+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-11-27T19:29:30+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Tickling/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `tickling` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tickling` ORDER BY status ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-11-27T19:29:49+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-11-27T19:29:58+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/detail/orderid/201611224599.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `orders` WHERE `orderid` = '201611224599'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '201611224599'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0029s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 61  [ RunTime:0.0003s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 105  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-11-27T19:30:09+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-11-27T19:30:11+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/detail/orderid/201611277217.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `orders` WHERE `orderid` = '201611277217'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '201611277217'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 87  [ RunTime:0.0003s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 103  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-11-27T19:30:16+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/doDesk/id/219.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0040s ]
+SQL: UPDATE `orders_detail` SET `status`='2' WHERE `id` = 219 [ RunTime:0.0927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-11-27T19:30:17+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/detail/orderid/201611277217.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `orders` WHERE `orderid` = '201611277217'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '201611277217'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0039s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 87  [ RunTime:0.0003s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 103  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-11-27T19:30:19+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/doDesk/id/221.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0033s ]
+SQL: UPDATE `orders_detail` SET `status`='2' WHERE `id` = 221 [ RunTime:0.0419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-27T19:30:20+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/detail/orderid/201611277217.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `orders` WHERE `orderid` = '201611277217'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `orders_detail` WHERE `orderid` = '201611277217'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0030s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 87  [ RunTime:0.0011s ]
+SQL: SELECT `picname` FROM `foods` WHERE `id` = 103  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-11-27T19:30:33+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Help/doCheckout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `orders_detail` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `orders_detail` WHERE ( orderid =  201611277217 and status in(0,1,3) )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0029s ]
+SQL: UPDATE `desk` SET `help`='1' WHERE `id` = 12 [ RunTime:0.1026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-11-27T19:30:36+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-11-27T19:30:50+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/3/id/12/orderid/201611277217.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0036s ]
+SQL: UPDATE `desk` SET `status`='1',`help`='0' WHERE ( id = 12 ) [ RunTime:0.0867s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0037s ]
+SQL: UPDATE `orders` SET `status`='1' WHERE ( orderid = 201611277217 ) [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `orders_car` [ RunTime:0.0034s ]
+SQL: DELETE FROM `orders_car` WHERE ( desk = 12 ) [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-11-27T19:30:52+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-11-27T19:31:06+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-27T19:31:08+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-11-27T19:31:12+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-11-27T19:31:13+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0031s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-11-27T19:31:15+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0034s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-11-27T19:31:18+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-11-27T19:31:20+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2016-11-27T19:31:23+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Count/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `vip` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vip` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auser` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auser` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-11-27T19:31:28+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-11-27T19:31:30+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `foods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\FoodController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `foods` [ RunTime:0.0047s ]
+SQL: SELECT f.*,t.name FROM foods f left join type t on f.typeid = t.id  LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-11-27T19:31:32+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/yanzheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-11-27T19:31:41+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/mess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2] include_once(./CCPRestSmsSDK.php): failed to open stream: No such file or directory F:\wamp\www\hongxinqun\Application\Common\Common\function.php 第 28 行.
+NOTIC: [2] include_once(): Failed opening './CCPRestSmsSDK.php' for inclusion (include_path='.;C:\php\pear') F:\wamp\www\hongxinqun\Application\Common\Common\function.php 第 28 行.
+
+[ 2016-11-27T19:32:03+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/doYanzheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-11-27T19:32:04+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Food/yanzheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-11-27T19:32:11+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-11-27T19:32:12+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-11-27T19:32:13+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-11-27T19:32:14+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-11-27T19:32:19+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0041s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-11-27T19:32:21+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-27T19:33:17+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\CommentController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0035s ]
+SQL: SELECT c.*,f.foods FROM comment c left join foods as f on c.foodsid=f.id  ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-11-27T19:33:20+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-11-27T19:33:22+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-27T19:33:43+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `auser` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `arole` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `auser_role` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `auser`  [ RunTime:0.0003s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '3' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '76'  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '3' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '77'  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '78'  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '9' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-11-27T19:33:47+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `anode` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `anode`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: page F:\wamp\www\hongxinqun\Application\Runtime\Cache\Admin\3b413a7ffc5043a6cb35ecf769ae0bb3.php 第 523 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-11-27T19:33:54+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `anode` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `anode`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: page F:\wamp\www\hongxinqun\Application\Runtime\Cache\Admin\3b413a7ffc5043a6cb35ecf769ae0bb3.php 第 523 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-11-27T19:33:56+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `arole` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `anode` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `arole_node` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `auser_role` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `arole`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `arole_node` WHERE `rid` = '2'  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '48' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '47' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '46' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '45' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '44' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '43' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '42' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '41' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '40' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '35' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '34' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '33' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '32' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '31' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '30' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '29' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '28' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '27' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '26' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '25' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '24' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '23' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '22' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '21' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '20' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '19' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '14' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `arole_node` WHERE `rid` = '3'  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '35' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '23' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '38' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '40' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '47' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `arole_node` WHERE `rid` = '7'  [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '19' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '20' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '21' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '22' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '23' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '24' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '25' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '26' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '27' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '28' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '29' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '30' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '31' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '32' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '33' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '34' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '35' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '38' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '40' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '41' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '42' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '43' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '44' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '45' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '46' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '48' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `arole_node` WHERE `rid` = '9'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `anode` WHERE `id` = '48' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-11-27T19:33:56+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/role/ajaxshow.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+
+[ 2016-11-27T19:33:58+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\hongxinqun\Application\Admin\Controller\AdminController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `auser` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `arole` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `auser_role` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `auser`  [ RunTime:0.0002s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '3' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '76'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '3' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '77'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `rid` FROM `auser_role` WHERE `uid` = '78'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `arole` WHERE `id` = '9' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-11-27T19:34:03+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Desk/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-11-27T19:34:14+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Desk/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-11-27T19:36:16+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Desk/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-11-27T19:36:22+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Desk/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `desk` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\DeskController.class.php 第 16 行.
+SQL: SELECT * FROM `desk` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-11-27T19:36:30+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Count/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `arole` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `arole`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auser_role` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auser_role` WHERE `rid` = '2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auser_role` WHERE `rid` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auser_role` WHERE `rid` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auser_role` WHERE `rid` = '9' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-11-27T19:36:36+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Desk/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-11-27T19:36:47+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-11-27T19:36:56+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Limg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `imgs` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `imgs`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: page F:\wamp\www\hongxinqun\Application\Runtime\Cache\Admin\8355a70c98ed6f0248c23aa3718d4758.php 第 532 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-27T19:36:58+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row F:\wamp\www\hongxinqun\Application\Admin\Controller\OrderController.class.php 第 16 行.
+SQL: SELECT * FROM `orders` ORDER BY status,id,addtime desc LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-11-27T19:37:25+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-11-27T19:39:16+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/cstatus/status/1/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined index: orderid F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0033s ]
+SQL: UPDATE `desk` SET `status`='1' WHERE ( id = 4 ) [ RunTime:0.1075s ]
+
+[ 2016-11-27T19:39:16+08:00 ] 127.0.0.1 /hongxinqun/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\wamp\www\hongxinqun\Application\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `desk` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `desk` ORDER BY status,id  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 3 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 6 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 4 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 5 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 7 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 12 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 13 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 14 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `orders` WHERE `desk` = 15 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+

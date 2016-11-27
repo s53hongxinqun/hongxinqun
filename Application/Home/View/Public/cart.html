@@ -5,27 +5,69 @@
 			<div id="quick_links" class="quick_links" >
 				<li>
 					<a href="#" class="my_qlinks"><i class="setting"></i></a>
+					<?php session_start();
+						// console($_SESSION);
+					?>
+				<if condition="$Think.session.phone eq null" >
+				<div class="ibar_login_box status_login">
+
+						<div>
+					
+							<center>
+							<br>								
+							<br>								
+							<span class="h4">当前身份：游客</span>
+							<br>
+						<div class="login_btnbox">
+							<a href="<{:U('Home/Reg/index')}>" class="login_order">前往注册</a>
+							<a href="<{:U('Home/Entry/index')}>" class="login_favorite">登录</a>
+						</div>
+							</center>
+						</div>
+
+						
+				</div>
+				<else/>
+
 					<div class="ibar_login_box status_login">
 						<div class="avatar_box">
 							<p class="avatar_imgbox"><img src="__PUBLIC__/Home/Images/no-img_mid_.jpg" /></p>
 							<ul class="user_info">
-								<li>用户名：sl19931003</li>
-								<li>级&nbsp;别：普通会员</li>
+								<li>用户名：<?php echo $_SESSION['phone']?></li>
+								<li>级&nbsp;别：会员</li>
 							</ul>
 						</div>
 						<div class="login_btnbox">
-							<a href="#" class="login_order">我的订单</a>
-							<a href="#" class="login_favorite">我的收藏</a>
+							<a href="<{:U('Home/Edit/index',array('phone'=>$_SESSION['phone']))}>" class="login_order">修改密码</a>
+							<a href="<{:U('Home/Public/logout')}>" class="login_favorite">退出登录</a>
 						</div>
 						<i class="icon_arrow_white"></i>
 					</div>
+				</if>
 				</li>
-				<li id="shopCart" style="height:200px">
+				<li id="shopCart">
 					<a href="#" class="message_list" ><i class="message"></i><div class="span">我的餐车</div></a>
 				</li>
+				<!-- 反馈 -->
+				<li>
+					<a href="#" role="button" data-toggle="modal" data-target="#aa" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<div class="mp_tooltip">反馈<i class="icon_arrow_right_black"></i></div>
+				</li>
+				<!-- 反馈结束 -->
+				<!-- 地图 -->
+				<li>
+					<a href="#" role="button" data-toggle="modal" data-target="#placeshow" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<div class="mp_tooltip">地图<i class="icon_arrow_right_black"></i></div>
+				</li>
+				<!-- 地图结束 -->
 
 			</div>
-			<div class="quick_toggle">
+			<div class="quick_toggle" data-toggle="modal" data-target="#tuLing">
+				<li>
+					<a href="#" class="mpbtn_recharge"><i class="view"></i></a>
+					<div class="mp_tooltip" style=" visibility:hidden;cursor:pointer">图灵机器人<i class="icon_arrow_right_black"></i>
+					</div>
+				</li>
 				<li>
 					<a href="#"><i class="kfzx"></i></a>
 					<div id="help2" a="<?php session_start();echo $_SESSION['desk']; ?>"class="mp_tooltip" style="cursor:pointer;">呼叫服务<i class="icon_arrow_right_black"></i></div>
@@ -38,8 +80,42 @@
 			</div>
 		</div>
 		<div id="quick_links_pop" class="quick_links_pop hide"></div>
+
 	</div>
 </div>
+
+<!-- 反馈模态框 -->
+<div class="modal fade" id="aa">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="<{:U('Home/Tickling/index')}>" method="post">
+      <div class="modal-header">
+      <!-- <input type="hidden" name="vip" value=""> -->
+      <!-- <input type="hidden" name="time" value="<{time()}>"> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">用户反馈</h3>
+      </div>
+      <div class="modal-body">
+        <textarea name="info"  cols="90" rows="10" style="resize:none;border:0;" placeholder="请输入您的建议"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">提交反馈</button>
+      </div>
+      </form>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- 地图模态框 -->
+<div class="modal fade" id="placeshow">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <img style="margin:20px" width="500" height="400" src="http://api.map.baidu.com/staticimage?width=500&height=400&center=121.44587,31.299154&zoom=18">
+      <h3>地址：上海市闸北区万荣路1188弄</h3>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 
 <!--[if lte IE 8]>
@@ -63,6 +139,21 @@
            dataType:'json',
         })
     })
+
+    // $('#help2').on('click',function(){
+    //     var desk = $('#help').attr('a');
+    //     $.ajax({
+    //        type:'post',
+    //        url:"<{:U('Admin/Help/doHelp')}>",
+    //        data:{'desk':desk},
+    //        success:function(data){
+    //           if(data){
+    //             alert('已呼叫服务员，请稍等。。。。');
+    //           }
+    //         },
+    //        dataType:'json',
+    //     })
+    // })
 
 
 	$(".quick_links_panel li").mouseenter(function(){
@@ -126,7 +217,7 @@ $("body").click(function(e){
 
 function setCartShow(obj){
 	var is_show = $('#quick_links_pop').css('display');
-	console.log(is_show);
+	// console.log(is_show);
 	if(is_show == 'none'){
 		$('.quick_links_wrap').css('width', '320px');
 		getCartHtml();

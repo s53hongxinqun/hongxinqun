@@ -19,6 +19,9 @@ class AdminController extends Controller
 		$mname = CONTROLLER_NAME;//获取控制器名
 		$aname = ACTION_NAME; // 获取方法名
 		$nodelist = $_SESSION['admin_user']['nodelist'];// 获取权限列表
+		
+		// dump($nodelist);
+		// exit;
 		// 让超级管理拥有所有权限
 		if ($_SESSION['admin_user'][0]['username'] != 'admin') {
 			// 验证操作权限

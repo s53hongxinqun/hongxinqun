@@ -67,7 +67,7 @@ body{
   }
 .rslides img {
   display: block;
-  height: auto;
+  height: 605px;
   float: left;
   width: 100%;
   border: 0;
@@ -150,7 +150,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .callbacks_nav.next {
   left: auto;
   background-position: right top;
-  right: 0;
+  right: 40px;
  }
 /*-- responsive-mediaquries --*/
 @media(max-width:1024px){

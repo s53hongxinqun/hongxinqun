@@ -46,15 +46,45 @@ class RegController extends Controller {
 	public function insert()
 	{
 
-		// var_dump($_POST);
-		// exit;
-		$vip = D('Vip');
+	$phone = $_POST['phone'];
+	$code=$_POST['txt_vmess'];
+
+    $vip = D('Vip');
+    $where['phone'] = $phone;
+
+    $data = $vip->where($where)->select();
+    // $code=$this->mess();
+    // var_dump($code);
+    // exit;
+    if(!$data){
+        // if($_POST['txt_vmess'] != $_SESSION['vip_code']){
+        //     $this->error('短信验证码错误');
+        // }
+    	if ($_SESSION['vip_code']!=$code ) {
+    		$this->error('手机验证码错误');
+    		exit;
+    	}
+
 		if(!$vip->create()){
 			$this->error($vip->getError());
 		}elseif($vip->add()>0){
+			$_SESSION['vip_code'] == null;
 			$this->success('注册成功',U('Index/index'));
 		}else{
 			$this->error('注册失败');
 		}
+    }else{
+    	$this->error('手机号码已存在');
+    }
+	}
+
+	public function mess(){
+
+		// session_start();
+		$code = rand(1000,9999);
+		$_SESSION['vip_code'] = $code;
+		// $_SESSION['code'] = $code;
+		sendTemplateSMS("15256897714",array($code,'5'),"1");
+		$this->ajaxReturn(['code'=>$code]);
 	}	
 }

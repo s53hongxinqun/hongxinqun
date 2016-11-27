@@ -1,184 +1,163 @@
-<?php
-namespace Admin\Controller;
-
-class UserController extends AdminController
-{
-	private $auser = null; // 数据库操作类
-	private $arole = null; // 角色表操作类
-	private $auser_role = null;	// 	用户_角色表操作类
-	// 初始化操作
-	public function _initialize()
-	{
-		parent::_initialize();
-		$this->auser = D('Auser');
-		$this->arole = D('Arole');
-		$this->auser_role = D('Auser_role');
-	}
-
-	// 列表详情
-	public function index()
-	{
-		$this->display();
-	}
-
+<?php 
+	namespace Admin\Controller;
 	
-	public function delete()
-	{
-		$id = I('post.id/d');
-		// var_dump($id);
-		$a = $this->auser->delete($id);
-		$b = $this->auser_role->where(array('uid'=>array('eq',$id)))->delete();
-		if ($a>0) {
-			$data['code'] = 1;
-		}else{
-			$data['code'] = 0;
-		}
-		// 重写计算当前的页数
-		$count1 = D('Auser')->where(array('id'=>array('lt',$id)))->count(); // 计算总数
-		$count2 = D('Auser')->count();
-		if ($count1 == 0) {
-			$data['p'] = 1;
-		}elseif($count1%3==0 && $count2>$count1){
-			$data['p'] = ceil($count1/3)+1;
-		}else{
-			$data['p'] = ceil($count1/3);
-		}
-		$this->ajaxReturn($data);
-	}
+	//用户管理 控制器
+	class UserController extends AdminController{
 
-	public function doadd()
-	{
-		if (!IS_AJAX) {
-			$this->error('非法操作');
-			exit;
-		}
-		$arr = I('post.arr');
-		if (!$this->auser->validata($arr)) {
-			$data['code'] = 0;
-			$data['mess'] = $this->auser->getError();
-			return $this->ajaxReturn($data);
+		private $auser = null; //数据库操作类
+		private $arole = null; //角色表操作类
+		private $auser_role = null; //用户——角色表操作类
+
+		//初始化操作
+		public function _initialize(){
+			parent::_initialize();
+			$this->auser = D('Auser');
+			$this->arole = D('Arole');
+			$this->auser_role = D('Auser_role');
 		}
 
-		if ($this->auser->add()) {
-			$data['code'] = 1;
-			$data['mess'] = '角色添加成功!';
-			$count = D('Auser')->count();
-			$data['p'] = ceil($count/3);
-			return $this->ajaxReturn($data);
-		}else{
-			$data['code'] = 0;
-			$data['mess'] = '角色添加失败!';
-			return $this->ajaxReturn($data);
- 		}
-	}
 
-	// 修改
-	public function edit()
-	{
-		if (!IS_AJAX) {
-			$this->error('非法操作');
-			exit;
-		}
-		$data = $this->auser->field('id,username,name')->where(array('id'=>array('eq',I('id'))))->find();
-		$this->ajaxReturn($data);
-	}
-
-	// 执行修改操作
-	public function save()
-	{
-		if (!IS_AJAX) {
-			$this->error('非法操作');
-			exit;
-		}
-		$arr = I('post.arr');
-		if (!$this->auser->validatasave($arr)) {
-			$data['code'] = 0;
-			$data = $this->auser->getError();
-			return $this->ajaxReturn($data);
-		}
-
-		if ($this->auser->save() === false) {
-			$data['code'] = 0;
-			$data['mess'] = '保存失败';
-			return $this->ajaxReturn($data);
-		}else{
-			$count1 = D('Auser')->where(array('id'=>array('lt',$arr['id'])))->count(); // 计算总数
-			$count1 = D('Auser')->count();
-			if ($count1 == 0) {
-				$data['p'] = 1;
-			}elseif ($count1%3==0 && $count2>$count1) {
-				$data['p'] = ceil($count1/3)+1;
-			}else{
-				$data['p'] = ceil($count1/3);
+		//列表详情
+		public function index(){
+			//查询数据
+			$list = $this->auser->select();
+			
+			$arr = array(); //声明一个空数组
+			//遍历用户信息
+			foreach($list as $v){
+				$role_ids = $this->auser_role->field('rid')->where(array('uid'=>array('eq',$v['id'])))->select();
+				//定义空数组
+				$roles = array();
+				//遍历
+				foreach($role_ids as $value){
+					$roles[] = $this->arole->where(array('id'=>array('eq',$value['rid']),'status'=>array('eq',1)))->getField('name');
+				}
+				$v['role'] = $roles; //将新得到角色信息放置到$v中
+				$arr[] = $v;
 			}
-			$data['code'] = 1;
-			$data['mess'] = '修改成功';
-			return $this->ajaxReturn($data);
-		}
-	}
 
-	//浏览 角色信息
-	public function rolelist()
-	{
-		if (!IS_AJAX) {
-			$this->error('非法操作');
-			exit;
-		}
-		// 查找该用户信息
-		$list = $this->arole->field('id,name')->where(array('status'=>array('eq','1')))->select();
-		$data=array();
-		foreach ($list as $val) {
-			$data['rid'][]=$val['rid'];
-		}
-		$roles = $this->arole->field('id,name')->where(array('status'=>array('eq','1')))->select();
-		$data['roles'] = $roles;
-		$data['uid'] = I('post.id');
-		$this->ajaxReturn($data);
-	}
-	//保存用户角色
-	public function saverole()
-	{
-		if (!IS_AJAX) {
-			$this->error('非法操作');
-			exit;
-		}
-		$arr = I('post.arr');
-		if (empty($arr)) {
-			$data['mess'] = '提交失败，必须选择一个角色';
-			$data['code'] = 0;
-			$this->ajaxReturn($data);
-			exit;
+		
+
+			//分配变量
+			$this->assign("list",$arr);
+			//加载模板
+			$this->display();
 		}
 
-		$uid = I('post.id');
-		//删除该 角色的 所有信息--避免重复添加
-		$this->auser_role->where(array('uid'=>array('eq',$uid)))->delete();
-		//开启事物循环添加 必须继承think的db类
-		$nodelist = M('Auser_role');
-		$nodelist->startTrans();
-		foreach($arr as $v){
-			$da['rid'] = $v;
-			$da['uid'] = $uid;
-			//执行添加
-			if($nodelist->data($da)->add()===false){
-				$nodelist->rollback();
-				$data['mess']='提交失败';
-				$data['code'] = 0;
-				return $this->ajaxReturn($data);
-			}			
+
+		
+		//执行添加操作
+		public function doadd(){
+			
+			if(!$this->auser->create()){
+				$this->error($this->auser->getError());
+				exit;
+			}
+
+			if($this->auser->add() > 0){
+				$this->success("添加成功！",U('User/index'));
+			}else{
+				$this->error("添加失败！");
+			}
 		}
-		$nodelist->commit();
-		$data['mess']='提交成功';
-		$data['code'] = 1;
-		$count1 = D('Auser')->where(array('id'=>array('lt',$uid)))->count();    //计算总数
-		$count2 = D('Auser')->count();
-		if($count1 ==0){
-			$data['p']=1;
-		}elseif($count1%3==0 && $count2>$count1){
-			$data['p']=ceil($count1/3)+1;
-		}else{
-			$data['p']=ceil($count1/3);
+		
+
+
+		//删除操作
+		public function del(){
+			//把用户角色表中相关的也删除
+			if($this->auser->delete($_GET['id']) > 0 && $this->auser_role->where(array('uid'=>array('eq',$_GET['id'])))->delete()){
+				$this->success("删除成功!",U('User/index'));
+			}else{
+				$this->error("删除失败");
+			}
 		}
-		return $this-> ajaxReturn($data);
-	}
+
+		//加载修改页面
+		public function edit(){
+			//查出数据
+			$vo = $this->auser->where(array('id'=>array('eq',I('id'))))->find();
+			//向模板分配数据
+			$this->assign('vo',$vo);
+			//加载模板
+			$this->display();
+		}
+
+		//执行修改操作
+		public function save(){
+			
+			//初始化
+			// exit;
+			if(!$data = $this->auser->create()){
+				$this->error($this->auser->getError());
+				exit;
+			}
+
+			unset($data['userpass']);
+
+			//执行修改 
+			if($this->auser->save($data) >= 0){
+				$this->success("修改成功！",U('User/index'));
+			}else{
+				$this->error("修改失败");
+			}
+		}
+
+
+		//浏览 角色信息
+		public function rolelist(){
+			//查询节点信息
+			$list = $this->arole->where('status=1')->select();
+			//查询当前用户信息
+			$users = $this->auser->where(array('id'=>array('eq',I('id'))))->find();
+
+			//获取当前用户的角色信息
+			$rolelist = $this->auser_role->where(array('uid'=>array('eq',I('id'))))->select();
+
+			$myrole = array(); //定义空数组
+			//对用户的角色进行重组
+			foreach($rolelist as $v){
+				$myrole[] = $v['rid'];
+			}
+			
+
+			//分配数据
+			$this->assign("list",$list);
+			//分配当前用户信息
+			$this->assign('users',$users);
+			//分配该用户的角色信息
+			$this->assign('role',$myrole);
+
+			//加载模板
+			$this->display();
+		}
+
+		//保存用户角色
+		public function saverole(){
+			
+			//判读必须选择一个角色
+			if(empty($_POST['role'])){
+				$this->error("请选择一个角色！");
+			}
+
+			$uid = $_POST['uid'];
+
+			//清除用户所有的角色信息，避免重复添加
+			$this->auser_role->where(array('uid'=>array('eq',$uid)))->delete();
+	
+			foreach(I('role') as $v){
+				$data['uid'] = $uid;
+				$data['rid'] = $v;
+				//执行添加
+				$this->auser_role->data($data)->add();
+
+			}
+
+
+			$this->success("角色分配成功",U('User/index'));
+			
+		} 
+		
+
+
 }

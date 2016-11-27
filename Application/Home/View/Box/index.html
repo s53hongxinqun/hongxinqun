@@ -1,0 +1,27 @@
+<table id="sample-table-1" class="table table-striped table-hover">
+     <thead>
+      <tr>                      
+        <th class="h5" style="width:100px">桌号</th>
+        <th class="h5" style="width:100px">菜品</th>
+        <th class="h5" style="width:350px">状态</th>
+      </tr>
+    </thead>
+
+<tbody>
+<volist name="getStatus2" id="v">
+
+<tr>
+	<th class="h5" style="width:100px"><{$v.desk}>号桌</th>
+	<th class="h5" style="width:100px"><{$v.name}></th>
+	<th class="h5" style="width:350px">
+		<if condition="$v.status eq 0"><span >已下单</span>
+		<elseif condition="$v.status eq 1" /><span >已下锅</span>
+		<elseif condition="$v.status eq 3" /><span>烹饪完成</span>
+		<else /><span >已上桌</span>
+		</if>
+	</th>
+</tr>
+</volist>
+</tbody>
+	
+</table>

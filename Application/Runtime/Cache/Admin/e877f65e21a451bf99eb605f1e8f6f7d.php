@@ -78,7 +78,7 @@
 				  <div class="logo margin-big-left fadein-top">
 				    <h1><img src="/hongxinqun/Public/admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
 				  </div>
-				  <div class="head-l"><a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="<?php echo U('Login/logout');?>"><span class="icon-power-off"></span> 退出登录</a> </div>
+				  <div class="head-l"><a class="button button-little bg-green" href="<?php echo U('Home/Index/index');?>" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="<?php echo U('Login/logout');?>"><span class="icon-power-off"></span> 退出登录</a> </div>
 				</div>
 				<div class="navbar-header pull-left">
 					<a href="#" class="navbar-brand">
@@ -189,19 +189,52 @@
 								<b class="arrow icon-angle-down"></b>
 							</a>
 
-							<ul class="submenu">
+							<ul class="submenu" <?php if((CONTROLLER_NAME) == "User"): ?>style="display:block"<?php endif; ?>>
 								<li>
-									<a href="tables.html">
+									<a href="<?php echo U('Admin/User/index');?>">
 										<i class="icon-double-angle-right"></i>
-										权限操作
+										用户列表
 									</a>
 								</li>
+								<!-- 第一次操作结束 -->
+							</ul>
+						</if>
+						</li>
+							
 
-								<li>
-									<a href="jqgrid.html">
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 角色管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu" >
+								<li >
+									<a href="<?php echo U('Role/index');?>">
 										<i class="icon-double-angle-right"></i>
-										jqGrid plugin
+										角色列表
 									</a>
+								</li>
+							</ul>
+						</li>
+						<!-- 第二次修改结束 -->
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 节点管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu" >
+								<li>
+									<a href="<?php echo U('Node/index');?>">
+										<i class="icon-double-angle-right"></i>
+										节点列表
+									</a>
+								</if>
 								</li>
 							</ul>
 						</li>

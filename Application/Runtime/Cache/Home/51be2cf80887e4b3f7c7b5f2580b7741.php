@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>用户注册 - Mr.Tabal</title>
-	<link type="text/css" href="/hongxinqun/Public/home/css/register_150706.css" rel="stylesheet" />
-	<link href="/hongxinqun/Public/home/css/unite_header_1129.css" rel="stylesheet" type="text/css">
+	<link type="text/css" href="/hongxinqun(11)/Public/home/css/register_150706.css" rel="stylesheet" />
+	<link href="/hongxinqun(11)/Public/home/css/unite_header_1129.css" rel="stylesheet" type="text/css">
 </head>
 <body>	
 
-<script src="/hongxinqun/Public/home/js/top.js" type="text/javascript"></script>        
+<script src="/hongxinqun(11)/Public/home/js/top.js" type="text/javascript"></script>        
    <form id="register_form" method="post" action="<?php echo U('Reg:insert');?>">
             <div id="bd">
 				<!--默认-->
@@ -57,15 +57,20 @@
 										<span id="J_tipSurePassword" class="cue"></span>
 									</td>
 								</tr>								
-								<tr>
-									<td class="t j-vcode">验证码</td>
-									<td class="j-vcode">
-										<input class="text pin" type="text" id="txt_vcode" name="txt_vcode" autocomplete="off" placeholder="请输入验证码" MaxLength="4" tabindex="5"/>
-										<button type="button" style="width:93px;" class="yzm-btn" id="yzm-btn">获取验证码</button>
-										<span id="spn_vcode_ok" class="icon_yes pin_i" style="display: none;"></span>
-										<span id="J_tipVcode" class="cue"></span>
-									</td>
-								</tr>															
+								<!--该出填写手机获取验证码开始-->
+                                <tr>
+                                    <td class="t j-vcode">短信验证码</td>
+                                    <td class="j-vcode">
+                                        <input class="text pin" type="text" id="txt_vmess" name="txt_vmess" autocomplete="off" placeholder="请输入短信验证码" MaxLength="4" tabindex="5"/>
+
+                                       <a id="getmess" style="cursor:pointer" class="code_picww">点击获取验证码</a>
+                                       <div id="hehe"></div>
+                                       <span id="showmess" style="vertical-align:middle;margin-top:10px;"></span>
+                                        <span id="spn_vmess_ok" class="icon_yes pin_i" style="display: none;"></span>
+                                        <span id="J_tipVmess" class="cue"></span>
+                                        <!--<span class="icon_wrong pin_i"></span>-->
+                                    </td>
+                                </tr>														
 								<tr>
 									<td class="t">&nbsp;</td>
 									<td class="clause">
@@ -107,34 +112,12 @@
 
 </style>
 
-<script type="text/javascript" src="/hongxinqun/Public/home/js/check_browse.js"></script>
-<script  type="text/javascript">login_session.browsePageOperate();</script>
-<script type="text/javascript" src="/hongxinqun/Public/home/js/js_tracker.js"></script>
+<script type="text/javascript" src="/hongxinqun(11)/Public/home/js/check_browse.js"></script>
+<!-- <--// <script  type="text/javascript">login_session.browsePageOperate();</script>-->
+<script type="text/javascript" src="/hongxinqun(11)/Public/home/js/js_tracker.js"></script>
 
-<script type="text/javascript" src="/hongxinqun/Public/Home/Js/jquery-1.8.0.min.js"></script>
-<script type="text/javascript" src="/hongxinqun/Public/Home/Js/register.js"></script>
+<script type="text/javascript" src="/hongxinqun(11)/Public/Home/Js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/hongxinqun(11)/Public/Home/Js/register.js"></script>
 
 </body>
 </html>
-
-<script>
-	var wait=60;
-		function time(o) {
-				if (wait == 0) {
-					o.removeAttribute("disabled");			
-					o.innerHTML="获取验证码";
-					o.style.backgroundColor = 'red';
-					wait = 60;
-				} else {
-					o.setAttribute("disabled", true);
-					o.innerHTML="重新发送("+wait+")";
-					o.style.backgroundColor = '#ccc';
-					wait--;
-					setTimeout(function() {
-						time(o)
-					},
-					1000)
-				}
-			}
-		document.getElementById("yzm-btn").onclick=function(){time(this);}
-</script>

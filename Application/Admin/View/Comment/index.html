@@ -1,11 +1,189 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
-	admin comment index 
+<extend name="Admin@Index/index" />
+      <block name="main">
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="<{:U('Admin/Index/index')}>">首页</a>
+					</li>
+
+					<li>
+						<a href="<{:U('Admin/Comment/index')}>">评论管理</a>
+					</li>
+
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search" action="<{:U('Admin/Comment/search')}>"  method="get">
+						<span class="input-icon">
+							<input type="text" placeholder="Search 手机号..." class="nav-search-input" id="nav-search-input" name="phone" autocomplete="off" />
+							<i class="icon-search nav-search-icon"></i>
+							<input type="submit" class="btn btn-primary btn-xs" value="搜索" style="border-radius:3px; height:28px; margin-top:-4px; padding-right:24px;"  >
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						评论列表
+						<small>
+							<i class="icon-double-angle-right"></i>
+							查看
+						</small>
+					</h1>
+				</div><!-- /.page-header -->
+
+
+				<div class="row">
+					<div class="col-xs-12">
+						<!-- PAGE CONTENT BEGINS -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="table-responsive">
+									<table id="sample-table-1" class="table table-striped table-bordered table-hover">
+										<thead>
+											<tr>
+											
+												<th>ID</th>
+												<th class="hidden-480">餐品名</th>
+												<th style="width:150px">用户名</th>
+												<th class="hidden-480">评论</th>
+												<th style="width:150px">评论时间</th>
+												<th style="width:150px">状态</th>
+												<th>操作</th>
+											</tr>
+										</thead>
+										<tbody>
+										  <volist name="data" id="v">
+											<tr>
+												<td style="line-height:30px"><{$v.id}></td>
+												<td style="line-height:30px"><{$v.foods}></td>
+												<td style="line-height:30px"><{$v.uname}></td>
+												<td style="line-height:30px"><{$v.comment}></td>													
+												<td style="line-height:30px"><?php echo date('Y-m-d H:i:s',$v['addtime']); ?></td>
+												<td style="line-height:30px"><if condition="$v.status eq 0">
+													<span class="label label-sm label-warning">显示</span>
+													<else/>	
+                                                    <span class="label label-sm label-inverse arrowed-in">隐藏</span>
+                                                    </if>
+												</td>
+												<td style="line-height:30px">
+													<if condition="$v.status eq 0">
+														<a title="隐藏" href="<{:U('Admin/Comment/change',array('id'=>$v['id'],'status'=>1))}>" class="btn btn-xs btn-danger">
+															<i class="icon-remove bigger-120"></i>
+														</a>
+													<else/>
+														<a title="显示" href="<{:U('Admin/Comment/change',array('id'=>$v['id'],'status'=>0))}>" class="btn btn-xs btn-success">
+															<i class="icon-ok bigger-120"></i>
+														</a>
+													</if>
+
+
+														<a title="删除" href="<{:U('Admin/Comment/del',array('id'=>$v['id']))}>" class="btn btn-xs btn-warning">
+															<i class="icon-trash  bigger-120"></i>
+														</a>
+
+													<div class="visible-xs visible-sm hidden-md hidden-lg">
+														<div class="inline position-relative">
+															<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
+																<i class="icon-cog icon-only bigger-110"></i>
+															</button>
+
+															<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
+																<li>
+																	<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+																		<span class="blue">
+																			<i class="icon-zoom-in bigger-120"></i>
+																		</span>
+																	</a>
+																</li>
+
+																<li>
+																	<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+																		<span class="green">
+																			<i class="icon-edit bigger-120"></i>
+																		</span>
+																	</a>
+																</li>
+
+																<li>
+																	<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+																		<span class="red">
+																			<i class="icon-trash bigger-120"></i>
+																		</span>
+																	</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</td>
+											</tr>
+										  </volist>
+										  <tr>
+
+										  <th colspan="8">
+										  		<{$page}>
+										  </th>
+										  </tr>
+										</tbody>
+									</table>
+								</div><!-- /.table-responsive -->
+							</div><!-- /span -->
+						</div><!-- /row -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.page-content -->
+		</div><!-- /.main-content -->
+	</block>
+
+<!-- inline scripts related to this page -->
+
+<script type="text/javascript">
+
+
+	jQuery(function($) {
+		var oTable1 = $('#sample-table-2').dataTable( {
+		"aoColumns": [
+	      { "bSortable": false },
+	      null, null,null, null, null,
+		  { "bSortable": false }
+		] } );
+		
+		
+		$('table th input:checkbox').on('click' , function(){
+			var that = this;
+			$(this).closest('table').find('tr > td:first-child input:checkbox')
+			.each(function(){
+				this.checked = that.checked;
+				$(this).closest('tr').toggleClass('selected');
+			});
+				
+		});
 	
+	
+		$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+		function tooltip_placement(context, source) {
+			var $source = $(source);
+			var $parent = $source.closest('table')
+			var off1 = $parent.offset();
+			var w1 = $parent.width();
+	
+			var off2 = $source.offset();
+			var w2 = $source.width();
+	
+			if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+			return 'left';
+		}
+	})
+</script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>

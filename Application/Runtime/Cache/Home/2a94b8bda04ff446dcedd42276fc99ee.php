@@ -3,8 +3,20 @@
 <html lang="cn">
 <head>
   <meta charset="UTF-8">
+  <!-- <meta http-equiv="refresh" content="7"> -->
 <title>Home</title>
 <link href="/hongxinqun/Public/Home/Css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!--模态框-->
+<link href="/hongxinqun/Public/Home/Css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> 
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- css:overflow:auto -->
+
+<!--模态框over-->
 <link href="/hongxinqun/Public/Home/Css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/hongxinqun/Public/Home/Css/mycss.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +29,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="/hongxinqun/Public/Home/Js/jquery-1.8.3.min.js"></script>
 <script src="/hongxinqun/Public/Home/Js/scripts.js" type="text/javascript"></script>
 <!---- start-smoth-scrolling---->
+<!--模态框-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="/hongxinqun/Public/Home/Js/bootstrap/jquery.min.js"></script>
+    <script src="/hongxinqun/Public/Home/Js/bootstrap/holder.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/hongxinqun/Public/Home/Js/bootstrap/bootstrap.min.js"></script>
+    <script src="/hongxinqun/Public/Home/Js/bootstrap/comment.js"></script>
+
+<!--模态框over-->
 <script type="text/javascript" src="/hongxinqun/Public/Home/Js/move-top.js"></script>
 <script type="text/javascript" src="/hongxinqun/Public/Home/Js/easing.js"></script>
 
@@ -75,41 +97,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  <div class="slider">
 	    <div class="callbacks_container">
 	      <ul class="rslides" id="slider">
-	        <li>
-	          <img src="/hongxinqun/Public/Home/Images/1.jpg" alt="">
-	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<?php echo U('Home/Index/index');?>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          </div>
-	        </li>
-	        <li>
-	          <img src="/hongxinqun/Public/Home/Images/2.jpg" alt="">
-	        	 <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	        	 	<div class="logo">
-	          		<a href="<?php echo U('Home/Index/index');?>">Mr.table</a>
-	          		</div>
-	        	 <h3>智能点餐系统</h3>
-	         </li>
-	        <li>
-	          <img src="/hongxinqun/Public/Home/Images/3.jpg" alt="">
-	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<?php echo U('Home/Index/index');?>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          	</div>
-	        </li>
-	        <li>
-	          <img src="/hongxinqun/Public/Home/Images/4.jpg" alt="">
-	          <div class="caption wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-	          	<div class="logo">
-	          		<a href="<?php echo U('Home/Index/index');?>">Mr.table</a>
-	          		</div>
-	          	<h3>智能点餐系统</h3>
-	          	</div>
-	        </li>
+	        <?php if(is_array($getImgs)): $i = 0; $__LIST__ = $getImgs;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li>
+		          <img src="/hongxinqun/Public/<?php echo ($v["pic"]); ?>" alt="">
+		          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+		          	<div class="logo">
+		          		<a href="<?php echo U('Home/Index/index');?>">Mr.table</a>
+		          		</div>
+		          	<h3>智能点餐系统</h3>
+		          </div>
+		        </li><?php endforeach; endif; else: echo "" ;endif; ?>
 	      </ul>
 	  </div>
   </div>
@@ -176,7 +172,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 						<div id="chiList" class="menu-grids wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 								<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><div class="col-md-2 menu-grid">
-									<img src="/hongxinqun/Public/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+										<div style="cursor:pointer;" a="<?php echo ($v["id"]); ?>" data-toggle="modal" data-target="#foodsinfo" class="foodsinfo" onclick="foods(this)">
+											<img src="/hongxinqun/Public/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+										</div>
 								    <div class="menu-info">		
 										<h4><span style="color:#6cc;font-weight:bold"><?php echo ($v["foods"]); ?></span></h4>
 										<h4 style="color:#cf9;font-weight:bold">￥<?php echo ($v["price"]); ?>/份</h4>
@@ -290,7 +288,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-6 event-left">
 									<div class="even-info">
 										<div class="icon">
-											<img id="checkout" a="<?php session_start(); echo $_SESSION['desk']; ?>" src="/hongxinqun/Public/Home/Images/icon1.png" class="img-responsive" alt="" />
+											<img id="checkout2" a="<?php session_start(); echo $_SESSION['desk']; ?>" src="/hongxinqun/Public/Home/Images/icon1.png" class="img-responsive" alt="" />
 										</div>
 										<div class="event-info">
 												<h4>请求结账 </h4>
@@ -314,28 +312,65 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="clearfix"></div>
 							</div>
 							<div class="butt">
-							<a href="event.html" class="button2">查看餐品状态</a>
+							<button type="button" class="btn btn-primary btn-lg button2" data-toggle="modal" data-target="#myModal22" id="fstatus" a="<?php echo $_SESSION['desk']; ?>">
+							 查看菜品状态
+							</button>
 							</div>
 						</div>
 				</div>
 
 
 			</div>
-						<div class="footer-section">
-				<div class="container">
-					<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">">
-								<div class="social-icons">
-										<a href="#"><i class="icon4"></i></a>
-										<a href="#"><i class="icon5"></i></a>
-										<a href="#"><i class="icon6"></i></a>
-									</div>
-								</div>
-							<div class="footer-bottom">			
-						</div>
+			<div class="footer-section" style="height:400px;overflow:hidden;">
+	<div class="container">
+		<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<h1 style="color:#FB4B4B;font-size:30px;font-family:楷体;font-weight:bold">食品资讯</h1>
+			<hr>
+			<div style="font-size:20px;height:350px">
+			    
+				<table id="newslist">
+				    <?php if(is_array($newList["newslist"])): $i = 0; $__LIST__ = $newList["newslist"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr>
 
+			                <td style="width:800px;">
+			                	<img src="" alt="">
+			                	<a href="<?php echo $v['url']; ?>" target="_blank" style="color:#9cc;float:left;margin-left:100px">
+			                    <?php echo $v['title']; ?>
+			                    </a>
+			                </td>
+			                <td style="color:black">		                	
+			                <i><?php echo $v['ctime'] ?></i>
+			                </td>
+			            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+					
+				</table>
+		    </div>				
+		</div>
+	</div>
+</div>
 
+<script>
+		  $(function(){
+	            setInterval(function (){
+	                $('#newslist tr').last().fadeTo(0,0).hide().prependTo('#newslist').slideDown(1000).fadeTo(1000,1);
+	            },3000)
+           })
+
+</script>
+			<div class="footer-section">
+	<div class="container">
+		<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+		<p class="h2 text-left" style="color:#fff123;">友情链接:</p>
+					<div class="social-icons">
+						
+					<?php if(is_array($data4)): $i = 0; $__LIST__ = $data4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="<?php echo ($u["url"]); ?>" class="h4" style="color:#feeeed;margin-right:20px;" target="__block"> <?php echo ($u["name"]); ?> </a><?php endforeach; endif; else: echo "" ;endif; ?>				
 					</div>
-				</div>
+					</div>
+				<div class="footer-bottom">			
+			</div>
+
+
+		</div>
+	</div>
 			<!--右侧贴边导航quick_links.js控制-->
 <div class="mui-mbar-tabs" style="position:fixed">
 	<div class="quick_link_mian">
@@ -343,27 +378,65 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div id="quick_links" class="quick_links" >
 				<li>
 					<a href="#" class="my_qlinks"><i class="setting"></i></a>
+					<?php session_start(); ?>
+				<?php if($_SESSION['phone']== null): ?><div class="ibar_login_box status_login">
+
+						<div>
+					
+							<center>
+							<br>								
+							<br>								
+							<span class="h4">当前身份：游客</span>
+							<br>
+						<div class="login_btnbox">
+							<a href="<?php echo U('Home/Reg/index');?>" class="login_order">前往注册</a>
+							<a href="<?php echo U('Home/Entry/index');?>" class="login_favorite">登录</a>
+						</div>
+							</center>
+						</div>
+
+						
+				</div>
+				<?php else: ?>
+
 					<div class="ibar_login_box status_login">
 						<div class="avatar_box">
 							<p class="avatar_imgbox"><img src="/hongxinqun/Public/Home/Images/no-img_mid_.jpg" /></p>
 							<ul class="user_info">
-								<li>用户名：sl19931003</li>
-								<li>级&nbsp;别：普通会员</li>
+								<li>用户名：<?php echo $_SESSION['phone']?></li>
+								<li>级&nbsp;别：会员</li>
 							</ul>
 						</div>
 						<div class="login_btnbox">
-							<a href="#" class="login_order">我的订单</a>
-							<a href="#" class="login_favorite">我的收藏</a>
+							<a href="<?php echo U('Home/Edit/index',array('phone'=>$_SESSION['phone']));?>" class="login_order">修改密码</a>
+							<a href="<?php echo U('Home/Public/logout');?>" class="login_favorite">退出登录</a>
 						</div>
 						<i class="icon_arrow_white"></i>
-					</div>
+					</div><?php endif; ?>
 				</li>
-				<li id="shopCart" style="height:200px">
+				<li id="shopCart">
 					<a href="#" class="message_list" ><i class="message"></i><div class="span">我的餐车</div></a>
 				</li>
+				<!-- 反馈 -->
+				<li>
+					<a href="#" role="button" data-toggle="modal" data-target="#aa" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<div class="mp_tooltip">反馈<i class="icon_arrow_right_black"></i></div>
+				</li>
+				<!-- 反馈结束 -->
+				<!-- 地图 -->
+				<li>
+					<a href="#" role="button" data-toggle="modal" data-target="#placeshow" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<div class="mp_tooltip">地图<i class="icon_arrow_right_black"></i></div>
+				</li>
+				<!-- 地图结束 -->
 
 			</div>
-			<div class="quick_toggle">
+			<div class="quick_toggle" data-toggle="modal" data-target="#tuLing">
+				<li>
+					<a href="#" class="mpbtn_recharge"><i class="view"></i></a>
+					<div class="mp_tooltip" style=" visibility:hidden;cursor:pointer">图灵机器人<i class="icon_arrow_right_black"></i>
+					</div>
+				</li>
 				<li>
 					<a href="#"><i class="kfzx"></i></a>
 					<div id="help2" a="<?php session_start();echo $_SESSION['desk']; ?>"class="mp_tooltip" style="cursor:pointer;">呼叫服务<i class="icon_arrow_right_black"></i></div>
@@ -376,8 +449,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div id="quick_links_pop" class="quick_links_pop hide"></div>
+
 	</div>
 </div>
+
+<!-- 反馈模态框 -->
+<div class="modal fade" id="aa">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="<?php echo U('Home/Tickling/index');?>" method="post">
+      <div class="modal-header">
+      <!-- <input type="hidden" name="vip" value=""> -->
+      <!-- <input type="hidden" name="time" value="<{time()}>"> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">用户反馈</h3>
+      </div>
+      <div class="modal-body">
+        <textarea name="info"  cols="90" rows="10" style="resize:none;border:0;" placeholder="请输入您的建议"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">提交反馈</button>
+      </div>
+      </form>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- 地图模态框 -->
+<div class="modal fade" id="placeshow">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <img style="margin:20px" width="500" height="400" src="http://api.map.baidu.com/staticimage?width=500&height=400&center=121.44587,31.299154&zoom=18">
+      <h3>地址：上海市闸北区万荣路1188弄</h3>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 
 <!--[if lte IE 8]>
@@ -401,6 +508,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
            dataType:'json',
         })
     })
+
+    // $('#help2').on('click',function(){
+    //     var desk = $('#help').attr('a');
+    //     $.ajax({
+    //        type:'post',
+    //        url:"<?php echo U('Admin/Help/doHelp');?>",
+    //        data:{'desk':desk},
+    //        success:function(data){
+    //           if(data){
+    //             alert('已呼叫服务员，请稍等。。。。');
+    //           }
+    //         },
+    //        dataType:'json',
+    //     })
+    // })
 
 
 	$(".quick_links_panel li").mouseenter(function(){
@@ -464,7 +586,7 @@ $("body").click(function(e){
 
 function setCartShow(obj){
 	var is_show = $('#quick_links_pop').css('display');
-	console.log(is_show);
+	// console.log(is_show);
 	if(is_show == 'none'){
 		$('.quick_links_wrap').css('width', '320px');
 		getCartHtml();
@@ -496,6 +618,107 @@ function getCartHtml(){
 }
 
 </script>
+<!-- hxq Modal 图灵机器人-->
+			<div class="modal fade" id="tuLing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <h2 class="modal-title" id="myModalLabel">图灵机器人</h2>
+			      </div>
+			      <div class="modal-body">
+			          <div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<p class="alert alert-info" id="walk_info"></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<form action="" method="post" class="form" id="walk_data">
+										<div class="form-group">
+											<textarea name="info" id="info" cols="30" rows="10" class="form-control">
+
+											</textarea>
+										</div>
+										<div class="form-group">
+											<button class="btn btn-default btn-lg col-md-12">发送</button>
+										</div>
+									</form>
+								</div>
+								<script>
+									$('#walk_info').hide();
+									$("#info").focus();
+									$('#walk_data').submit(function(){
+										var info = $('#info').val().replace(/\s/g,'');
+										$.ajax({
+											url:"<?php echo U('Home/Index/ajaxTuling');?>",
+											data:{'info':info},
+											type:'post',
+											success:function(data){
+
+												$('#walk_info').html(data.text).hide().fadeIn(1000);
+												$('#info').focus();
+											},
+											dataType:'json',
+										});
+										return false;
+									})
+								</script>
+
+							</div>
+							<div class="row" style="height:20px"></div>
+							<div class="row">
+								<div class="col-md-12">
+
+								</div>
+							</div>
+
+						</div>
+			      </div>
+			      <!-- <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Save changes</button>
+			      </div> -->
+			    </div>
+			  </div>
+			</div>
+			
+<!-- Modal -->
+<div class="modal fade" id="foodsinfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel" style="font-size:20px;">菜品详情</h4>
+      </div>
+
+      <div class="foodsinfos modal-body" style="height:100%;width:100">
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal over -->
+<!-- 餐品状态模态框 -->
+<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div >
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel" style="font-size:20px;">餐品状态详情 </h4>
+      </div>
+			<div style="margin-top:20px;" class="show">
+
+			</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 餐品状态模态框over -->
+
 
 </body>
 </html>	
@@ -511,15 +734,32 @@ function getCartHtml(){
 				var htm = '';
 	 	 	 	$.each(data,function(key,value){  
 		 	 	 	htm +='<div class="col-md-2 menu-grid">'
-		 	 	 	htm +='<img src="/hongxinqun/Public/'+value.picname+'" class="img-responsive" alt="" style="height:250px;width:161px"/>'
+		 	 	 	htm +='<div style="cursor:pointer;" a="'+value.id+'" data-toggle="modal" data-target="#foodsinfo" class="foodsinfo" onclick="foods(this)">'	
+		 	 	 	htm +='<img src="/hongxinqun/Public/'+value.picname+'" class="img-responsive" alt="" style="height:250px;width:161px"/></div>'
 		 	 	 	htm +='<div class="menu-info">'
 		 	 	 	htm +='<h4><span style="color:#6cc;font-weight:bold">'+value.foods+'</span></h4>'
 		 	 	 	htm +='<h4 style="color:#cf9;font-weight:bold">￥'+value.price+'/份</h4>'
 		 	 	 	htm +='<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a='+value.id+' onclick="add(this)">加入餐车</button></div></div>'
 				})
 
+				// <div class="col-md-2 menu-grid">
+				// <div style="cursor:pointer;" data-toggle="modal" data-target="#<?php echo ($v["id"]); ?>">
+				// 	<img src="/hongxinqun/Public/<?=$v['picname']?>" class="img-responsive" alt="" style="height:250px;width:161px"/>
+				// </div>
+			 //    <div class="menu-info">		
+				// 	<h4><span style="color:#6cc;font-weight:bold"><?php echo ($v["foods"]); ?></span></h4>
+				// 	<h4 style="color:#cf9;font-weight:bold">￥<?php echo ($v["price"]); ?>/份</h4>
+
+				// 	<button type="button" class="btn btn-danger btn-lg" style="margin-left:30px" a="<?php echo ($v["id"]); ?>" onclick="add(this)">
+				// 	  加入餐车
+				// 	</button>
+
+				//  </div>
+				// </div>
+
 				$('#chiList').html(htm);
                   // console.log(data);
+
 	 	 	 }
 	 	 	 
 	 	 })
@@ -544,8 +784,8 @@ function getCartHtml(){
         })
      }
      //结账请求
-     $('#checkout').on('click',function(){
-        var desk = $('#checkout').attr('a');
+     $('#checkout2').on('click',function(){
+        var desk = $('#checkout2').attr('a');
 
         $.ajax({
            type:'post',
@@ -558,6 +798,7 @@ function getCartHtml(){
               }else{
                 alert('您有餐点未上桌，请稍等。。。。');
               }
+              // console.log(data);
            },
            dataType:'json',
         })
@@ -580,6 +821,82 @@ function getCartHtml(){
         })
     })
 
+    //定时刷新
+    function doShuaxin(){
+    	$.ajax({
+    		url:"<?php echo U('Home/index/ajaxDoout');?>",
+    		success:function(data){
+    			if(data ==1){
+    			   window.location.reload();
+    			}else{
+
+    			}
+    		}
+    	})
+    }
+
+    setInterval(doShuaxin,5000);
+
+// 模态框
+   // $('#fstatus').on('click',function(){
+   // 		var desk = $('#fstatus').attr('a');
+   // 		$.ajax({
+   // 			type:'post',
+   //      	url:"<?php echo U('Home/Box/index');?>",
+   //      	data:{'desk':desk},
+   //      	dataType:'json',
+	 	//  	 success:function(data){
+			// 	var box = '';
+	 	//  	 	$.each(data,function(key,value){  
+	  //                  box += '<tr>'
+	  //                  box += '<th style="width:100px">'+value.desk+'号桌</th>'
+	  //                  box += '<th style="width:100px">'+value.name+'</th>'
+	  //                  box += '<th style="width:350px">'
+	  //                  box += '<?php if('+value.dstatus+' == 1): ?><span >已下单</span>'
+	  //                  box += '<?php elseif('+value.dstatus+' == 2): ?><span >已下锅</span>'
+	  //                  box += '<?php elseif('+value.dstatus+' == 0): ?><span>烹饪完成</span>'
+	  //                  box += '<?php else: ?><span >已上桌</span><?php endif; ?></th>'
+
+	  //                  box += '</tr>';
+	  //                  // box += '"'+key+'=>'+value.dstatus+'"';
+	                
+			// 	})
 
 
+			// 	$('#boxdesk').html(box);
+
+	 	//  	 }
+              
+   // 		})
+   // })
+
+
+
+// 商品详情模态框
+
+   function foods(obj){
+   		var id = $(obj).attr('a');
+   		
+	$.ajax({
+		url:"<?php echo U('Home/Box/foodsinfo');?>",
+		data:{'id':id},
+		dataType:'html',
+		success:function(htm){
+			$('.foodsinfos').html(htm);
+		},
+	})
+}
+   // 商品详情模态框结束
+
+$('#fstatus').on('click',function(){
+   		var desk = $('#fstatus').attr('a');
+	$.ajax({
+		url:"<?php echo U('Home/Box/index');?>",
+		data:{'desk':desk},
+		dataType:'html',
+		success:function(htm){
+			$('.show').html(htm);
+		},
+	})
+})
 </script>

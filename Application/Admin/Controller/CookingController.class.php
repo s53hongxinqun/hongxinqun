@@ -8,7 +8,15 @@ class CookingController extends Controller
 	{   //实例化
 		$model = M('orders_detail');
         //查询数据
-		$data = $model->where("status != 2")->order('addtime ASC')->select();
+  //       $data = $model->field('d.*, o.desk')->table('orders_detail d,orders o')->where('d.orderid=o.orderid')->select();
+		// $cooking = $data->where("d.status != 2")->order('addtime ASC')->select();
+
+		$data=$model->table('orders_detail d')
+					->field('d.*, o.desk')
+					->join('left join orders as o on d.orderid=o.orderid')
+					->where("d.status != 3")
+					->order('d.addtime ASC')
+					->select();
 
 		$this->assign('data',$data);
 
@@ -42,7 +50,6 @@ class CookingController extends Controller
 	    }
 	}
     
-
 
 
 }

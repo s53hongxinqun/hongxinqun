@@ -96,7 +96,7 @@ class FoodController extends Controller
 
     public function add()
     {
-        $type = M('type')->select();
+        $type = D('type')->select();
         $this->assign('type',$type);
         $this->display();
     }
@@ -182,14 +182,16 @@ class FoodController extends Controller
 			exit;
 		}
         
-        if($_FILES['file']){
+        if($_FILES['file']['name']!=""){
             
          $_POST['picname'] = $this->upload();
         }
+        // var_dump($_POST['picname']);
+        // exit;
 
-        M('foods')->create();
+        D('foods')->create();
 
-	    if(M('foods')->save() > 0){
+	    if(D('foods')->save() > 0){
 
 	    	$this->success('恭喜您，修改成功',U('Food/index'));
 	    }else{
@@ -218,6 +220,20 @@ class FoodController extends Controller
 	    	$this->error('删除失败咯',U('Food/index'));
 	    }
 	}
+
+
+    public function mess()
+    {
+        $code = rand(1000,9999);
+        // $_SESSION['code'] = $code;
+        sendTemplateSMS("15980002225",array($code,'5'),"1");
+        $this->ajaxReturn(['code'=>$code]);
+    }  
+
+    public function doYanzheng()
+    {
+        $this->success('验证成功',U('Admin/Food/yanzheng'));
+    } 
 
 
 }

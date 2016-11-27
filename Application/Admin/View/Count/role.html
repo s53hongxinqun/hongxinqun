@@ -1,0 +1,93 @@
+<extend name="Admin@Index/index" />
+      <block name="main">
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">餐点管理</a>
+					</li>
+
+				</ul><!-- .breadcrumb -->
+			</div>
+
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						统计管理
+						<small>
+							<i class="icon-double-angle-right"></i>
+							角色统计
+                            <span id="mydata" data-a="<{$list[0]}>" data-b="<{$list[1]}>" data-c="<{$list[2]}>" data-d="<{$list[3]}>"></span>
+						</small>
+                    </h1>
+            <script type="text/javascript" src="__PUBLIC__/admin/count/jquery-1.8.3.min.js"></script>
+                <style type="text/css">
+        ${demo.css}
+                </style>
+                <script type="text/javascript">
+        $(function () {
+            var a = parseInt($('#mydata').data('a'));
+            var b = parseInt($('#mydata').data('b'));
+            var c = parseInt($('#mydata').data('c'));
+            // var d = parseInt($('#mydata').data('d'));
+            $('#container').highcharts({
+                chart: {
+                    type: 'pie',
+                    options3d: {
+                        enabled: true,
+                        alpha: 45,
+                        beta: 0
+                    }
+                },
+                title: {
+                    text: '后台角色统计'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        depth: 35,
+                        dataLabels: {
+                            enabled: true,
+                            format: '{point.name}'
+                        }
+                    }
+                },
+                series: [{
+                    type: 'pie',
+                    name: '统计',
+                    data: [
+                        ['超级管理员', a],
+                        ['厨师', b],
+                        // ['普通员工', d],
+                        ['服务员', c],
+                    ]
+                }]
+            });
+        });
+                </script>
+            </head>
+            <body>
+
+        <script src="__PUBLIC__/admin/count/highcharts.js"></script>
+        <script src="__PUBLIC__/admin/count/highcharts-3d.js"></script>
+        <script src="__PUBLIC__/admin/count/exporting.js"></script>
+
+        <div id="container" style="height: 400px"></div>
+
+                </div><!-- /.page-header -->
+            </div><!-- /.page-content -->
+		</div><!-- /.main-content -->
+	</block>

@@ -30,17 +30,29 @@ class VipController extends Controller
     //数据添加
 	public function insert()
 	{   
+		$code=$_POST['code'];
+
 		$vip = D('Vip');
+
 
 		if(!$vip->create()){
 			$this->error($vip->getError());
+			exit;
+		};
+
+
+		if($_SESSION['code']!=$code){
+			$this->error(" 验证码错误！");
+			$_SESSION['code']= null;
 			exit;
 		}
 
 		if($vip->add() > 0){
 			$this->success("添加成功！",U('Vip/index'));
+			$_SESSION['code']= null;
 		}else{
 			$this->error("添加失败！");
+			$_SESSION['code']= null;
 		}
 
 	}
@@ -134,43 +146,72 @@ class VipController extends Controller
 	    }
 	}
 
-	public function search()
-	{
+		public function search()
+		{
 
-	if(IS_GET) {
-		$vip = D('Vip');
+		if(IS_GET) {
+			$vip = D('Vip');
 
-		$phone= I('get.phone/d');
+			$phone= I('get.phone/d');
 
-		$where= "phone like '%" . $phone . "%'";
+			$where= "phone like '%" . $phone . "%'";
 
-		$count = $vip->where($where)->count();
-		$pagecount = 10;
-		$page = new \Think\Page($count , $pagecount);
-		$page->parameter = $row; //此处的row是数组，为了传递查询条件
-		$page->setConfig('first','首页');
-		$page->setConfig('prev','上一页');
-		$page->setConfig('next','下一页');
-		$page->setConfig('last','尾页');
-		$page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% 第 '.I('p',1).' 页/共 %TOTAL_PAGE% 页 ( '.$pagecount.' 条/页 共 %TOTAL_ROW% 条)');
-		// var_dump($page);exit;
-		$show = $page->show();
-		$data = $vip->where($where)->order('id desc')->limit($page->firstRow.','.$page->listRows)->select();
-		if($data){
+			$count = $vip->where($where)->count();
+			$pagecount = 10;
+			$page = new \Think\Page($count , $pagecount);
+			$page->parameter = $row; //此处的row是数组，为了传递查询条件
+			$page->setConfig('first','首页');
+			$page->setConfig('prev','上一页');
+			$page->setConfig('next','下一页');
+			$page->setConfig('last','尾页');
+			$page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% 第 '.I('p',1).' 页/共 %TOTAL_PAGE% 页 ( '.$pagecount.' 条/页 共 %TOTAL_ROW% 条)');
+			// var_dump($page);exit;
+			$show = $page->show();
+			$data = $vip->where($where)->order('id desc')->limit($page->firstRow.','.$page->listRows)->select();
+			if($data){
 
-		$this->assign('data',$data);
-		$this->assign('page',$show);
-		$this->display('desk/index');
-	}else{
-		$show="查无数据";
-		$this->assign('page',$show);
-		$this->display('desk/index');
+			$this->assign('data',$data);
+			$this->assign('page',$show);
+			$this->display('desk/index');
+		}else{
+			$show="查无数据";
+			$this->assign('page',$show);
+			$this->display('desk/index');
+		}
+
+
+		}
+
+
+	}
+	public function mess(){
+
+		$phone=$_POST['phone'];
+
+		$code = rand(1000,9999);
+
+		sendTemplateSMS("$phone",array($code,'5'),"1");
+		$_SESSION['code']=$code;
+
+		$this->ajaxReturn(['code'=>$code]);
 	}
 
+	public function phonelook(){
+		$phone=$_POST['phone'];
+		$ch = curl_init();
+	    $url = "http://apis.baidu.com/apistore/mobilephoneservice/mobilephone?tel=$phone";
+	    $header = array(
+	        'apikey: a2b062e6860127c32c6c9cde7bb2186c',
+	    );
+	    // 添加apikey到header
+	    curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
+	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	    // 执行HTTP请求
+	    curl_setopt($ch , CURLOPT_URL , $url);
+	    $res = curl_exec($ch);
 
-	}
-
-
-}
+	    $this->ajaxReturn(json_decode($res));
+	    
+		}
 
 }

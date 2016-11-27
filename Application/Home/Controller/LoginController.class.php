@@ -9,6 +9,9 @@ class LoginController extends Controller
         $TableModel = M('desk');
     	$emptyTables = $TableModel ->where(array('status'=>1))->select();
     	
+    	foreach($emptyTables as $k=>$v){
+    		M('desk')->where(array('id'=>$v['id']))->setField('vip','');
+    	}
     	// 数据处理
     	    	
     	$this->assign('emptyTables',$emptyTables);
@@ -22,7 +25,6 @@ class LoginController extends Controller
 		$desk = I('post.desk/d');
 
 		$_SESSION['desk'] = $desk;
-
 
 		$data['status'] = 0;
 

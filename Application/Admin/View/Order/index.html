@@ -19,10 +19,11 @@
 						</ul><!-- .breadcrumb -->
 
 						<div class="nav-search" id="nav-search">
-							<form class="form-search">
+							<form class="form-search" action="<{:U('Admin/Order/search')}>"  method="get">
 								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<input type="text" placeholder="Search 订单号..." class="nav-search-input" id="nav-search-input" name="orderid" autocomplete="off" />
 									<i class="icon-search nav-search-icon"></i>
+									<input type="submit" class="btn btn-primary btn-xs" value="搜索" style="border-radius:3px; height:28px; margin-top:-4px; padding-right:24px;"  >
 								</span>
 							</form>
 						</div><!-- #nav-search -->
@@ -89,86 +90,31 @@
 																	
 
 
-																<button class="btn btn-xs btn-info">
-																	编辑
-																</button>
+																<a href="<{:U('Admin/Index/cstatus',array('status'=>3,'id'=>$v['desk'],'orderid'=>$v['orderid']))}>" class="btn btn-xs btn-info">
+																	结账
+																</a>
 
 																<a href="<{:U('Admin/Order/del',array('orderid'=>$v['orderid'],'status'=>$v['status']))}>" class="btn btn-xs btn-danger">
 																	删除
 																</a>
 															</div>
 
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-cog icon-only bigger-110"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
 														</td>
 													</tr>
 												  </volist>
+												    <tr>
+												    	<th colspan="7">
+														    <{$page}>
+														</th>
+												    </tr>
+
 												</tbody>
 											</table>
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->
 								</div><!-- /row -->
 
-								<div class="modal-footer no-margin-top">
-									<ul class="pagination pull-right no-margin">
-										<li class="prev disabled">
-											<a href="#">
-												<i class="icon-double-angle-left"></i>
-											</a>
-										</li>
-
-										<li class="active">
-											<a href="/">1</a>
-										</li>
-
-										<li>
-											<a href="#">2</a>
-										</li>
-
-										<li>
-											<a href="#">3</a>
-										</li>
-
-										<li class="next">
-											<a href="#">
-												<i class="icon-double-angle-right"></i>
-											</a>
-										</li>
-									</ul>
-								</div>								
-
-
+							
 
 							</div><!-- /.col -->
 						</div><!-- /.row -->

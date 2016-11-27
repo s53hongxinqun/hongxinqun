@@ -4,8 +4,13 @@ use Think\Controller;
 class IndexController extends Controller {
 	
     public function index(){
-       //实例化MODEL
-       
+      
+       //判断是否有SESSION
+       session_start();
+       if($_SESSION['admin_user']==null){
+            $this->redirect('Admin/Login/index');
+       }
+
        $desk = M('desk');
        $order = M('orders');
        
@@ -19,7 +24,7 @@ class IndexController extends Controller {
           $deskData[$k]['order_info'] = $order->where(['desk' => $id])->order('id desc')->find();
        }
 
-       // var_dump($deskData);
+       // var_dump($deskData[4]['order_info']['status']);
        //数据获取
        $this->assign('data',$deskData);
        $this->display();
@@ -36,6 +41,7 @@ class IndexController extends Controller {
        $id = I('get.id/d');
        //获取状态
        $status = I('get.status/d');
+       $orderid = $_GET['orderid'];
        
        switch($status){
           //转换用餐中
@@ -61,7 +67,23 @@ class IndexController extends Controller {
                  break;
           //结账下桌
           case 3: 
-                 
+                 $desk = M('desk');
+                 $desk->status = 1;
+                 $desk->help = 0;
+                 $desk->where("id = $id")->save();
+                 //如果订单号不为空 
+                 if(!empty($orderid)){
+                 $order = M('orders');
+                 $order->status = 1;
+                 $order->where("orderid = $orderid")->save();
+                 }
+                 M('orders_car')->where("desk = $id")->delete();
+                 $this->success('结账成功');                 
+                 break;
+          //取消服务
+          case 5:
+                 M('desk')->where(array("desk"=>$id))->setField('help',0);
+                 $this->redirect('Admin/Index/index');
                  break;
 
        }
